@@ -1,0 +1,59 @@
+/*---grid layout example---*/
+*, body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+/*.grid-container {
+	display: grid;
+	height: 100vh;
+	grid-template-columns: minmax(100px, 150px) 1fr;
+	grid-template-rows: 1fr auto;
+	grid-template-areas: "nav main" "nav main" "nav footer";
+}*/
+
+h1 {
+    writing-mode: vertical-lr;
+    /*text-orientation: upright;*/
+    max-height: 500px;
+    margin-top: 10px;
+}
+.grid-container {
+    display: grid;
+	grid-template-columns: auto 1fr auto;
+	grid-template-rows: 100vh;
+	grid-template-areas: "left main right";
+    overflow-y: scroll;
+}
+.left {
+    grid-area: left;
+    display: grid;
+    justify-items: center;
+    align-items: start;
+}
+.left a {
+    align-self: start;
+    text-decoration: none;
+    color: #000;
+}
+.left a:hover {
+    color: #999
+}
+.main {
+    grid-area: main;
+    display: flex;
+    /*justify-content: center;*/
+    align-content: center;
+    flex-direction: column;
+
+}
+.box-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+.box {
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    background: #999;
+}
