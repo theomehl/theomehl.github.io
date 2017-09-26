@@ -108,6 +108,86 @@
 .center {
 	text-align: center;
 }
+.flex-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 20px 10px 10px 20px;
+}
+.flex-wrapper img {
+  width: 250px;
+  height: auto;
+  position: relative;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  background: #999;
+  overflow: hidden;
+  
+}
+.description {
+  position: absolute;
+  z-index: 9999;
+  text-shadow: 1px 1px 10px#000;
+  color: #fff;
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+.box:hover .description {
+  opacity: 0;
+}
+.color-blur {
+  filter: grayscale(0) blur(0);
+  transform: scale(100%);
+  transition: all 0.5s ease;
+}
+.color-blur:hover {
+  filter: grayscale(1) blur(2px);
+  transform: scale(1.025);
+}
+.sepia {
+  filter: sepia(0);
+  transform: scale(1);
+  transition: all 0.5s ease;
+}
+.sepia:hover {
+  filter: sepia(1);
+  transform: scale(1.025);
+}
+.sat {
+  filter: saturate(1);
+  transform: scale (1);
+  transition: all 0.5s ease;
+}
+.sat:hover {
+  filter: saturate(10);
+  transform: scale(1.025);
+}
+.brightness {
+  filter: brightness(1);
+  transform: scale (1);
+  transition: all 0.5s ease;
+}
+.brightness:hover {
+  filter: brightness(1.5);
+  transform: scale(1.025);
+}
+.invert {
+  filter: invert(0);
+  transform: scale (1);
+  transition: all 0.5s ease;
+}
+.invert:hover {
+  filter: invert(10);
+  transform: scale(1.025);
+}
 @media screen and (min-width: 500px) {
 	/*.grid-container {
 		grid-template-columns: 1fr;
@@ -181,6 +261,10 @@
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-areas: "logo" "links";
         text-align: left; 
+    }
+    .flex-wrapper {
+        justify-content: flex-start;
+        margin-left: 30px;
     }
     .logo {
         align-self: end;
