@@ -113,6 +113,7 @@
   flex-flow: row wrap;
   justify-content: center;
   margin: 20px 10px 10px 20px;
+  max-width: 1770px;
 }
 .flex-wrapper img {
   width: 250px;
