@@ -96,9 +96,17 @@
 .main li p {
 	margin-left: 20px;
 }
-.main h1 {
+.main h1, h2, h3, h4, h5, h6 {
     text-align: center;
+}
+.main h1 {
     margin-top: 20px;
+}
+.main img {
+    max-width: 100%;
+}
+.page-title {
+    margin-bottom: 30px;
 }
 .footer {
 	grid-area: footer;
@@ -211,6 +219,10 @@
 		grid-template-areas: "nav" "main" "footer";
 
 	}
+    
+    .flex-wrapper {
+        margin-left: 0px;
+    }
     .nav {
         justify-self: center;
     }
@@ -219,10 +231,11 @@
 	}
 	.main {
 		overflow-y: initial;
-	}
-    .main h1 {
-        text-align: left;
         margin-left: 30px;
+        margin-right: 30px;
+	}
+    .main h1, h2, h3, h4, h5, h6 {
+        text-align: left;
     }
     .left-navigation .nav {
         display: grid;
@@ -265,7 +278,6 @@
     }
     .flex-wrapper {
         justify-content: flex-start;
-        margin-left: 30px;
     }
     .logo {
         align-self: end;
@@ -281,3 +293,4 @@
 		overflow-y: scroll;
 	}
 }
+

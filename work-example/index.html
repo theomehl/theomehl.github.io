@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/favicon/favicon-16x16.png" sizes="16x16" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png" />
+	<link rel="stylesheet" href="/src/css/responsive.css">
+	<link rel="stylesheet" href="/src/css/aos.css">
+	<title>Grid Layout Example</title>
+</head>
+<body>
+	<div class="grid-container">
+		<div class="left-navigation center">
+			<div class="nav">
+			    <div class="logo"><img src="/img/logo_thing.png" alt="Logo"></div>
+			    <ul class="links">
+			        <li class="main-links"><a href="/index.html">Home</a></li>
+				    <li class="main-links">About</li>
+				    <li class="main-links"><a href="/aos/">AOS</a></li>
+				    <li class="main-links"><a href="/nogrid/">No Grid</a></li>
+			    </ul>
+			</div>
+		</div>
+		<div class="main">
+			<h1 class="page-title">Work Example</h1>
+			<img src="https://i.pinimg.com/736x/5c/4b/67/5c4b672e04cc92914959cc8e9e8125c7--bucket-list-lakes.jpg" alt="">
+		</div>
+		<div class="footer center">&copy; 20-whatever Ted Mehl</div>
+	</div>
+    <script src="../src/js/aos.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script>
+        //AOS.init({duration: 1200,});
+        window.sr = ScrollReveal({distance: '0px', easing: 'ease-in', scale: 1});
+        sr.reveal('.box',{duration: 500}, 25);
+        sr.reveal('.main-links', {duration: 500}, 100);
+        sr.reveal('.logo', {duration: 1000});
+        sr.reveal('.page-title', {duration: 1000});
+
+        
+    </script>
+</body>
+</html>
