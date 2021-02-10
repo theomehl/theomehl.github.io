@@ -10,8 +10,8 @@ body {
     align-items: center;
     font-family: Merriweather, serif;
     font-size: 24px;
-    background: hsl(263, 8%, 94%);
-    color: hsl(249, 8%, 22%);
+    background: hsl(263, 4%, 94%);
+    color: hsl(249, 4%, 22%);
 
     
 }
@@ -27,7 +27,7 @@ h1 {
     font-size: 48px;
     font-weight: bold;
     /* background: hsl(249, 8%, 22%);
-    color: hsl(263, 8%, 94%); */
+    color: hsl(263, 4%, 94%); */
 }
 .time-item {
     padding:  3px 20px;
