@@ -15,7 +15,7 @@ export default function(eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy("./src/fonts");
     eleventyConfig.addPassthroughCopy('./favicon.png');
-    eleventyConfig.addPassthroughCopy('./src/CNAME');
+    eleventyConfig.addPassthroughCopy('./CNAME');
 
 
     return {
