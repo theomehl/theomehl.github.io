@@ -1,0 +1,42 @@
+.container {
+    max-width: min(60ch, 100% - 4rem);
+    margin-inline: auto;
+}
+
+.flow > * + * {
+    margin-top: var(--flow-space, 1em);
+}
+
+p {
+    overflow-wrap: break-word;
+    hyphens: auto;
+    color: var(--gray-600);
+}
+
+ul, ol {
+    color: var(--gray-600);
+}
+
+.post-header {
+    margin-block-end: 3rem;
+    --flow-space: 0.75em;
+}
+
+blockquote, .callout {
+    padding: 1rem;
+    border-inline-start: var(--border-width) solid var(--border-accent);
+    background-color: var(--blue-100);
+}
+
+blockquote > * + * {
+    margin-block-start: var(--flow-space, 1em);
+}
+
+summary {
+    padding: 0.5rem 1rem;
+}
+
+.details-wrapper {
+    padding: 1rem;
+    background-color: var(--blue-100);
+}

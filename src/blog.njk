@@ -1,0 +1,20 @@
+---
+layout: layouts/base.njk
+title: Blog Archive
+description: Blog archive.
+---
+
+<main id="main" class="container flow">
+    <h1>{{title}}</h1>
+
+    <ul class="blog-list flow">
+        {% for post in collections.posts | reverse %}
+        <li class="flow">
+            <h2><a href="{{post.url}}">{{post.data.title}}</a></h2>
+            <p>{{post.data.description}}</p>
+            <p class="blog-entry-date"><em>posted <time datetime="{{ post.date | readableDate(" yyyy-LL-dd") }}">{{ post.date | readableDate("LLLL dd, yyyy") }}</time></em></p>
+
+        </li>
+        {% endfor %}
+    </ul>
+</main>

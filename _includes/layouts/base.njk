@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}} | tedmehl.me</title>
+    <meta name="description" content="{{description}}">
+    <meta name="generator" content="{{ eleventy.generator }}">
+    
+    <link rel="preload" as="font" href="/fonts/Figtree.woff2" crossorigin>
+    <link rel="preload" as="font" href="/fonts/Figtree-Italic.woff2" crossorigin>
+    {% set css %}
+        {% include "src/styles/index.css" %}
+    {% endset %}
+    <style>
+    {{ css | cssmin | safe }}
+    </style>
+    <link rel="icon" href="/favicon.png">
+
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+    <header class="container">
+        <nav class="nav-list">
+            <a href="/" class="header-logo-wrapper"><span class="first-initial">T</span><span class="second-initial">M</span></a>
+            <ul>
+                <li><a href="https://demos.tedmehl.me">demos</a></li>
+                <li><a href="https://js.tedmehl.me">js academy</a></li>
+                <li><a href="https://photos.tedmehl.me">photos</a></li>
+                <li><a href="/blog">blog</a></li>
+                <li><a href="/notes">notes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    {{content | safe}}
+
+    <footer class="container">
+        <hr>
+        <div class="footer-wrapper">
+            <p><small>&copy; Me, this year</small></p>
+            <p><small><a href="/colophon">Colophon</a></small></p>
+        </div>
+    </footer>
+</body>
+</html>

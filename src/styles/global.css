@@ -1,0 +1,60 @@
+/* Defaults */
+
+html {
+    font-family: var(--font-base);
+    color: var(--base-text);
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    padding-block-end: 2rem;
+    font-size: var(--text-base);
+}
+
+blockquote, body, dd, dl, figure, h1, h2, h3, h4, p {
+    margin: 0;
+}
+
+/* Base Element Styles */
+
+h1, h2, h3, h4 {
+    font-weight: 800;
+    line-height: 1.1;
+    text-wrap: balance;
+    --flow-space: 1.25em;
+}
+
+h1 {
+    font-size: var(--text-2xl);
+    line-height: 1;
+}
+
+a {
+    color: var(--link-text);
+    text-decoration-color: var(--blue-300);
+    text-decoration-thickness: 0.2rem;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid var(--border-accent);
+}
+
+footer {
+    color: var(--gray-600);
+    margin-top: 6rem;
+}
+
+footer> hr {
+    border-top: 1px solid var(--gray-400);
+}
+
+footer a {
+    color: var(--gray-600);
+    text-decoration-color: var(--gray-400);
+    text-decoration-thickness: 0.15em;
+}
