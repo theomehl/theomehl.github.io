@@ -1,4 +1,4 @@
-name: Eleventy Build
+name: Scheduled Eleventy Build
 on:
   schedule: 
     - cron: "0 5 * * *"
