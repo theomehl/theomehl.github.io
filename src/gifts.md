@@ -23,7 +23,8 @@ Don't know what to get me? Here are some ideas in no particular order:
     - John Mayer
         - [Born and Raised](https://www.discogs.com/master/443931-John-Mayer-Born-And-Raised)
         - [Paradise Valley](https://www.discogs.com/master/586053-John-Mayer-Paradise-Valley)
-    - [Neon Bible - Arcade Fire](https://www.discogs.com/master/5410-Arcade-Fire-Neon-Bible)
+    - Arcade Fire
+        - [Neon Bible](https://www.discogs.com/master/5410-Arcade-Fire-Neon-Bible)
 - Monitor light bar
     - [Xiaomi Light Bar](https://www.amazon.com/Xiaomi-Computer-Monitor-Light-Bar/dp/B0CTZBR5CG)
     - [BenQ ScreenBar](https://www.amazon.com/BenQ-ScreenBar-Auto-Dimming-Adjustment-ScreenBar_Black/dp/B076VNFZJG)
