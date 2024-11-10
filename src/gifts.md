@@ -34,4 +34,6 @@ Don't know what to get me? Here are some ideas in no particular order:
     - [1 yard of cotlinen natural bookcloth](https://www.colophonbookarts.com/paperboard/rohhalbleinen)
     - [6x size small (20.5" x 17") 0.08" Davey board](https://www.colophonbookarts.com/paperboard/davey-board-red-label)
     - [1 inch brass screw posts](https://www.talasonline.com/Brass-Screw-Post?quantity=1&size=88&Form=43)
+    - [Kokuyo A4 KB paper](https://www.amazon.com/gp/product/B0006L0120/)
+    - 2x 25 sheets of 12" x 12" (80 lb-92 lb) [Acqua](https://www.cardstock-warehouse.com/products/materica-acqua-cardstock-paper?variant=42960381477083), [Cobalt](https://www.cardstock-warehouse.com/collections/materica-cardstock-collection/products/materica-cobalt-cardstock-paper), [Speckletone Kraft](https://www.cardstock-warehouse.com/products/kraft-speckletone-cardstock?variant=42926466597083), [Cherry](https://www.cardstock-warehouse.com/products/cherry?variant=42926463582427), [Moss](https://www.cardstock-warehouse.com/collections/cardstock-paper/products/moss-lessebo-colours-cardstock?_pos=13&_fid=3f61086f2&_ss=c&variant=43978778345691)
 - [Logitech G305 wireless mouse](https://www.amazon.com/Logitech-LIGHTSPEED-Wireless-Gaming-Mouse/dp/B07CMS5Q6P?th=1)
