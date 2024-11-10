@@ -32,6 +32,6 @@ Don't know what to get me? Here are some ideas in no particular order:
     - [Bookbinders awl with brass chuck](https://hollanders.com/products/awl-bookbinders-w-brass-chuck)
     - [#24 1-1/2", #14 1" and #10 3/4" paste brushes](https://www.talasonline.com/Conservation-Paste-Brushes)
     - [1 yard of cotlinen natural bookcloth](https://www.colophonbookarts.com/paperboard/rohhalbleinen)
-    - [x6 Size small (20.5" x 17") 0.08" Davey board](https://www.colophonbookarts.com/paperboard/davey-board-red-label)
+    - [6x size small (20.5" x 17") 0.08" Davey board](https://www.colophonbookarts.com/paperboard/davey-board-red-label)
     - [1 inch brass screw posts](https://www.talasonline.com/Brass-Screw-Post?quantity=1&size=88&Form=43)
 - [Logitech G305 wireless mouse](https://www.amazon.com/Logitech-LIGHTSPEED-Wireless-Gaming-Mouse/dp/B07CMS5Q6P?th=1)
