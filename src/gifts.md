@@ -25,8 +25,8 @@ Don't know what to get me? Here are some ideas in no particular order:
     - Arcade Fire
         - [Neon Bible](https://www.discogs.com/master/5410-Arcade-Fire-Neon-Bible)
 - Monitor light bar
-    - [Xiaomi Light Bar](https://www.amazon.com/Xiaomi-Computer-Monitor-Light-Bar/dp/B0CTZBR5CG)
-    - [BenQ ScreenBar](https://www.amazon.com/BenQ-ScreenBar-Auto-Dimming-Adjustment-ScreenBar_Black/dp/B076VNFZJG)
+    - [Xiaomi Light Bar](https://www.amazon.com/Xiaomi-Computer-Monitor-Light-Bar/dp/B0CTZBR5CG) - Fancier features
+    - [BenQ ScreenBar](https://www.amazon.com/BenQ-ScreenBar-Auto-Dimming-Adjustment-ScreenBar_Black/dp/B076VNFZJG) - More accurate light
 - [SpillNot drink tray](https://www.amazon.com/SpillNot-Non-Slip-Non-Mess-Innovative-Handheld/dp/B005E0X23S/)
 - Bookbinding tools and supplies
     - [Bookbinders awl with brass chuck](https://hollanders.com/products/awl-bookbinders-w-brass-chuck)
