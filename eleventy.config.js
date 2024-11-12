@@ -17,6 +17,12 @@ export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('./favicon.png');
     eleventyConfig.addPassthroughCopy('./CNAME');
 
+    eleventyConfig.addPreprocessor("drafts", "*", (data) => {
+      // Only process pages who don't have a draft variable set to true or are after today's date.
+      if((data.draft && process.env.ELEVENTY_RUN_MODE === "build") || (Date.parse(data.page.date) > Date.now() && process.env.ELEVENTY_RUN_MODE === "build")) {
+        return false;
+      }
+    });
 
     return {
       dir: {
