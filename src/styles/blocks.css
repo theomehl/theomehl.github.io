@@ -120,14 +120,14 @@
     list-style: "";
 }
 
-.note-list li {
+.note-list li, .note-list .note {
     --flow-space: 1.5em;
     background-color: var(--blue-100);
     padding: 2rem; 
     margin-inline: -2rem;
 }
 
-.note-list h2 {
+.note-list h2, .note-list h1 {
     font-size: var(--text-md);
     text-wrap: unset;
 }

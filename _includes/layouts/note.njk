@@ -1,0 +1,14 @@
+---
+layout: layouts/base.njk
+---
+<main id="main" class="container flow">
+
+    <div class="note-list flow">
+        <div class="note flow">
+            <h1>{{title}}</h1>
+            {{ content | safe }}
+            <p class="blog-entry-date"><em>thoughtfully noted on <time datetime="{{ page.date | readableDate(" yyyy-LL-dd") }}">{{ page.date | readableDate("LLLL dd, yyyy") }}</time></em></p>
+        </div>
+    </div>
+
+</main>
