@@ -2,7 +2,7 @@
 layout: layouts/single-page.njk
 title: Gifts
 description: Gifts
-permalink: "gifts/"
+date: 2024-10-10
 ---
 
 Don't know what to get me? Here are some ideas in no particular order: 
