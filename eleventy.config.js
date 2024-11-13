@@ -21,7 +21,6 @@ export default function(eleventyConfig) {
     eleventyConfig.addPreprocessor("drafts", "md", (data) => {
       // Account for central time adjustment in date comparison. Otherwise, dates act as midnight UTC which is 6 p.m. CT the previous day.
       let adjustedDate = Date.parse(data.page.date) + 18000000;
-      console.log(`${data.title}: ${adjustedDate} vs ${Date.now()}`);
       if((data.draft && process.env.ELEVENTY_RUN_MODE === "build") || (adjustedDate > Date.now() && process.env.ELEVENTY_RUN_MODE === "build")) {
         return false;
       }
