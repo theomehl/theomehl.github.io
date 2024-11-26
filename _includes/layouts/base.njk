@@ -24,8 +24,6 @@
         <nav class="nav-list">
             <a href="/" class="header-logo-wrapper"><span class="first-initial">T</span><span class="second-initial">M</span></a>
             <ul>
-                <li><a href="https://demos.tedmehl.me">demos</a></li>
-                <li><a href="https://js.tedmehl.me">js academy</a></li>
                 <li><a href="https://photos.tedmehl.me">photos</a></li>
                 <li><a href="/blog">blog</a></li>
                 <li><a href="/notes">notes</a></li>
@@ -38,8 +36,14 @@
     <footer class="container">
         <hr>
         <div class="footer-wrapper">
-            <p><small>&copy; Me, this year</small></p>
-            <p><small><a href="/colophon">Colophon</a></small></p>
+            <p class="copyright"><small>&copy; {% year %} </small></p>
+            <nav class="nav-list secondary-nav">
+                <ul>
+                    <li><small><a href="https://demos.tedmehl.me">demos</a></small></li>
+                    <li><small><a href="https://js.tedmehl.me">js academy</a></small></li>
+                    <li><small><a href="/colophon">colophon</a></small></li>
+                </ul>
+            </nav>
         </div>
     </footer>
 </body>

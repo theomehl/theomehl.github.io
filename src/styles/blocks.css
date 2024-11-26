@@ -36,6 +36,11 @@
     list-style: "";
 }
 
+.secondary-nav {
+    font-weight: normal;
+    padding: 0;
+}
+
 /* Header logo */
 
 .header-logo-wrapper {
@@ -137,4 +142,9 @@
 .footer-wrapper {
     display: flex; 
     justify-content: space-between;
+    gap: 1rem;
+}
+
+.copyright {
+    flex-shrink: 0;
 }
