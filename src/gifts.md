@@ -26,7 +26,6 @@ Don't know what to get me? Here are some ideas in no particular order:
     - Arcade Fire
         - [Neon Bible](https://www.discogs.com/master/5410-Arcade-Fire-Neon-Bible)
 - Bookbinding tools and supplies
-    - [Bookbinders awl with brass chuck](https://hollanders.com/products/awl-bookbinders-w-brass-chuck)
     - [#24 1-1/2", #14 1" and #10 3/4" paste brushes](https://www.talasonline.com/Conservation-Paste-Brushes)
     - [1 yard of cotlinen natural bookcloth](https://www.colophonbookarts.com/paperboard/rohhalbleinen)
     - [6x size small (20.5" x 17") 0.08" Davey board](https://www.colophonbookarts.com/paperboard/davey-board-red-label)
