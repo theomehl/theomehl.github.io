@@ -1,8 +1,28 @@
+import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import CleanCSS from "clean-css";
 import { DateTime } from "luxon";
 
 export default function(eleventyConfig) {
     // Return your Object options:
+
+    eleventyConfig.addPlugin(feedPlugin, {
+      type: "atom",
+      outputPath: "/feed.xml",
+      collection: {
+        name: "posts",
+        limit: 0,
+      },
+      metadata: {
+        language: "en",
+        title: "tedmehl.me",
+        subtitle: "Playground of half-baked ideas.",
+        base: "https://tedmehl.me",
+        author: {
+          name: "Ted",
+        }
+      }
+    })
+
 
     eleventyConfig.addFilter("cssmin", function(code) {
         return new CleanCSS({}).minify(code).styles;
