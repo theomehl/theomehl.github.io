@@ -1,3 +1,11 @@
+// Offline first assets
+let coreAssets = [
+	'/fonts/Figtree.woff2',
+	'/fonts/Figtree-Italic.woff2',
+	'/offline/',
+	'/favicon.png',
+]
+
 // Listen for the install event
 self.addEventListener('install', function (event) {
     // Activate immediately
@@ -5,7 +13,9 @@ self.addEventListener('install', function (event) {
 
     // Cache the offline page 
     event.waitUntil(caches.open('app').then(function (cache) {
-        cache.add(new Request('/offline/'));
+        for (let asset of coreAssets) {
+			cache.add(new Request(asset));
+		}
         return cache;
     }));
 });
@@ -20,7 +30,7 @@ self.addEventListener('fetch', function (event) {
 	// https://stackoverflow.com/a/49719964
 	if (event.request.cache === 'only-if-cached' && event.request.mode !== 'same-origin') return;
 
-    // HTML files
+    // HTML files - Network first
 	if (request.headers.get('Accept').includes('text/html')) {
 		event.respondWith(
 			fetch(request).then(function (response) {
@@ -29,6 +39,17 @@ self.addEventListener('fetch', function (event) {
 				return caches.match('/offline/');
 			})
 		);
+		return;
 	}
 
+	// Fonts and images - Cache first
+	if (request.headers.get('Accept').includes('image') || request.url.includes('Figtree')) {
+		event.respondWith(
+			caches.match(request).then(function (response) {
+				return response || fetch(request).then(function (response) {
+					return response; 
+				});
+			})
+		);
+	}
 });
