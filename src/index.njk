@@ -6,13 +6,6 @@ description: Playground of half-baked ideas.
 <main id="main" class="container flow">
     <h1 class="home-heading">Prodigious <span class="home-subheading">(adj.)</span></h1>
     <p class="callout">: causing amazement or wonder</p>
-        <h2>goofy things i've done:</h2>
-        <ul>
-            <li><a href="https://demos.tedmehl.me">demos</a></li>
-            <li><a href="https://js.tedmehl.me">js academy</a></li>
-            <li><a href="/blog/">blog</a></li>
-            <li><a href="/notes/">notes</a></li>
-        </ul>
     <details>
         <summary>why prodigious?</summary>
         <div class="details-wrapper flow">
@@ -21,4 +14,23 @@ description: Playground of half-baked ideas.
             <p>If you haven't watched the movie before, you should. It's a look into a small coal town in West Virginia and a group of friends dreaming about things beyond it. Based on the memoir of NASA engineer Homer Hickam.</p>
         </div>
     </details>
+        <h2>check out these things:</h2>
+        <ul>
+            <li><a href="/blog/">blog</a> - regular blog stuff</li>
+            <li><a href="/notes/">notes</a> - thoughts not long enough for a blog post</li>
+            <li><a href="https://demos.tedmehl.me">demos</a> - ideas I bothered to make real</li>
+            <li><a href="https://js.tedmehl.me">js academy</a> - bits and pieces from a javascript course I took</li>
+        </ul>
+
+        {# Future section where I link to my most recent post and note #}
+
+        {# <h2>here's a recent thing I wrote</h2>
+        {% set posts = collections.posts | reverse %}
+        {% set latestPost = posts[0] %}
+        <p><a href="{{latestPost.url}}">{{latestPost.data.title }}</a></p>
+
+        <h2>here's a recent thought I had</h2>
+        {% set notes = collections.notes | reverse %}
+        {% set latestNote = notes[0] %}
+        <p><a href="{{latestNote.url}}">{{latestNote.data.title}}</a></h3> #}
 </main>
