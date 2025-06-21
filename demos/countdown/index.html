@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Countdown | demos | tedmehl.me</title>
+    <meta name="description" content="Pick a date and time to start the countdown. Uses your browsers local storage to save your selection for your next visit to the page.">
+    <style>
+        :root {
+            color-scheme: dark light;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            font-size: 18px;
+            font-family: monospace;
+        }
+        main {
+            max-width: calc(100% - 8rem);
+            margin-inline: auto;
+        }
+
+        h1 {
+            margin-bottom: 15px;
+            font-weight: normal;
+            font-size: 3rem;
+            text-wrap: balance;
+        }
+        label {
+            margin-block: 0;
+            display: block;
+        }
+        input[type="datetime-local"] {
+            margin-block-start: 2rem;
+            margin-block-end: 2.5rem;
+        }
+        .timer {
+            font-size: 2.5rem;
+            margin-block-start: 2rem;
+        }
+        hr {
+            margin-block: 0;
+            border-block: 1px solid;
+            border-inline: 0;
+        }
+
+        @media (min-width: 768px) {
+            body {
+                height: 100dvh;
+                align-items: center;
+                overflow-y: auto;
+            }
+        }
+
+    </style>
+    <link rel="icon" href="/favicon.png">
+</head>
+
+<body tabindex="-1">
+    <main>
+        <div class="countdown-container">
+            <h1 contenteditable spellcheck="false">Countdown</h1>
+            <label for="datePicker">Pick a date and time to start the countdown. <br>Change the title if you want, too. </label>
+            <input type="datetime-local" id="datePicker" name="datePicker">
+            <hr>
+            <div class="countdown">
+                <p class="timer">
+                    <span id="days">&nbsp;</span>
+                    <span id="hours">&nbsp;</span>
+                    <span id="minutes">&nbsp;</span>
+                    <span id="seconds">&nbsp;</span>
+                </p>
+            </div>
+        </div>
+        <p><a href="/demos/">&larr; return to the demos list</a></p>
+    </main>
+    <script>
+        let datetime = document.querySelector('input[type="datetime-local"]');
+        datetime.min = new Date(new Date().toString().split('GMT')[0]+' UTC').toISOString().split('.')[0].slice(0, -3);
+        let interval; 
+
+        let title = document.querySelector('h1');
+
+        function countdown() {
+            let days, hours, minutes, seconds;
+            let savedDate = localStorage.getItem('endDate');
+            if (!savedDate) return;
+            datetime.value = savedDate;
+
+            let endDate = new Date(savedDate).getTime();
+            if (isNaN(endDate)) return;
+
+            function calculate() {
+                let startDate = new Date();
+                startDate = startDate.getTime();
+
+                let timeRemaining = parseInt((endDate-startDate) / 1000);
+
+                if (timeRemaining > 0) {
+                    days = parseInt(timeRemaining/86400);
+                    timeRemaining = (timeRemaining % 86400);
+
+                    hours = parseInt(timeRemaining / 3600);
+                    timeRemaining = (timeRemaining %3600);
+
+                    minutes = parseInt(timeRemaining / 60);
+                    timeRemaining = (timeRemaining % 60);
+
+                    seconds = parseInt(timeRemaining);
+
+                    document.getElementById("days").innerHTML = parseInt(days, 10);
+                    document.getElementById("hours").innerHTML = ("0" + hours).slice(-2);
+                    document.getElementById("minutes").innerHTML = ("0" + minutes).slice(-2);
+                    document.getElementById("seconds").innerHTML = ("0" + seconds).slice(-2);
+                } else {
+                    return;
+                }
+            }
+            calculate();
+            interval = setInterval(calculate, 1000);
+        }
+
+        function getTitle() {
+            if (localStorage.getItem('title')) {
+                title.innerHTML = localStorage.getItem('title');
+            }
+        }
+
+        function setTitle() {
+            localStorage.setItem('title', title.innerHTML);
+            getTitle();
+        }
+
+        countdown();
+
+        datetime.addEventListener("change", function() {
+            localStorage.setItem('endDate', datetime.value);
+            clearInterval(interval);
+            countdown();
+        });
+
+        title.addEventListener("focusout", setTitle);
+        getTitle();
+    </script>
+</body>
+
+</html>
