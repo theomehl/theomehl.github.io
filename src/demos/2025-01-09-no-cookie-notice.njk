@@ -1,0 +1,98 @@
+---
+title: No cookie notice
+description: Websites harrass you with cookie noticies left and right. I wanted to create an anti-cookie notice,  
+    letting you know I don't use cookies. Uses your browsers local storage remember
+    if you dismissed the notice and won't show it again. 
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>No cookies notice</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    *,
+    ::before,
+    ::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    main {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .notice-wrapper {
+      position: relative;
+    }
+
+    .notice-wrapper button {
+      position: absolute;
+      top: 0.5rem;
+      right: 0.5rem;
+    }
+
+    .notice {
+      position: fixed;
+      bottom: 0;
+      padding: 1rem;
+      background-color: lightgray;
+      text-align: center;
+      width: 100%;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 0;
+      margin: 0;
+    }
+    a {
+        color: #333;
+    }
+  </style>
+   <link rel="icon" href="/favicon.png">
+</head>
+
+<body>
+  <main>
+    <h1>No Cookies Notice</h1>
+    <p><a href="/demos/">&larr; return to demos list</a></p>
+  </main>
+  <div id="notice" class="notice-wrapper" hidden>
+    <div class="notice">
+      <p>We don't use cookies to help make your experience worse. By continuing to use the site, you confirm that we
+        don't use cookies.</p> <button id="notice-button" aria-label="Close no cookie notice">×</button>
+    </div>
+  </div>
+  <script>
+    let button = document.querySelector('#notice-button');
+    let notice = document.querySelector('#notice');
+
+    function showNotice() {
+      if (localStorage.getItem('cookieDismissed') == 'true') return;
+      notice.toggleAttribute('hidden');
+    }
+
+    function dismissNotice() {
+      notice.toggleAttribute('hidden');
+      localStorage.setItem('cookieDismissed', 'true');
+    }
+
+    button.addEventListener('click', dismissNotice);
+
+    showNotice();
+  </script>
+
+</body>
+
+</html>

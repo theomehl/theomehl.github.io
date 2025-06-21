@@ -1,0 +1,71 @@
+---
+title: Working by Inspiration
+description: An attempt to style my adaptation of a favorite quote. 
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}} | demos | tedmehl.me</title>
+    <meta name="description" content="{{description}}">
+    {% set css %}
+        {% include "src/styles/demos.css" %}
+    {% endset %}
+    <style>
+    {{ css | cssmin | safe }}
+        body {
+            margin: 0;
+            padding: 0;
+            display: grid;
+            grid-gap: 1rem;
+            height: 100vh;
+            font-family: var(--serif);
+            font-size: 1.25rem;
+            font-weight: 300;
+            grid-template-rows: repeat(6, 1fr);
+            color: var(--gray-900);
+            background-color: var(--gray-100);
+
+        }
+        main {
+            grid-row-start: 4;
+        }
+
+        blockquote {
+            margin: 0;
+        }
+
+        blockquote p::before {
+            content: open-quote;
+        }
+        blockquote p::after {
+            content: close-quote;
+        }
+        a { 
+            font-size: 0.85rem;
+        }
+        @media all and (min-width: 600px) {
+            body {
+                grid-template-columns: repeat(6, 1fr);
+            }
+            main {
+                grid-column: 2/5;
+            }
+        }
+
+    </style>
+     <link rel="icon" href="/favicon.png">
+</head>
+<body>
+    <main>
+        <blockquote cite="https://quoteinvestigator.com/2013/10/30/inspire-nine/">
+            <p><em>I only <s>write</s> work when inspiration strikes. Fortunately it strikes at nine every morning.</em></p>
+            <figcaption>William Faulkner, Kind Of <br> <a href="https://quoteinvestigator.com/2013/10/30/inspire-nine/">(Quote Investigator)</a></figcaption>
+        </blockquote>
+        <p><a href="/demos/">&larr; back to demos list</a></p>
+    </main>
+</body>
+</html>

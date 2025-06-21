@@ -39,6 +39,7 @@ export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('./favicon.png');
     eleventyConfig.addPassthroughCopy('./CNAME');
     eleventyConfig.addPassthroughCopy('./src/sw.js');
+    eleventyConfig.addPassthroughCopy('./src/images');
 
     // Only process pages that don't have a draft variable set to true or are after today's date.
     eleventyConfig.addPreprocessor("drafts", "md", (data) => {

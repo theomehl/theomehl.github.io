@@ -1,0 +1,101 @@
+---
+title: Nopatizer
+description: Generates a new way of saying nope, based on a list I came up with. 
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{title}} | demos | tedmehl.me</title>
+    <meta name="description" content="{{description}}">
+	<link rel="stylesheet" href="../base.css" media="all">
+    {% set css %}
+        {% include "src/styles/demos.css" %}
+    {% endset %}
+    <style>
+    {{ css | cssmin | safe }}
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		.grid {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
+
+		h1 {
+			font-size: 2.5rem;
+			text-align: center;
+		}
+	</style>
+	 <link rel="icon" href="/favicon.png">
+</head>
+
+<body>
+	<div class="grid">
+		<h1 id="nope" aria-live="polite"></h1>
+		<button id="newNope">Get a new nope</button>
+        <p><a href="/demos/">&larr; back to demos list</a></p>
+	</div>
+	<script>
+
+		let nopes = ['Nope', 'Nice try', 'Not this time', 'Negative ghost rider', 'Fuhgeddaboudit', 'No dice', 'Please', 'Come On Man!', 'Really?', '🙅‍♂️', '🚫', 'Absolutely not', 'Nay', 'No way', 'Cease', 'Lay off it, Bob', 'Give it a rest'];
+		let nopeDisplay = document.querySelector('#nope');
+		let recentNopes = [];
+		let button = document.querySelector('#newNope');
+
+		/**
+		 * Randomly shuffle an array
+		 * https://stackoverflow.com/a/2450976/1293256
+		 * @param  {Array} array The array to shuffle
+		 * @return {String}      The first item in the shuffled array
+		 */
+		function shuffle(array) {
+
+			let currentIndex = array.length;
+			let temporaryValue, randomIndex;
+
+			// While there remain elements to shuffle...
+			while (0 !== currentIndex) {
+				// Pick a remaining element...
+				randomIndex = Math.floor(Math.random() * currentIndex);
+				currentIndex -= 1;
+
+				// And swap it with the current element.
+				temporaryValue = array[currentIndex];
+				array[currentIndex] = array[randomIndex];
+				array[randomIndex] = temporaryValue;
+			}
+
+			return array;
+
+		}
+
+		function getNope() {
+
+			shuffle(nopes);
+			if (!recentNopes.includes(nopes[0])) {
+				if (recentNopes.length >= 10) {
+					recentNopes.shift();
+				}
+				recentNopes.push(nopes[0]);
+				nopeDisplay.textContent = nopes[0];
+				console.log(recentNopes);
+			}
+			else getNope();
+		}
+
+		getNope();
+		button.addEventListener('click', getNope);
+
+	</script>
+</body>
+
+</html>

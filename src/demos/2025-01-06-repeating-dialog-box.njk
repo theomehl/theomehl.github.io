@@ -1,0 +1,58 @@
+---
+title: Repeating Dialog Box
+description: Demonstration of a simple, yet annoying, use of recursion. Click the button at your own risk. Maybe open this in a new tab first...
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{title}} | demos | tedmehl.me</title>
+    <meta name="description" content="{{description}}">
+    {% set css %}
+        {% include "src/styles/demos.css" %}
+    {% endset %}
+    <style>
+    {{ css | cssmin | safe }}
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    button {
+      background-color: var(--gray-100);
+      border: 1px solid var(--gray-400);
+      border-radius: 3px;
+      padding: 0.5rem 1rem;
+      transition: all 0.1s ease-out;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: var(--gray-300);
+    }
+  </style>
+   <link rel="icon" href="/favicon.png">
+</head>
+
+<body>
+  <button id="ok">ok</button>
+  <script>
+    document.getElementById('ok').onclick = function ok() {
+      if (confirm('ok')) {
+        ok();
+      } else {
+        ok();
+      }
+    }
+  </script>
+
+</body>
+
+</html>

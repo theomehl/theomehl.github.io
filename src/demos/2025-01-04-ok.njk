@@ -1,0 +1,54 @@
+---
+title: ok
+description: Displays a browser alert when you click the button. 
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ok</title>
+  <meta name="description" content="Click ok to ok">
+    {% set css %}
+        {% include "src/styles/demos.css" %}
+    {% endset %}
+    <style>
+    {{ css | cssmin | safe }}
+    body {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      row-gap: 1rem;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    button {
+      background-color: var(--gray-100);
+      border: 1px solid var(--gray-400);
+      border-radius: 3px;
+      padding: 0.5rem 1rem;
+      transition: all 0.1s ease-out;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: var(--gray-300);
+    }
+  </style>
+</head>
+
+<body>
+  <button id="ok">ok</button>
+  <p><a href="/demos/">&larr; back to demos list</a></p>
+  <script>
+    document.getElementById('ok').onclick = function () {
+      alert('ok');
+    };
+  </script>
+</body>
+
+</html>

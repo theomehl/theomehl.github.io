@@ -1,0 +1,167 @@
+---
+title: SVG hover effect
+description: Using SVG displacement filters to create funky effects when you hover over an element. May not work well on touch devices. 
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}} | demos | tedmehl.me</title>
+    <meta name="description" content="{{description}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        *,
+        body {
+            margin: 0;
+            padding: 0;
+            background: #9baed2;
+            font-family: sans-serif;
+            font-size: 18px;
+            color: #1d2f4b;
+        }
+
+        svg {
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        .test {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .test {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow-y: auto;
+        }
+
+        p {
+            text-align: center;
+            text-decoration: none;
+            padding: 15px;
+            cursor: default;
+        }
+
+        p:hover {
+            color: #0d1522;
+        }
+
+        .goofyballs {
+            font-size: 75px;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        .goofyballs:hover {
+            animation: hover-anim 0.3s linear infinite;
+        }
+
+        goofyballs:active {
+            animation: hover-anim 0.3s linear infinite;
+        }
+
+        @keyframes hover-anim {
+            0% {
+                filter: url("#displacementFilter6")
+            }
+
+            25% {
+                filter: url("#displacementFilter7")
+            }
+
+            50% {
+                filter: url("#displacementFilter8")
+            }
+
+            75% {
+                filter: url("#displacementFilter9")
+            }
+
+            100% {
+                filter: url("#displacementFilter10")
+            }
+        }
+    </style>
+     <link rel="icon" href="/favicon.png">
+
+</head>
+
+<body>
+
+    <!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feDisplacementMap -->
+    <div class="test">
+            <p>Hover over each of these to see a wobbly effect.</p>
+            <p class="goofyballs">BARK</p>
+            <p class="goofyballs">GRRR</p>
+            <p class="goofyballs">WOOFWOOF</p>
+            <p><a href="/demos/">&larr; back to demos list</a></p>
+
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg">
+        <filter id="displacementFilter">
+            <feTurbulence type="turbulence" baseFrequency="0.55" numOctaves="2" result="turbulence" />
+            <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="5" xChannelSelector="R"
+                yChannelSelector="G" />
+        </filter>
+        <filter id="displacementFilter2">
+            <feTurbulence type="turbulence" baseFrequency="0.66" numOctaves="2" result="turbulence" />
+            <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="5" xChannelSelector="R"
+                yChannelSelector="G" />
+        </filter>
+        <filter id="displacementFilter3">
+            <feTurbulence type="turbulence" baseFrequency="0.77" numOctaves="2" result="turbulence" />
+            <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="5" xChannelSelector="R"
+                yChannelSelector="G" />
+        </filter>
+        <filter id="displacementFilter4">
+            <feTurbulence type="turbulence" baseFrequency="0.88" numOctaves="2" result="turbulence" />
+            <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="5" xChannelSelector="R"
+                yChannelSelector="G" />
+        </filter>
+        <filter id="displacementFilter5">
+            <feTurbulence type="turbulence" baseFrequency="0.99" numOctaves="2" result="turbulence" />
+            <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="5" xChannelSelector="R"
+                yChannelSelector="G" />
+        </filter>
+        <filter id="displacementFilter6">
+            <feTurbulence type="turbulence" baseFrequency="0.01" numOctaves="2" result="turbulence" />
+            <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="5" xChannelSelector="R"
+                yChannelSelector="G" />
+        </filter>
+        <filter id="displacementFilter7">
+            <feTurbulence type="turbulence" baseFrequency="0.05" numOctaves="2" result="turbulence" />
+            <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="5" xChannelSelector="R"
+                yChannelSelector="G" />
+        </filter>
+        <filter id="displacementFilter8">
+            <feTurbulence type="turbulence" baseFrequency="0.07" numOctaves="2" result="turbulence" />
+            <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="5" xChannelSelector="R"
+                yChannelSelector="G" />
+        </filter>
+        <filter id="displacementFilter9">
+            <feTurbulence type="turbulence" baseFrequency="0.09" numOctaves="2" result="turbulence" />
+            <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="5" xChannelSelector="R"
+                yChannelSelector="G" />
+        </filter>
+        <filter id="displacementFilter10">
+            <feTurbulence type="turbulence" baseFrequency="0.11" numOctaves="2" result="turbulence" />
+            <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="5" xChannelSelector="R"
+                yChannelSelector="G" />
+        </filter>
+    </svg>
+
+
+
+</body>
+
+</html>

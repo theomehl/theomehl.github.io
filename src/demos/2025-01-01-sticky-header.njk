@@ -1,0 +1,139 @@
+---
+title: Sticky header with hero image
+description: An early attempt at a style with a hero image where the header sticks to the top when you scroll.  
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sticky header with hero image</title>
+  <meta name="description" content="Example of a sticky header that stays when scrolling down the page.">
+    {% set css %}
+        {% include "src/styles/demos.css" %}
+    {% endset %}
+    <style>
+    {{ css | cssmin | safe }}
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    p {
+      line-height: 1.6rem;
+    }
+
+    .nav {
+      background: var(--primary-700);
+      position: sticky;
+      top: 0;
+      color: #fff;
+      padding-top: 0.15rem;
+      padding-bottom: 0.15rem;
+    }
+
+    .hero {
+      background-image: url('/images/landscape-2.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      height: 100vh;
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 6rem;
+      font-weight: bold;
+    }
+
+    .hero img {
+      display: block;
+      width: 100%;
+      height: 100vh;
+    }
+
+    .content-container {
+      padding-left: 2rem;
+      padding-right: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    a {
+      color: var(--primary-900)
+    }
+  </style>
+   <link rel="icon" href="/favicon.png">
+</head>
+
+<body>
+  <div class="hero">
+    GO!
+  </div>
+  <div class="nav" id="nav">
+    <div class="content-container">
+      <h1>Scrolly Stuck Header</h1>
+    </div>
+  </div>
+  <main class="content-container">
+    <h2>And the hat. She's a witch!</h2>
+    <p>It's only a model. And this isn't my nose. This is a false one. Shh! Knights, I bid you welcome to your new home.
+      Let us ride to Camelot! I'm not a witch. Burn her! Burn her!</p>
+    <p>We want a shrubbery!! It's only a model. The Knights Who Say Ni demand a sacrifice! <strong> A newt?</strong>
+      <em> Oh, ow!</em> It's only a model.
+    </p>
+    <h2>Why?</h2>
+    <p>Shut up! Will you shut up?! I'm not a witch. Who's that then? Why do you think that she is a witch? Well, how'd
+      you become king, then?</p>
+    <ol>
+      <li>Now, look here, my good man.</li>
+      <li>How do you know she is a witch?</li>
+      <li>Well, how'd you become king, then?</li>
+    </ol>
+
+    <h3>Look, my liege!</h3>
+    <p>What a strange person. Found them? In Mercia?! The coconut's tropical! What a strange person. You don't vote for
+      kings. And the hat. She's a witch! Bloody Peasant!</p>
+    <ul>
+      <li>I have to push the pram a lot.</li>
+      <li>Bring her forward!</li>
+      <li>Bloody Peasant!</li>
+    </ul>
+
+    <p>He hasn't got shit all over him. I dunno. Must be a king. Burn her anyway! Well, I got better. Bloody Peasant!
+    </p>
+    <p>Be quiet! We found them. Shh! Knights, I bid you welcome to your new home. Let us ride to Camelot! Camelot! …Are
+      you suggesting that coconuts migrate?</p>
+    <p>Where'd you get the coconuts? I dunno. Must be a king. Knights of Ni, we are but simple travelers who seek the
+      enchanter who lives beyond these woods. No, no, no! Yes, yes. A bit. But she's got a wart.</p>
+    <p>Oh, ow! The Lady of the Lake, her arm clad in the purest shimmering samite, held aloft Excalibur from the bosom
+      of the water, signifying by divine providence that I, Arthur, was to carry Excalibur. That is why I am your king.
+    </p>
+    <p>I'm not a witch. Knights of Ni, we are but simple travelers who seek the enchanter who lives beyond these woods.
+      Well, she turned me into a newt. You don't frighten us, English pig-dogs! Go and boil your bottoms, sons of a
+      silly person! I blow my nose at you, so-called Ah-thoor Keeng, you and all your silly English
+      K-n-n-n-n-n-n-n-niggits!</p>
+    <p>The swallow may fly south with the sun, and the house martin or the plover may seek warmer climes in winter, yet
+      these are not strangers to our land. Be quiet! Did you dress her up like this? You can't expect to wield supreme
+      power just 'cause some watery tart threw a sword at you!</p>
+    <p>How do you know she is a witch? She looks like one. Knights of Ni, we are but simple travelers who seek the
+      enchanter who lives beyond these woods. The Lady of the Lake, her arm clad in the purest shimmering samite, held
+      aloft Excalibur from the bosom of the water, signifying by divine providence that I, Arthur, was to carry
+      Excalibur. That is why I am your king.</p>
+    <p>I don't want to talk to you no more, you empty-headed animal food trough water! I fart in your general direction!
+      Your mother was a hamster and your father smelt of elderberries! Now leave before I am forced to taunt you a
+      second time! We shall say 'Ni' again to you, if you do not appease us.</p>
+    <p>What a strange person. We shall say 'Ni' again to you, if you do not appease us. Oh! Come and see the violence
+      inherent in the system! Help, help, I'm being repressed! We found them.</p>
+    <p>We found them. Shut up! Well, she turned me into a newt. I'm not a witch. Ni! Ni! Ni! Ni! It's only a model.</p>
+    <p>Oh! Come and see the violence inherent in the system! Help, help, I'm being repressed! And this isn't my nose.
+      This is a false one. Did you dress her up like this? We want a shrubbery!! Found them? In Mercia?! The coconut's
+      tropical!</p>
+      <p><a href="/demos/">&larr; back to demos list</a></p>
+  </main>
+
+
+
+</body>
+
+</html>
