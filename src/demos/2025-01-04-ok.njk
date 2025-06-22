@@ -9,8 +9,8 @@ description: Displays a browser alert when you click the button.
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ok</title>
-  <meta name="description" content="Click ok to ok">
+  <title>{{title}} | demos | tedmehl.me</title>
+  <meta name="description" content="{{description}}">
     {% set css %}
         {% include "src/styles/demos.css" %}
     {% endset %}
@@ -38,7 +38,12 @@ description: Displays a browser alert when you click the button.
     button:hover {
       background-color: var(--gray-300);
     }
+
+    a {
+      color: var(--gray-900);
+    }
   </style>
+   <link rel="icon" href="/favicon.png">
 </head>
 
 <body>
