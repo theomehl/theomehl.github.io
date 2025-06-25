@@ -1,16 +1,27 @@
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
+import pluginRss from "@11ty/eleventy-plugin-rss";
 import CleanCSS from "clean-css";
 import { DateTime } from "luxon";
 
 export default function(eleventyConfig) {
     // Return your Object options:
 
+    // Create a collection that includes posts from both /blog and /notes
+    eleventyConfig.addCollection(
+      "allWriting",
+      function (collectionsApi) {
+        return collectionsApi.getFilteredByGlob(["./src/blog/*.md", "./src/notes/*.md"]);
+      }
+    );
+
+    eleventyConfig.addPlugin(pluginRss);
+
     eleventyConfig.addPlugin(feedPlugin, {
       type: "atom",
       outputPath: "/feed.xml",
       collection: {
-        name: "posts",
-        limit: 0,
+        name: "allWriting",
+        limit: 10,
       },
       metadata: {
         language: "en",
@@ -21,8 +32,7 @@ export default function(eleventyConfig) {
           name: "Ted",
         }
       }
-    })
-
+    });
 
     eleventyConfig.addFilter("cssmin", function(code) {
         return new CleanCSS({}).minify(code).styles;
