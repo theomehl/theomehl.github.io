@@ -1,0 +1,88 @@
+---
+title: Adblock detection
+description: Simple way of detecting if ads are being blocked by checking whether or not a javascript file was loaded.
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>No cookies notice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        *,
+        ::before,
+        ::after {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .container {
+            max-width: min(45rem, 100% - 4rem);
+            margin-inline: auto;
+        }
+        .notice {
+            padding: 2rem;
+            border-radius: 5px;
+            background-color: gray;
+            text-align: center;
+        }
+        .notice--clear {
+            background-color: green;
+            color: white;
+        }
+        .notice--warning {
+            background-color: maroon;
+            color: white;
+        }
+
+    </style>
+    <link rel="icon" href="/favicon.png">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Adblock detection</h1>
+        <div id="blocked" hidden>
+            <div class="notice notice--clear">You are using an ad blocker!</div>
+            <p>Not that I had any ads to block in the first place.</p>
+        </div>
+        <div id="unblocked" hidden>
+            <div class="notice notice--warning">You are not using an ad blocker!</div>
+            <p>But you could be! If you need some suggestions if you don't know where to start:</p>
+            <ul>
+                <li>Firefox and Firefox-based browsers: <a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">uBlock Origin</a></li>
+                <li>Chrome desktop browsers: <a href="https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh">uBlock Origin Lite</a></li>
+                <li>Brave browser: <a href="https://brave.com/shields/">Built-in Brave Sheilds</a></li>
+                <li>iOS/iPadOS: <a href="https://apps.apple.com/us/app/adguard-adblock-privacy/id1047223162">AdGuard</a></li>
+                <li>Android: Use a private DNS service like <a href="https://adguard-dns.io/en/public-dns.html">AdGuard DNS</a> or <a href="https://mullvad.net/en/help/dns-over-https-and-dns-over-tls">Mullvad</a></li>
+            </ul>
+        </div>
+        <div id="ad-container">
+        </div>
+        <p><a href="/demos/">&larr; back to demos list</a></p>
+    </div>
+
+    <script src="/demos/files/floatingad.js"></script>
+    <script>
+        function detectAds() {
+            console.log('detecting ads...');
+            let blocked = document.querySelector('#blocked');
+            let unblocked = document.querySelector('#unblocked');
+            if (document.getElementById('Adbanner')) {
+                console.log('we got an ad!');
+                unblocked.toggleAttribute('hidden');
+            } else {
+                console.log('no ads here!');
+                blocked.toggleAttribute('hidden');
+            }
+        }
+        window.addEventListener('load', function () {
+            detectAds();
+        })
+    </script>
+</body>
+
+</html>
