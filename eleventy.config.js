@@ -50,6 +50,8 @@ export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('./CNAME');
     eleventyConfig.addPassthroughCopy('./src/sw.js');
     eleventyConfig.addPassthroughCopy('./src/images');
+    // For demos that have external files
+    eleventyConfig.addPassthroughCopy("./src/demos/files");
 
     // Only process pages that don't have a draft variable set to true or are after today's date.
     eleventyConfig.addPreprocessor("drafts", "md", (data) => {
