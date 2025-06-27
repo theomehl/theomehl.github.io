@@ -66,8 +66,14 @@ description: Simple way of detecting if ads are being blocked by checking whethe
         <p><a href="/demos/">&larr; back to demos list</a></p>
     </div>
 
-    <script src="/demos/files/floatingad.js"></script>
     <script>
+        let now = new Date();
+        let adContainer = document.querySelector('#ad-container');
+        let adScript = document.createElement('script');
+        adScript.setAttribute('src', '/demos/files/floatingad.js?t=' + now.getTime());
+        adScript.setAttribute('type', 'text/javascript');
+        adContainer.appendChild(adScript);
+
         function detectAds() {
             console.log('detecting ads...');
             let blocked = document.querySelector('#blocked');
