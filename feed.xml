@@ -4,11 +4,25 @@
   <subtitle>Playground of half-baked ideas.</subtitle>
   <link href="https://tedmehl.me/feed.xml" rel="self" />
   <link href="https://tedmehl.me/" />
-  <updated>2024-12-27T00:00:00Z</updated>
+  <updated>2025-06-30T00:00:00Z</updated>
   <id>https://tedmehl.me/</id>
   <author>
     <name>Ted</name>
   </author>
+  <entry>
+    <title>Create More, Consume Less</title>
+    <link href="https://tedmehl.me/blog/create-more-consume-less/" />
+    <updated>2025-06-30T00:00:00Z</updated>
+    <id>https://tedmehl.me/blog/create-more-consume-less/</id>
+    <content type="html">&lt;p&gt;Last week, I was browsing YouTube and came across a video about a habit that will change your life. Being a sucker for seeing what other people deem life-changing, I watched the video.&lt;/p&gt;
+&lt;p&gt;If you search the internet for resources on habits, you&#39;ll notice there are countless articles and videos touting the virtues of habits followed by highly successful people. Millionaires, CEOs, actors and actresses, other people deemed important. People whose lifestyles, circumstances, and personalities likely don&#39;t match your own.&lt;/p&gt;
+&lt;p&gt;This video was not one of those. Its premise was simple: &lt;strong&gt;When you have the urge to consume, try to create instead.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Now, obviously they don&#39;t mean in all circumstances. There are plenty of things, such as consuming food and water, that you simply can&#39;t avoid. But what about the other kinds of consumption?&lt;/p&gt;
+&lt;p&gt;We live in a world where everything is heavily marketed and packaged for our easy digestion. Algorithmic feeds trying to figure out what content will get us to use their services &lt;em&gt;just&lt;/em&gt; a bit longer. Everything ultra-processed into what author Cal Newport refers to as &lt;a href=&quot;https://calnewport.com/on-ultra-processed-content/&quot;&gt;digital Doritos&lt;/a&gt;. Technically harmless ingredients, broken down to their base forms, and then put back together into something irresistible. Like that bag of Doritos you know you shouldn&#39;t eat in one sitting but do anyway.&lt;/p&gt;
+&lt;p&gt;I would rather not spend all my free time for the rest of my life consuming bags of digital Doritos. Given the choice between being a consumer and a creator, I&#39;d rather be a creator, and I hope you would too.&lt;/p&gt;
+&lt;p&gt;So, if creation is key to reducing this kind of consumption, what does that look like? What would it mean for me to create instead of mindlessly consume? How do I curate a life where creating is the default? What defines creating? Those are great questions, and I don&#39;t have the answers. Not yet anyway. For now, the important thing is that I&#39;m thinking about it, and I&#39;m looking forward to seeing what I come up with.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>The Things That Ground Us</title>
     <link href="https://tedmehl.me/blog/the-things-that-ground-us/" />
@@ -117,36 +131,6 @@
     <content type="html">&lt;p&gt;As a lover of cereal, I have many times found myself in a position where the rest of a box of cereal isn&#39;t enough for one bowl. So I add a little bit of the new box to the bowl, regardless of whether it&#39;s the same kind. Sacrilegious, you might say. But it can lead to unique taste combinations you wouldn&#39;t have thought were good.&lt;/p&gt;
 &lt;p&gt;A little Krave with your Cinnamon Toast Crunch. Some Apple Jacks with your Lucky Charms (or Marshmallow Mateys if you prefer that superior Malt-O-Meal experience).&lt;/p&gt;
 &lt;p&gt;Next time you find yourself between cereals, try mixing things up. You might get a dud flavor combo, or find something that becomes your new favorite thing.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>I like to complicate things.</title>
-    <link href="https://tedmehl.me/blog/first-post/" />
-    <updated>2023-08-23T00:00:00Z</updated>
-    <id>https://tedmehl.me/blog/first-post/</id>
-    <content type="html">&lt;p&gt;It starts with an idea. One of those &amp;quot;wouldn&#39;t it be cool if I did...&amp;quot; Then I do some research about the thing (I generally enjoy researching things). Then over the next few days, as I learn more and add on to the idea, I turn something that was once simple into a complicated mess of a project. It no longer feels fun. It becomes a daunting chore full of unnecessary requirements I&#39;ve placed on myself.&lt;/p&gt;
-&lt;h2&gt;That&#39;s how this project started.&lt;/h2&gt;
-&lt;p&gt;For a few years now I&#39;ve wanted to start my own blog. A blog to house the random thoughts or ideas I had, but also a blog that would teach me a thing or two about static site generators (SSGs) and modern web development techniques along the way.&lt;/p&gt;
-&lt;p&gt;It wasn&#39;t until this summer that I finally got serious about the idea. I started planning a simple site that had a few basic requirements. I had my SSG picked out. I had some basic style ideas I would implement. Then I started doing some research.&lt;/p&gt;
-&lt;p&gt;It went something like this:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Oh, I should get a headless content management system so I can have a cool authoring experience. Let me google the best ones.&lt;/p&gt;
-&lt;p&gt;Well this one is rated well, but isn&#39;t free. This one is too complex. This one is too simple. The editing experience on this one doesn&#39;t look that great. If I decide to switch CMS&#39;s will all my content be stuck on that platform, or can I migrate?&lt;/p&gt;
-&lt;p&gt;Do I even need a headless CMS?&lt;/p&gt;
-&lt;p&gt;...&lt;/p&gt;
-&lt;p&gt;Maybe I should make a mockup. I wonder what tools exist for making mockups? I&#39;ve heard figma is used a lot in the UI/UX design space.&lt;/p&gt;
-&lt;p&gt;Do they have a free option? Is it even the best tool out there anymore? It&#39;s kind of getting old. And Adobe tried to buy it but the deal hasn&#39;t gone through yet. What else is out there?&lt;/p&gt;
-&lt;p&gt;Penpot is open source, but other people say it&#39;s missing some features.&lt;/p&gt;
-&lt;p&gt;...&lt;/p&gt;
-&lt;p&gt;What&#39;s the best way to organize my CSS stylesheets? What&#39;s standard practice? Let me watch some videos on this.&lt;/p&gt;
-&lt;p&gt;And so on...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;Just like that...&lt;/h2&gt;
-&lt;p&gt;I&#39;d spent weeks of my spare time researching content management systems, pretending I needed to learn a new design tool, spending hours on YouTube watching web development techniques, continuously adding complexity. Not all of what I learned was useless, but most of it wasn&#39;t contributing towards my goal. Instead it made me tired. It didn&#39;t sound fun anymore, but more like work.&lt;/p&gt;
-&lt;p&gt;I was eventually brought back to reality by a Kevin Powell video. To paraphrase: You can spend all this time watching YouTube videos, but at some point you have to start making something.&lt;/p&gt;
-&lt;p&gt;Properly called out, I took a step back, simplified and refocused my efforts around the original intent, and got to work.&lt;/p&gt;
-&lt;p&gt;What you see is the current result. But it&#39;s a living work in progress and will probably change over time.&lt;/p&gt;
-&lt;p&gt;Anyway. Expect posts about anything and everything in sporadic intervals.&lt;/p&gt;
 </content>
   </entry>
 </feed>
