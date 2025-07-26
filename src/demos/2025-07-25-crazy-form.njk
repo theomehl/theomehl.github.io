@@ -105,49 +105,61 @@ description: Parts of the page are constantly changing as you interact with the 
     <script>
       let body = document.querySelector("body");
       let notice = document.querySelector("[data-notice]");
+      let form = document.querySelector("form");
       let formLabels = document.querySelectorAll("label");
       let submit = document.querySelector("[type='submit']");
 
       function getRandomNumber(type) {
-        // RGB has values from 0-255
-        if (type === 'color') { 
-          return Math.floor(Math.random() * 255);
+        switch(type) {
+          case "color":
+            return Math.floor(Math.random() * 255);
+            break
+          case "fontSize":
+            return Math.random() * (2 - 0.75) + 0.75;
+            break;
+          case "fontFamily": 
+            return Math.floor(Math.random() * (3));
+          default: 
+            return Math.floor(Math.random() * (22 + (form.clientWidth) / 20));
         }
-        if (type === 'font') {
-          return Math.random() * (2 - 0.75) + 0.75;
-        }
-        return Math.floor(Math.random() * 22);
+        
       }
 
       function crazyForm() {
-        body.style.backgroundColor = `rgb(${getRandomNumber('color')}, ${getRandomNumber('color')}, ${getRandomNumber('color')})`;
+        let fontFamily = ['serif', 'sans-serif', 'monospace'];
+        console.log(fontFamily[2]);
+        body.style.backgroundColor = `rgb(${getRandomNumber(
+          "color"
+        )}, ${getRandomNumber("color")}, ${getRandomNumber("color")})`;
         for (let label of formLabels) {
           label.style.left = `${getRandomNumber()}%`;
-          label.style.fontSize = getRandomNumber('font') + 'rem';
+          label.style.fontSize = getRandomNumber("fontSize") + "rem";
+          label.style.fontFamily = fontFamily[getRandomNumber("fontFamily")];
         }
         submit.style.left = `${getRandomNumber()}%`;
-        submit.style.fontSize = getRandomNumber('font') + 'rem';
+        submit.style.fontSize = getRandomNumber("fontSize") + "rem";
       }
 
       document.addEventListener("submit", function (event) {
         event.preventDefault();
         notice.textContent = "Nice.";
         setTimeout(function () {
-          notice.textContent = ""
+          notice.textContent = "";
         }, 3000);
-      })
+      });
 
       document.addEventListener("input", function (event) {
         crazyForm();
       });
 
-      document.addEventListener("focusin", function(event) {
+      document.addEventListener("focusin", function (event) {
         // Don't do run crazyForm on submit button or links
-        if(event.target === submit || event.target.type === '') {
+        if (event.target === submit || event.target.type === "") {
           return;
         }
         crazyForm();
       });
+
     </script>
   </body>
 </html>
