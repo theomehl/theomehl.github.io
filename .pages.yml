@@ -1,0 +1,63 @@
+content: 
+  - name: blog
+    label: Blog
+    type: collection
+    path: 'src/blog'
+    view: 
+      fields: [ title, date, draft]
+    fields: 
+      - name: title
+        label: Title
+        type: string
+      - name: description
+        label: Description
+        type: string
+      - name: date
+        label: Date
+        type: date
+      - name: body
+        label: Body
+        type: rich-text
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+        fields: 
+          - name: tag
+            label: Tag
+            type: string
+      - name: draft
+        label: Draft
+        type: boolean
+        default: false
+  - name: notes
+    label: Notes
+    type: collection
+    path: 'src/notes'
+    view: 
+      fields: [ title, date, draft]
+    fields: 
+      - name: title
+        label: Title
+        type: string
+      - name: description
+        label: Description
+        type: string
+      - name: date
+        label: Date
+        type: date
+      - name: body
+        label: Body
+        type: rich-text
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+        fields: 
+          - name: tag
+            label: Tag
+            type: string
+      - name: draft
+        label: Draft
+        type: boolean
+        default: false
