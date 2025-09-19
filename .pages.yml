@@ -73,7 +73,7 @@ content:
           values:
             - value: 'layouts/single-page.njk'
               label: Single Page
-        default: 'layouts/single-page.njk'
+        default: Single Page
       - name: title
         label: Title
         type: string
