@@ -15,9 +15,6 @@ content:
       - name: date
         label: Date
         type: date
-      - name: body
-        label: Body
-        type: rich-text
       - name: tags
         label: Tags
         type: string
@@ -30,6 +27,9 @@ content:
         label: Draft
         type: boolean
         default: false
+      - name: body
+        label: Body
+        type: rich-text
   - name: notes
     label: Notes
     type: collection
@@ -46,9 +46,6 @@ content:
       - name: date
         label: Date
         type: date
-      - name: body
-        label: Body
-        type: rich-text
       - name: tags
         label: Tags
         type: string
@@ -61,3 +58,6 @@ content:
         label: Draft
         type: boolean
         default: false
+      - name: body
+        label: Body
+        type: rich-text
