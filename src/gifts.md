@@ -1,4 +1,5 @@
 ---
+layout: layouts/single-page.njk
 title: Gifts
 description: Gifts
 date: 2025-10-10
