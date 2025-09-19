@@ -66,6 +66,14 @@ content:
     type: file
     path: 'src/gifts.md'
     fields: 
+      - name: layout
+        label: Layout
+        type: select
+        options: 
+          values:
+            - value: 'layouts/single-page.njk'
+              label: Single Page
+        default: 'layouts/single-page.njk'
       - name: title
         label: Title
         type: string
