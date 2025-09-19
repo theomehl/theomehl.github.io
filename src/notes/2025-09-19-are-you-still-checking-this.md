@@ -5,4 +5,4 @@ description: "Just making sure the one person that checks this website is paying
 date: 2025-09-19
 draft: false
 ---
-Just making sure the one person that checks this website is paying attention. I have a CMS setup now.
+Just making sure the one person that checks this website is paying attention. I have a CMS set up now.
