@@ -40,10 +40,4 @@ Don't know what to get me? Here are some ideas in no particular order:
             
 *   Bookbinding tools and supplies
     
-    *   [#24 1-1/2", #14 1" and #10 3/4" paste brushes](https://www.talasonline.com/Conservation-Paste-Brushes)
-        
-    *   [1 inch brass screw posts](https://www.talasonline.com/Brass-Screw-Post?quantity=1&size=88&Form=43)
-        
-    *   [1/2 lb of Methyl Cellulose](https://www.talasonline.com/Methyl-Cellulose?quantity=1&weight=10)
-        
     *   [Derlin bone folder](https://www.peacheytools.com/shop/5x5nqm0lkgxpx38l451v7gnf7zocz5)
