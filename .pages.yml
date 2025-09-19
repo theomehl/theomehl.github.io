@@ -61,3 +61,23 @@ content:
       - name: body
         label: Body
         type: rich-text
+  - name: gifts
+    label: Gifts
+    type: file
+    path: 'src/gifts.md'
+    fields: 
+      - name: title
+        label: Title
+        type: string
+      - name: description
+        label: Description
+        type: string
+      - name: date
+        label: Date
+        type: date
+      - name: draft
+        label: Draft
+        type: boolean
+      - name: body
+        label: Body
+        type: rich-text
