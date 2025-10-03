@@ -4,11 +4,20 @@
   <subtitle>Playground of half-baked ideas.</subtitle>
   <link href="https://tedmehl.me/feed.xml" rel="self" />
   <link href="https://tedmehl.me/" />
-  <updated>2025-09-19T00:00:00Z</updated>
+  <updated>2025-10-02T00:00:00Z</updated>
   <id>https://tedmehl.me/</id>
   <author>
     <name>Ted</name>
   </author>
+  <entry>
+    <title>The internet used to be a place</title>
+    <link href="https://tedmehl.me/notes/the-internet-used-to-be-a-place/" />
+    <updated>2025-10-02T00:00:00Z</updated>
+    <id>https://tedmehl.me/notes/the-internet-used-to-be-a-place/</id>
+    <content type="html">&lt;p&gt;The internet used to be a place. A place you would visit. We had rooms or corners dedicated to them. When you left those spaces, you left the internet.&lt;/p&gt;
+&lt;p&gt;I like to wonder what it would be like if we treated the internet like that again.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Are you still checking this? </title>
     <link href="https://tedmehl.me/notes/are-you-still-checking-this/" />
@@ -115,16 +124,6 @@
     <updated>2023-12-23T00:00:00Z</updated>
     <id>https://tedmehl.me/notes/inspiration/</id>
     <content type="html">&lt;p&gt;Fortunately it strikes at nine every morning.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Everyone Starts Like Klinger</title>
-    <link href="https://tedmehl.me/blog/klinger/" />
-    <updated>2023-09-19T00:00:00Z</updated>
-    <id>https://tedmehl.me/blog/klinger/</id>
-    <content type="html">&lt;p&gt;In an episode of M*A*S*H, Radar, a radio operator at a mobile hospital during the Korean War, finally gets to go home to the US. Klinger, his replacement, has a terrible time trying to learn his new job on the fly. Members of the camp spend much of the episode giving him a hard time for not being as quick on his feet as Radar. It&#39;s not until later that they cut him some slack. While Radar was good at his job then, they recognized that he also started like Klinger.&lt;/p&gt;
-&lt;p&gt;I always thought that was an important thing to remember. You may feel disheartened when you don&#39;t have the same skill level as someone who&#39;s been at it for years. You might be trying to fill the shoes of someone with decades of experience and don&#39;t know if you can. Whatever the circumstance, remember that at some point in their life, they, too, started like Klinger.&lt;/p&gt;
-&lt;p&gt;Everyone starts like Klinger.&lt;/p&gt;
 </content>
   </entry>
 </feed>
