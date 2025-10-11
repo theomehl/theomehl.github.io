@@ -29,6 +29,7 @@ Don't know what to get me? Here are some ideas in no particular order:
 <details>
     <summary>CDs</summary>
     <div class="details-wrapper">
+
 Arcade Fire
     
 *   [Neon Bible](https://www.discogs.com/master/5410-Arcade-Fire-Neon-Bible)
