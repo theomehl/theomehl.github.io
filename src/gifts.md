@@ -103,7 +103,7 @@ TV On the Radio
 *   [Derlin bone folder](https://www.peacheytools.com/shop/5x5nqm0lkgxpx38l451v7gnf7zocz5)
     
 *   [Permalife paper (A4)](https://www.universityproducts.com/acid-free-permalife-buffered-paper-watermarked.html)
-*   Decent digital calipers (The amazon ones are apparently bad) or some kind of dial thickness gauge that measures in mm
+*   Decent calipers (The amazon ones are apparently bad) or some kind of dial thickness gauge that measures in mm
     </div>
 </details>
 <details>
