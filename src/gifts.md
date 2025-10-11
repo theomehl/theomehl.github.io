@@ -7,7 +7,7 @@ draft: false
 ---
 Don't know what to get me? Here are some ideas in no particular order:
 
-*   I don't need any more sweaters. Size small [Allspice heather](https://www.llbean.com/llb/shop/124602?page=mens-beans-quilted-crewneck-mens-regular&bc=12-26-907&feat=907-GN3&csp=f&attrValue_0=1705&pos=13), [charcoal heather](https://www.llbean.com/llb/shop/128949?page=mens-katahdin-iron-works-sweatshirt-crewneck-mens-regular&bc=12-26-907&feat=907-GN3&csp=f&attrValue_0=1704&pos=4), [classic navy](https://www.llbean.com/llb/shop/127375?page=mens-beans-classic-raggwool-crew-sweater-birdseye-mens-regular&bc=12-26-594&feat=594-GN3&csp=f&attrValue_0=44596&pos=9)
+*   I don't need any more sweaters. Size small [charcoal heather](https://www.llbean.com/llb/shop/128949?page=mens-katahdin-iron-works-sweatshirt-crewneck-mens-regular&bc=12-26-907&feat=907-GN3&csp=f&attrValue_0=1704&pos=4), [classic navy](https://www.llbean.com/llb/shop/127375?page=mens-beans-classic-raggwool-crew-sweater-birdseye-mens-regular&bc=12-26-594&feat=594-GN3&csp=f&attrValue_0=44596&pos=9)
     
 *   More vinyl records
     
@@ -17,6 +17,14 @@ Don't know what to get me? Here are some ideas in no particular order:
         
 *   CDs
     
+    *   Arcade Fire
+        
+        *   [Neon Bible](https://www.discogs.com/master/5410-Arcade-Fire-Neon-Bible)
+            
+    *   Bon Iver
+        
+        *   [Bon Iver](https://www.discogs.com/master/345153-Bon-Iver-Bon-Iver-Bon-Iver)
+            
     *   Death Cab for Cutie
         
         *   [Kintsugi](https://www.discogs.com/master/815401-Death-Cab-For-Cutie-Kintsugi)
@@ -29,16 +37,50 @@ Don't know what to get me? Here are some ideas in no particular order:
             
         *   [Plans](https://www.discogs.com/master/3546-Death-Cab-For-Cutie-Plans)
             
+    *   [Getz/Gilberto](https://www.discogs.com/master/85178-Stan-Getz-Joao-Gilberto-Getz-Gilberto)
+        
+    *   Jamiroquai
+        
+        *   [Travelling Without Moving](https://www.discogs.com/master/69956-Jamiroquai-Travelling-Without-Moving)
+            
     *   John Mayer
         
         *   [Born and Raised](https://www.discogs.com/master/443931-John-Mayer-Born-And-Raised)
             
         *   [Paradise Valley](https://www.discogs.com/master/586053-John-Mayer-Paradise-Valley)
             
-    *   Arcade Fire
+    *   Lief Vollebekk
         
-        *   [Neon Bible](https://www.discogs.com/master/5410-Arcade-Fire-Neon-Bible)
+        *   [North Americana](https://www.discogs.com/master/660227-Leif-Vollebekk-North-Americana)
+            
+    *   Live
+        
+        *   [Throwing Copper](https://www.discogs.com/master/65591-Live-Throwing-Copper)
+            
+    *   Nick Drake
+        
+        *   [Pink Moon](https://www.discogs.com/master/13933-Nick-Drake-Pink-Moon)
+            
+    *   Oasis
+        
+        *   [(What's the Story) Morning Glory](https://www.discogs.com/master/52220-Oasis-Whats-The-Story-Morning-Glory)
+            
+    *   Third Eye Blind
+        
+        *   [Third Eye Blind](https://www.discogs.com/master/127907-Third-Eye-Blind-Third-Eye-Blind)
+            
+        *   [Blue](https://www.discogs.com/master/269170-Third-Eye-Blind-Blue)
+            
+    *   Tom Misch
+        
+        *   [Geography](https://www.discogs.com/master/1335101-Tom-Misch-Geography)
+            
+    *   TV On the Radio
+        
+        *   [Dear Science](https://www.discogs.com/master/43214-TV-On-The-Radio-Dear-Science)
             
 *   Bookbinding tools and supplies
     
     *   [Derlin bone folder](https://www.peacheytools.com/shop/5x5nqm0lkgxpx38l451v7gnf7zocz5)
+        
+    *   [Permalife paper (A4)](https://www.universityproducts.com/acid-free-permalife-buffered-paper-watermarked.html)
