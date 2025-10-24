@@ -101,7 +101,6 @@ TV On the Radio
     <div class="details-wrapper">            
     
 *   [Derlin bone folder](https://www.peacheytools.com/shop/5x5nqm0lkgxpx38l451v7gnf7zocz5)
-    
 *   [Permalife paper (A4)](https://www.universityproducts.com/acid-free-permalife-buffered-paper-watermarked.html)
 *   Decent calipers (The amazon ones are apparently bad) or some kind of dial thickness gauge that measures in mm
     </div>
@@ -111,6 +110,7 @@ TV On the Radio
     <div class="details-wrapper">
 
 *   [Low lawn chair](https://gcioutdoor.com/products/bi-fold-slim-event-chair)
+*   Variable temperature electric kettle for tea
 
 </details>
 </div>
