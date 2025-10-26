@@ -111,6 +111,7 @@ TV On the Radio
 
 *   [Low lawn chair](https://gcioutdoor.com/products/bi-fold-slim-event-chair)
 *   Variable temperature electric kettle for tea
+*   Workout/exercise mat
 
 </details>
 </div>
