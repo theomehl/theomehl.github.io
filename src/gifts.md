@@ -13,6 +13,7 @@ Don't know what to get me? Here are some ideas in no particular order:
 
 *   I don't need any more sweaters. Size small [charcoal heather](https://www.llbean.com/llb/shop/128949?page=mens-katahdin-iron-works-sweatshirt-crewneck-mens-regular&bc=12-26-907&feat=907-GN3&csp=f&attrValue_0=1704&pos=4), [classic navy](https://www.llbean.com/llb/shop/127375?page=mens-beans-classic-raggwool-crew-sweater-birdseye-mens-regular&bc=12-26-594&feat=594-GN3&csp=f&attrValue_0=44596&pos=9)
 *   [Khaki chinos 28W 28L](https://ashanderie.com/products/khaki-washed-stretch-chino?variant=46937196724522)
+*   [Midweight or heavyweight baselayer bottoms in small](https://www.rei.com/c/base-layer-bottoms?ir=category%3Abase-layers&r=category%3Abase-layers%7Cbase-layer-bottoms%3Bgender%3AMen%27s%3Bsize%3ASmall%3Bunderwear-weight%3AMidweight%7CHeavyweight&sort=min-price)
     </div>
 </details>
 <details>
