@@ -113,6 +113,7 @@ TV On the Radio
 *   [Low lawn chair](https://gcioutdoor.com/products/bi-fold-slim-event-chair)
 *   Variable temperature electric kettle for tea
 *   Workout/exercise mat
+*   [Vevor ultrasonic record cleaner](https://www.vevor.com/ultrasonic-cleaner-c_11064/6l-ultrasonic-vinyl-record-cleaner-cleaning-machine-complete-w-drying-rack-p_010265133877)
 
 </details>
 </div>
