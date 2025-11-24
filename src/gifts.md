@@ -114,6 +114,6 @@ TV On the Radio
 *   Variable temperature electric kettle for tea
 *   Workout/exercise mat
 *   [Vevor ultrasonic record cleaner](https://www.vevor.com/ultrasonic-cleaner-c_11064/6l-ultrasonic-vinyl-record-cleaner-cleaning-machine-complete-w-drying-rack-p_010265133877)
-
+*   [Flat Laces no-tie shoelaces](https://www.locklaces.com/collections/shop-all/products/flat-laces)
 </details>
 </div>
