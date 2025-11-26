@@ -117,7 +117,7 @@ TV On the Radio
 *   [Flat Laces no-tie shoelaces](https://www.locklaces.com/collections/shop-all/products/flat-laces)
 *   Reading things
     * [Bookfellow](https://goodmadebetter.com/collections/book-weights/products/bookfellow-brushed-brass) or [Curiously Heavy Book Weight](https://goodmadebetter.com/collections/book-weights/products/curiously-heavy-book-weight)
-    * [Bookwarden](https://goodmadebetter.com/collections/bookwarden/products/bookwarden?variant=46017920073983) and [Bookwarden Large](https://goodmadebetter.com/collections/bookwarden/products/bookwarden-large) - large because the standard size wouldn't fit the size books Brandon Sanderson likes to write. 
+    * [Bookwarden](https://goodmadebetter.com/collections/bookwarden/products/bookwarden?variant=46017920073983) and [Bookwarden Large](https://goodmadebetter.com/collections/bookwarden/products/bookwarden-large) - large in addition to the standard size, because standard wouldn't fit the size books Brandon Sanderson likes to write. 
     * [Book Mate Adjustable Book Stand](https://www.jetpens.com/Raymay-Book-Mate-Adjustable-Book-Stand-Dark-Brown/pd/41074)
 </details>
 </div>
