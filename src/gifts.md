@@ -119,5 +119,6 @@ TV On the Radio
     * [Bookfellow](https://goodmadebetter.com/collections/book-weights/products/bookfellow-brushed-brass) or [Curiously Heavy Book Weight](https://goodmadebetter.com/collections/book-weights/products/curiously-heavy-book-weight)
     * [Bookwarden](https://goodmadebetter.com/collections/bookwarden/products/bookwarden?variant=46017920073983) and [Bookwarden Large](https://goodmadebetter.com/collections/bookwarden/products/bookwarden-large) - large in addition to the standard size, because standard wouldn't fit the size books Brandon Sanderson likes to write. 
     * [Book Mate Adjustable Book Stand](https://www.jetpens.com/Raymay-Book-Mate-Adjustable-Book-Stand-Dark-Brown/pd/41074)
+    * Brodart Fold-On Lo-Luster Roll 10" from [Manaus Books](https://manausbooks.com/collections/fold-on-non-archival/products/fold-on-lo-luster-rolls-10?variant=54392551239) or [Amazon](https://www.amazon.com/Brodart-Fold-ARCHIVAL-Jacket-Covers/dp/B0035R28LE/)
 </details>
 </div>
