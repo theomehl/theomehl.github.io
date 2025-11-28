@@ -114,7 +114,7 @@ TV On the Radio
 *   Variable temperature electric kettle for tea
 *   Workout/exercise mat
 *   [Vevor ultrasonic record cleaner](https://www.vevor.com/ultrasonic-cleaner-c_11064/6l-ultrasonic-vinyl-record-cleaner-cleaning-machine-complete-w-drying-rack-p_010265133877)
-*   [Flat Laces no-tie shoelaces](https://www.locklaces.com/collections/shop-all/products/flat-laces)
+*   [Flat Laces no-tie shoelaces](https://www.locklaces.com/collections/shop-all/products/flat-laces) in white
 *   Reading things
     * [Bookfellow](https://goodmadebetter.com/collections/book-weights/products/bookfellow-brushed-brass) or [Curiously Heavy Book Weight](https://goodmadebetter.com/collections/book-weights/products/curiously-heavy-book-weight)
     * [Bookwarden](https://goodmadebetter.com/collections/bookwarden/products/bookwarden?variant=46017920073983) and [Bookwarden Large](https://goodmadebetter.com/collections/bookwarden/products/bookwarden-large) - large in addition to the standard size, because standard wouldn't fit the size books Brandon Sanderson likes to write. 
