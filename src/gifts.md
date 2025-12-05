@@ -110,8 +110,8 @@ TV On the Radio
     <summary>Other</summary>
     <div class="details-wrapper">
 
+*   [Unit blocks](https://www.communityplaythings.com/products/play/block-play/unit-blocks/introductory-set-unit-blocks?v=F151) if you're feeling fancy
 *   [Low lawn chair](https://gcioutdoor.com/products/bi-fold-slim-event-chair)
-*   Variable temperature electric kettle for tea
 *   Workout/exercise mat
 *   [Vevor ultrasonic record cleaner](https://www.vevor.com/ultrasonic-cleaner-c_11064/6l-ultrasonic-vinyl-record-cleaner-cleaning-machine-complete-w-drying-rack-p_010265133877)
 *   [Flat Laces no-tie shoelaces](https://www.locklaces.com/collections/shop-all/products/flat-laces) in white
