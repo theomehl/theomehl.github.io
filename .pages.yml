@@ -87,4 +87,4 @@ content:
         type: boolean
       - name: body
         label: Body
-        type: rich-text
+        type: text
