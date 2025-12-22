@@ -64,7 +64,7 @@ content:
   - name: gifts
     label: Gifts
     type: file
-    path: 'src/gifts.md'
+    path: 'src/gifts.njk'
     fields: 
       - name: layout
         label: Layout
