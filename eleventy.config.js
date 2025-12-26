@@ -54,7 +54,7 @@ export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/demos/files");
 
     // Only process pages that don't have a draft variable set to true or are after today's date.
-    eleventyConfig.addPreprocessor("drafts", "md", (data) => {
+    eleventyConfig.addPreprocessor("drafts", "*", (data) => {
       // Account for central time adjustment in date comparison. Otherwise, dates act as midnight UTC which is 6 p.m. CT the previous day.
       let adjustedDate = Date.parse(data.page.date) + 18000000;
       if((data.draft && process.env.ELEVENTY_RUN_MODE === "build") || (adjustedDate > Date.now() && process.env.ELEVENTY_RUN_MODE === "build")) {
