@@ -2,7 +2,7 @@
 
 .skip-link {
     clip: rect(0,0,0,0);
-    background-color: var(--gray-200);
+    background-color: light-dark(var(--gray-200), var(--gray-800));
     height: 1px;
     width: 1px;
     overflow: hidden;
@@ -51,12 +51,12 @@
     font-weight: 900;
     display: flex;
     position: relative;
-    --header-logo-first-color: #fff;
+    --header-logo-first-color: light-dark(#fff, var(--blue-text));
 }
 
 .header-logo-wrapper:hover, .header-logo-wrapper:focus {
     --header-logo-first-color: var(--link-text);
-    --header-logo-second-color: #fff;
+    --header-logo-second-color: light-dark(#fff, var(--blue-text));
 }
 
 .header-logo-wrapper::before {
@@ -110,8 +110,8 @@
 
 .blog-entry-date {
     font-size: smaller;
-    color: var(--gray-600);
-    border-block-start: 1.5px solid var(--gray-300);
+    color: var(--color-text-secondary);
+    border-block-start: 1.5px solid var(--color-accent-secondary);
     padding-block: 0.5rem;
 }
 
@@ -129,7 +129,7 @@
 
 .note-list li, .note-list .note {
     --flow-space: 1.5em;
-    background-color: var(--blue-100);
+    background-color: var(--color-background);
     padding: 2rem; 
     margin-inline: -2rem;
 }

@@ -3,6 +3,7 @@
 html {
     font-family: var(--font-base);
     color: var(--base-text);
+    background-color: light-dark(#fff, var(--gray-900));
 }
 
 *, ::before, ::after {
@@ -35,7 +36,7 @@ h1 {
 
 a {
     color: var(--link-text);
-    text-decoration-color: var(--blue-300);
+    text-decoration-color: var(--color-accent);
     text-decoration-thickness: 0.2rem;
 }
 
@@ -45,16 +46,16 @@ hr {
 }
 
 footer {
-    color: var(--gray-600);
+    color: var(--color-tertiary);
     margin-top: 6rem;
 }
 
 footer> hr {
-    border-top: 1px solid var(--gray-400);
+    border-top: 1px solid var(--color-accent-secondary);
 }
 
 footer a {
-    color: var(--gray-600);
-    text-decoration-color: var(--gray-400);
+    color: var(--color-tertiary);
+    text-decoration-color: var(--color-accent-secondary);
     text-decoration-thickness: 0.15em;
 }

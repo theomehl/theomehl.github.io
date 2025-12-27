@@ -10,11 +10,11 @@
 p {
     overflow-wrap: break-word;
     hyphens: auto;
-    color: var(--gray-600);
+    color: var(--color-text);
 }
 
 ul, ol {
-    color: var(--gray-600);
+    color: var(--color-text);
 }
 
 .post-header {
@@ -25,7 +25,7 @@ ul, ol {
 blockquote, .callout {
     padding: 1rem;
     border-inline-start: var(--border-width) solid var(--border-accent);
-    background-color: var(--blue-100);
+    background-color: var(--color-background);
 }
 
 blockquote > * + * {
@@ -38,5 +38,5 @@ summary {
 
 .details-wrapper {
     padding: 1rem;
-    background-color: var(--blue-100);
+    background-color: var(--color-background);
 }

@@ -1,5 +1,8 @@
 :root {
 
+    color-scheme: light dark;
+
+
     /* Define base colors */
     --gray-text: #37363B;
     --gray-100: #f3f4f6;
@@ -16,7 +19,13 @@
     --blue-700: hsl(215, 56%, 29%);
     --blue-text: hsl(215, 56%, 19%);
 
-    --base-text: var(--blue-text);
+    --base-text: light-dark(var(--blue-text), var(--blue-100));
+    --color-accent: light-dark(var(--blue-300), var(--gray-600));
+    --color-accent-secondary: light-dark(var(--gray-400), var(--gray-600));
+    --color-background: light-dark(var(--blue-100), var(--gray-800));
+    --color-tertiary: light-dark(var(--gray-600), var(--gray-400));
+    --color-text: light-dark(var(--gray-600), var(--gray-200));
+    --color-text-secondary: light-dark(var(--gray-600), var(--gray-400));
 
 
     /* Define fluid type font sizes */
@@ -39,11 +48,11 @@
 
     /* Nested Variables */
 
-    --border-accent: var(--blue-300);
+    --border-accent: var(--color-accent);
     --border-width: 3px;
 
     --heading-color: var(--gray-500);
 
-    --link-text: var(--blue-text);
+    --link-text: light-dark(var(--blue-text), var(--blue-100));
 
 }
