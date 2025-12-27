@@ -53,6 +53,6 @@
 
     --heading-color: var(--gray-500);
 
-    --link-text: light-dark(var(--blue-text), var(--blue-100));
+    --link-text: light-dark(var(--blue-text), var(--gray-400));
 
 }
