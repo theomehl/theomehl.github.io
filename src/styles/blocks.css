@@ -51,12 +51,12 @@
     font-weight: 900;
     display: flex;
     position: relative;
-    --header-logo-first-color: light-dark(#fff, var(--blue-text));
+    --header-logo-first-color: light-dark(#fff, var(--gray-900));
 }
 
 .header-logo-wrapper:hover, .header-logo-wrapper:focus {
     --header-logo-first-color: var(--link-text);
-    --header-logo-second-color: light-dark(#fff, var(--blue-text));
+    --header-logo-second-color: light-dark(#fff, var(--gray-900));
 }
 
 .header-logo-wrapper::before {
