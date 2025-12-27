@@ -19,13 +19,12 @@
     --blue-700: hsl(215, 56%, 29%);
     --blue-text: hsl(215, 56%, 19%);
 
-    --base-text: light-dark(var(--blue-text), var(--blue-100));
-    --color-accent: light-dark(var(--blue-300), var(--gray-600));
-    --color-accent-secondary: light-dark(var(--gray-400), var(--gray-600));
+    --base-text: light-dark(var(--blue-text), var(--gray-300));
+    --color-accent: light-dark(var(--blue-300), var(--gray-500));
+    --color-accent-secondary: light-dark(var(--gray-400), var(--color-accent));
     --color-background: light-dark(var(--blue-100), var(--gray-800));
-    --color-tertiary: light-dark(var(--gray-600), var(--gray-400));
-    --color-text: light-dark(var(--gray-600), var(--gray-200));
-    --color-text-secondary: light-dark(var(--gray-600), var(--gray-400));
+    --color-tertiary: light-dark(var(--gray-600), var(--gray-300));
+    --color-text: light-dark(var(--gray-600), var(--base-text));
 
 
     /* Define fluid type font sizes */
@@ -53,6 +52,7 @@
 
     --heading-color: var(--gray-500);
 
-    --link-text: light-dark(var(--blue-text), var(--gray-400));
+    --link-text: light-dark(var(--blue-text), var(--gray-300));
+    /* --link-text-secondary: light-dark(var(--color-accent), var(--gray-500)); */
 
 }

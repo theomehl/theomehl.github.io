@@ -110,7 +110,7 @@
 
 .blog-entry-date {
     font-size: smaller;
-    color: var(--color-text-secondary);
+    color: var(--color-text);
     border-block-start: 1.5px solid var(--color-accent-secondary);
     padding-block: 0.5rem;
 }

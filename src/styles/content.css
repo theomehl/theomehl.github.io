@@ -7,6 +7,10 @@
     margin-top: var(--flow-space, 1em);
 }
 
+/* .flow a {
+    text-decoration-color: var(--link-text-secondary);
+} */
+
 p {
     overflow-wrap: break-word;
     hyphens: auto;

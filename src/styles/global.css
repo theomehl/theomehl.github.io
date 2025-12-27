@@ -55,7 +55,7 @@ footer> hr {
 }
 
 footer a {
-    color: var(--color-tertiary);
+    /* color: var(--color-text-secondary); */
     text-decoration-color: var(--color-accent-secondary);
     text-decoration-thickness: 0.15em;
 }
