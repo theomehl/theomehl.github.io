@@ -141,8 +141,11 @@
 
 /* Idea List */
 
+.idea-list-wrapper {
+    padding-block-start: 2rem;
+}
+
 .idea-list {
-    padding-block-start: 2rem; 
     border-collapse: collapse;
     width: 100%;
 }
