@@ -139,6 +139,22 @@
     text-wrap: unset;
 }
 
+/* Idea List */
+
+.idea-list {
+    padding-block-start: 2rem; 
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.idea-list tbody tr {
+    border-block-start: 2px solid var(--color-accent);
+}
+
+.idea-list tbody td {
+    padding-block: 1rem;
+}
+
 /* Footer Wrapper */
 
 .footer-wrapper {
