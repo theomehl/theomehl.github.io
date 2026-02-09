@@ -4,20 +4,20 @@
 
 
     /* Define base colors */
-    --gray-text: oklch(33.54% 0.00708 297.319);
-    --gray-100: oklch(96.696% 0.00298 264.792);
-    --gray-200: oklch(92.758% 0.00592 264.656);
-    --gray-300: oklch(87.168% 0.00944 258.479);
-    --gray-400: oklch(71.4% 0.02059 263.019);
-    --gray-500: oklch(55.102% 0.02343 264.389);
-    --gray-600: oklch(44.611% 0.02636 256.837);
-    --gray-700: oklch(37.671% 0.03059 259.759);
-    --gray-800: oklch(26.738% 0.03489 264.786);
-    --gray-900: oklch(21.009% 0.03179 264.678);
-    --blue-100: oklch(98.415% 0.00352 248.585);
-    --blue-300: oklch(64.688% 0.07513 257.174);
-    --blue-700: oklch(38.335% 0.09137 257.382);
-    --blue-text: oklch(29.249% 0.06559 257.051);
+    --gray-text: #37363B;
+    --gray-100: #f3f4f6;
+    --gray-200: #e5e7eb;
+    --gray-300: #d1d5db;
+    --gray-400: #9da4b0;
+    --gray-500: #6b7280;
+    --gray-600: #4b5563;
+    --gray-700: #374151;
+    --gray-800: #1f2937;
+    --gray-900: #111827;
+    --blue-100: hsl(215, 36%, 98%);
+    --blue-300: hsl(215, 36%, 59%);
+    --blue-700: hsl(215, 56%, 29%);
+    --blue-text: hsl(215, 56%, 19%);
 
     --base-text: light-dark(var(--blue-text), var(--gray-300));
     --color-accent: light-dark(var(--blue-300), var(--gray-500));

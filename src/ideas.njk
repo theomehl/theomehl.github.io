@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+title: Ideas
+description: Collection of things I find interesting or am saving for later. 
+date: 2000-01-01
+---
+
+<main id="main" class="container flow">
+    <h1>{{title}}</h1>
+    <p>{{description}} Coming Soon <sup><small>TM</small></sup></p>
+
+    <ul class="blog-list flow">
+        {% for post in collections.ideas | reverse %}
+        <li class="flow">
+            <h2><a href="{{post.url}}">{{post.data.title}}</a></h2>
+            <p>{{post.data.description | safe }}</p>
+            <p class="blog-entry-date"><em>updated <time datetime="{{ post.date | readableDate("yyyy-LL-dd") }}">{{ post.date | readableDate("LLLL dd, yyyy") }}</time></em></p>
+        </li>
+        {% endfor %}
+    </ul>
+
+</main>

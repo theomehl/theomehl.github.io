@@ -1,0 +1,25 @@
+---
+layout: layouts/base.njk
+---
+<main id="main" class="container flow">
+
+    <header class="post-header flow">
+        <h1>{{title}}</h1>
+        <p>
+            <small>
+                {% set created %}
+                {{ originalDate | readableDate("LLLL dd, yyyy") }}
+                {% endset %}
+                {% set modified %}
+                {{ page.date | readableDate("LLLL dd, yyyy") }}
+                {% endset %}
+                Posted <time datetime="{{ originalDate | readableDate(" yyyy-LL-dd") }}">{{ created }}</time>
+                {% if created !== modified %}<br>Updated <time datetime="{{ page.date | readableDate(" yyyy-LL-dd")
+                    }}">{{ page.date | readableDate("LLLL dd, yyyy") }}</time>{% endif %}
+            </small>
+        </p>
+    </header>
+
+    {{ content | safe }}
+
+</main>

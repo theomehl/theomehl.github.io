@@ -61,6 +61,32 @@ content:
       - name: body
         label: Body
         type: rich-text
+  - name: ideas
+    label: ideas
+    type: collection
+    path: 'src/ideas'
+    view: 
+      fields: [ title, date, draft]
+    fields: 
+      - name: title
+        label: Title
+        type: string
+      - name: description
+        label: Description
+        type: string
+      - name: originalDate
+        label: Original Publish Date
+        type: date
+      - name: date
+        label: Updated Date
+        type: date
+      - name: draft
+        label: Draft
+        type: boolean
+        default: false
+      - name: body
+        label: Body
+        type: rich-text
   - name: gifts
     label: Gifts
     type: file
