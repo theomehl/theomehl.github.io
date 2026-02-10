@@ -5,7 +5,7 @@ description: "I am not handy with cars, but that doesn't mean I can't appreciate
 originalDate: 2026-02-08
 draft: false
 ---
-I will readily admit I'm not very handy around car, but that doesn't stop me from appreciating a cool one when I see one. This is a running list of cars I think are cool, but practically speaking I would never own. In no particular order:
+I will readily admit I'm not very handy around cars, but that doesn't stop me from appreciating a cool one when I see one. This is a running list of cars I think are cool, but practically speaking I would never own. In no particular order:
 
 *   Datsun 240Z
     
