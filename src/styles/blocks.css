@@ -141,20 +141,20 @@
 
 /* Idea List */
 
-.idea-list-wrapper {
+.commonplace-list-wrapper {
     padding-block-start: 2rem;
 }
 
-.idea-list {
+.commonplace-list {
     border-collapse: collapse;
     width: 100%;
 }
 
-.idea-list tbody tr {
+.commonplace-list tbody tr {
     border-block-start: 2px solid var(--color-accent);
 }
 
-.idea-list tbody td {
+.commonplace-list tbody td {
     padding-block: 1rem;
 }
 

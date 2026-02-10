@@ -1,16 +1,16 @@
 ---
 layout: layouts/base.njk
-title: Ideas
+title: Commonplace Book
 description: Collection of things I find interesting or am saving for later.
 date: 2000-01-01
 ---
 
 <main id="main" class="container flow">
     <h1>{{title}}</h1>
-    <p>{{description}}</p>
+    <p>Collection of ideas, things I find interesting, or stuff I am saving for later.</p>
 
-    <div class="idea-list-wrapper">
-        <table class="idea-list flow">
+    <div class="commonplace-list-wrapper">
+        <table class="commonplace-list flow">
             <thead>
                 <tr>
                     <td>Last updated</td>
@@ -18,7 +18,7 @@ date: 2000-01-01
                 </tr>
             </thead>
             <tbody>
-                {% for post in collections.ideas | reverse %}
+                {% for post in collections.commonplace | reverse %}
                 <tr>
                     <td>
                         <em><time datetime="{{ post.date | readableDate(" yyyy-LL-dd") }}">{{

@@ -61,10 +61,10 @@ content:
       - name: body
         label: Body
         type: rich-text
-  - name: ideas
-    label: ideas
+  - name: commonplace
+    label: Commonplace Book
     type: collection
-    path: 'src/ideas'
+    path: 'src/commonplace'
     view: 
       fields: [ title, date, draft]
     fields: 
