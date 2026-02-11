@@ -38,9 +38,21 @@ blockquote > * + * {
 
 summary {
     padding: 0.5rem 1rem;
+    background-color: var(--color-background);
+    border: var(--border-width) solid var(--border-accent);
+    border-radius: 5px;
+}
+
+details[open] summary {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-block-end: none;
 }
 
 .details-wrapper {
     padding: 1rem;
     background-color: var(--color-background);
+    border: var(--border-width) solid var(--border-accent);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
