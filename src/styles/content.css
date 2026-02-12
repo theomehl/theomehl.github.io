@@ -37,9 +37,9 @@ blockquote > * + * {
 }
 
 summary {
-    padding: 0.5rem 1rem;
+    padding: 1rem;
     background-color: var(--color-background);
-    border: var(--border-width) solid var(--border-accent);
+    /* border: var(--border-width) solid var(--border-accent); */
     border-radius: 5px;
 }
 
@@ -50,9 +50,21 @@ details[open] summary {
 }
 
 .details-wrapper {
+    position: relative;
     padding: 1rem;
     background-color: var(--color-background);
-    border: var(--border-width) solid var(--border-accent);
+    /* border-block-start: calc(var(--border-width) / 1.5) solid var(--border-accent); */
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+.details-wrapper::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: calc(100% - 2rem);
+    height: calc(var(--border-width) * 1);
+    background-color: var(--border-accent-secondary);
+    top: calc(var(--border-width) / -2);
+
 }

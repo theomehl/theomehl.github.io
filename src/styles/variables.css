@@ -15,13 +15,14 @@
     --gray-800: oklch(26.738% 0.03489 264.786);
     --gray-900: oklch(21.009% 0.03179 264.678);
     --blue-100: oklch(98.415% 0.00352 248.585);
+    --blue-200: oklch(85% 0.04 257);
     --blue-300: oklch(64.688% 0.07513 257.174);
     --blue-700: oklch(38.335% 0.09137 257.382);
     --blue-text: oklch(29.249% 0.06559 257.051);
 
     --base-text: light-dark(var(--blue-text), var(--gray-300));
     --color-accent: light-dark(var(--blue-300), var(--gray-500));
-    --color-accent-secondary: light-dark(var(--gray-400), var(--color-accent));
+    --color-accent-secondary: light-dark(var(--blue-200), var(--color-accent));
     --color-background: light-dark(var(--blue-100), var(--gray-800));
     --color-secondary: light-dark(var(--gray-100), var(--gray-800));
     --color-tertiary: light-dark(var(--gray-600), var(--gray-300));
@@ -49,6 +50,7 @@
     /* Nested Variables */
 
     --border-accent: var(--color-accent);
+    --border-accent-secondary: var(--color-accent-secondary);
     --border-width: 3px;
 
     --heading-color: var(--gray-500);
