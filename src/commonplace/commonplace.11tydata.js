@@ -6,8 +6,4 @@ let data = {
     }
 }
 
-if (process.env.ELEVENTY_RUN_MODE === "build") {
-    data.date = "git Last Modified";
-}
-
 export default data;
