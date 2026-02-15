@@ -9,14 +9,22 @@ on:
 jobs:
   build_deploy:
     runs-on: ubuntu-latest
+    permissions: 
+        contents: write
+    concurrency: 
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - uses: actions/checkout@master
-      - name: Check git version
-        run: git --version
-      - name: Build
-        uses: cjerrington/actions-eleventy@master
-        with:
-          install_dependencies: true
+      
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with: 
+            node-version: "20"
+
+      - run: git --version
+      - run: npm install
+      - run: npx @11ty/eleventy
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
