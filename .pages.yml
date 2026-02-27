@@ -77,9 +77,6 @@ content:
       - name: originalDate
         label: Original Publish Date
         type: date
-      - name: date
-        label: Updated Date
-        type: date
       - name: draft
         label: Draft
         type: boolean
