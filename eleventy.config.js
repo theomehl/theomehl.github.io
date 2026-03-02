@@ -56,8 +56,8 @@ export default function(eleventyConfig) {
     // Only process pages that don't have a draft variable set to true or are after today's date.
     eleventyConfig.addPreprocessor("drafts", "*", (data) => {
       // Account for central time adjustment in date comparison. Otherwise, dates act as midnight UTC which is 6 p.m. CT the previous day.
-      let adjustedDate = Date.parse(data.page.date + 18000000);
-      if((data.draft && process.env.ELEVENTY_RUN_MODE === "build") || (adjustedDate > Date.now() && process.env.ELEVENTY_RUN_MODE === "build") && !data.page.fileSlug.includes("eleventy-plugin-feed")) {
+      let originalDate = Date.parse(data.page.date);
+      if((data.draft && process.env.ELEVENTY_RUN_MODE === "build") || (originalDate > Date.now() && process.env.ELEVENTY_RUN_MODE === "build") && !data.page.fileSlug.includes("eleventy-plugin-feed")) {
         return false;
       }
     });
