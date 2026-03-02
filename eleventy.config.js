@@ -3,8 +3,24 @@ import pluginRss from "@11ty/eleventy-plugin-rss";
 import CleanCSS from "clean-css";
 import { DateTime } from "luxon";
 
+const TIME_ZONE = "America/Chicago";
+
 export default function(eleventyConfig) {
     // Return your Object options:
+
+    // Set time zone to CT 
+    eleventyConfig.addDateParsing(function(dateValue) {
+		  let localDate;
+		  if(dateValue instanceof Date) { // and YAML
+			  localDate = DateTime.fromJSDate(dateValue, { zone: "utc" }).setZone(TIME_ZONE, { keepLocalTime: true });
+		  } else if(typeof dateValue === "string") {
+			  localDate = DateTime.fromISO(dateValue, { zone: TIME_ZONE });
+		  }
+		  if (localDate?.isValid === false) {
+			  throw new Error(`Invalid \`date\` value (${dateValue}) is invalid for ${this.page.inputPath}: ${localDate.invalidReason}`);
+		  }
+		  return localDate;
+	  });
 
     // Create a collection that includes posts from both /blog and /notes
     eleventyConfig.addCollection(
