@@ -2,6 +2,7 @@
 title: Notes from A Gentleman in Moscow
 description: "Quotes and other notes from reading A Gentleman in Moscow"
 originalDate: 2026-02-27
+date: 2026-03-01
 draft: false
 extraStyles: |
     blockquote + * { --flow-space: 2em;} 
