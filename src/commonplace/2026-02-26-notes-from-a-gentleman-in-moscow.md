@@ -9,7 +9,6 @@ extraStyles: |
     blockquote * { --flow-space: 1em;}
 ---
 
-
 Quotes and other interesting bits from the book _A Gentleman in Moscow_ by Amor Towels. Page numbers are from the hardcover. 
 
 ## Quotes
@@ -127,4 +126,4 @@ p. 113 - First mention of the round-faced man, as a companion of Anna at the Sha
 
 p. 271 - Second mention of the round-faced man, now promoted to the Politiburo. His previous connection to Anna leads the government to believe Sofia could be their secret child, and they therefore drop the investigation into Sofia's living situation at the hotel. 
 
-p. 365 - Third mention of the round-faced man, now the Minister of Culture. Anna uses her connection to him to keep Sofia in Moscow after she is tapped to be part of the Red October Youth Orchestra in Stalingrad, an appointment that normally could not be refused. 
+p. 365 - Third mention of the round-faced man, now the Minister of Culture. Anna uses her connection to him to keep Sofia in Moscow after she is tapped to be part of the Red October Youth Orchestra in Stalingrad, an appointment that normally could not be refuseed.
