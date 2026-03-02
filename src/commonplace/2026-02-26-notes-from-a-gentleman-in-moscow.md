@@ -1,12 +1,14 @@
 ---
 title: Notes from A Gentleman in Moscow
-description: Quotes and other notes from reading A Gentleman in Moscow
+description: "Quotes and other notes from reading A Gentleman in Moscow"
 originalDate: 2026-02-27
 draft: false
-extraStyles: |
+extraStyles: 
+    "
     blockquote + * { --flow-space: 2em;} 
     * + blockquote { --flow-space: 0.5rem;} 
     blockquote * { --flow-space: 1em;}
+    "
 ---
 
 Quotes and other interesting bits from the book _A Gentleman in Moscow_ by Amor Towels. Page numbers are from the hardcover. 
