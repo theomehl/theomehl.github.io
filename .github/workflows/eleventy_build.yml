@@ -8,7 +8,7 @@ on:
 
 jobs:
   build_deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     permissions: 
         contents: write
     concurrency: 
@@ -22,6 +22,11 @@ jobs:
         uses: actions/setup-node@v4
         with: 
             node-version: "20"
+
+      - name: Set timezone
+        uses: szenius/set-timezone@v2.0
+        with:
+          timezoneLinux: "America/Chicago"
 
       - run: git --version
       - run: npm install
