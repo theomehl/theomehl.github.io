@@ -9,6 +9,7 @@ extraStyles: |
     blockquote * { --flow-space: 1em;}
 ---
 
+
 Quotes and other interesting bits from the book _A Gentleman in Moscow_ by Amor Towels. Page numbers are from the hardcover. 
 
 ## Quotes
