@@ -13,8 +13,13 @@
         {% include "src/styles/index.css" %}
     {% endset %}
     <style>
-    {{ css | cssmin | safe }}
+        {{ css | cssmin | safe }}
     </style>
+    {% if extraStyles %}
+    <style>
+        {{ extraStyles | cssmin | safe }}
+    </style>
+    {% endif %}
     <link rel="icon" href="/favicon.png">
 
 </head>
