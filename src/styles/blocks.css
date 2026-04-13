@@ -109,6 +109,7 @@
 
 
 .blog-entry-date {
+    --flow-space: 2em;
     font-size: smaller;
     color: var(--color-text);
     border-block-start: 1.5px solid var(--color-accent-secondary);
