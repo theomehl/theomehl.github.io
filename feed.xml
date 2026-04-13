@@ -5,11 +5,19 @@
   <subtitle>Playground of half-baked ideas.</subtitle>
   <link href="https://tedmehl.me/feed.xml" rel="self" />
   <link href="https://tedmehl.me/" />
-  <updated>2026-03-10T05:00:00Z</updated>
+  <updated>2026-04-12T05:00:00Z</updated>
   <id>https://tedmehl.me/</id>
   <author>
     <name>Ted</name>
   </author>
+  <entry>
+    <title>Overlooked Moments</title>
+    <link href="https://tedmehl.me/notes/overlooked-moments/" />
+    <updated>2026-04-12T05:00:00Z</updated>
+    <id>https://tedmehl.me/notes/overlooked-moments/</id>
+    <content type="html">&lt;p&gt;I recently heard someone describe the fact that within everyday life, there are a lot of overlooked moments. A bird basking in the sun. The soft rustling of leaves. The presence of someone causing your heart to beat quickly with excitement. The way sunlight shining through a window casts patterns on the wall, shimmering and swaying gently. This idea fascinates me, and I feel inspired to make note of all the little overlooked moments in my own life.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Seven times fallen, eight times standing</title>
     <link href="https://tedmehl.me/notes/seven-times-fallen-eight-times-standing/" />
@@ -99,14 +107,6 @@
     <updated>2024-09-28T00:00:00Z</updated>
     <id>https://tedmehl.me/notes/not-all-who-wander-are-lost/</id>
     <content type="html">&lt;p&gt;But just because you are wandering doesn&#39;t mean you aren&#39;t lost.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>If we were in a zombie apocalypse, what skills would you bring?</title>
-    <link href="https://tedmehl.me/notes/zombie-apocolypse/" />
-    <updated>2024-09-10T00:00:00Z</updated>
-    <id>https://tedmehl.me/notes/zombie-apocolypse/</id>
-    <content type="html">&lt;p&gt;A coworker posed this question recently. Some had outdoorsman skills or other relevant knowledge. I mean, I could probably make a website, but I&#39;m still trying to figure out how that adds to the group.&lt;/p&gt;
 </content>
   </entry>
 </feed>
