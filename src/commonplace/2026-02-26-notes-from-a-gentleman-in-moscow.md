@@ -1,20 +1,16 @@
 ---
 title: Notes from A Gentleman in Moscow
-description: "Quotes and other notes from reading A Gentleman in Moscow"
+description: Quotes and other notes from reading A Gentleman in Moscow
 originalDate: 2026-02-27
 date: 2026-03-01
 draft: false
-extraStyles: |
-    blockquote + * { --flow-space: 2em;} 
-    * + blockquote { --flow-space: 0.5rem;} 
-    blockquote * { --flow-space: 1em;}
 ---
-
-Quotes and other interesting bits from the book _A Gentleman in Moscow_ by Amor Towels. Page numbers are from the hardcover. 
+Quotes and other interesting bits from the book *A Gentleman in Moscow* by Amor Towels. Page numbers are from the hardcover. 
 
 ## Quotes
 
 p. 18 - The Grand Duke to Count Rostov 
+
 > If a man does not master his circumstances, he is bound to be mastered by them. 
 
 p. 36
@@ -27,24 +23,24 @@ p. 52 - The Count to Nina
 
 p. 64
 
-> A greater factor in the difference between the two rooms was their provenance. For if a room that exists under the governance, authority, and intent of others seems smaller than it is, then a room that exists in _secret_ can, regardless of it's dimensions, seem as vast as one cares to imagine. 
+> A greater factor in the difference between the two rooms was their provenance. For if a room that exists under the governance, authority, and intent of others seems smaller than it is, then a room that exists in *secret* can, regardless of it's dimensions, seem as vast as one cares to imagine. 
 
 p. 109
 
 > Even men in the most trying of circumstances—like those lost at sea or confined to prison—will find the means to carefully account the passing of a year. 
-> 
+>
 > •••
-> 
+>
 > But just as important, a careful accounting of days allows the isolated to note that another year of hardship has been endured; survived; bested. Whether they have found the strength to persevere through a tireless determination or some foolhardy optimism, those 365 hatch marks stand as proof of their indomitability. For after all, if attentiveness should be measured in minutes and discipline measured in hours, then indomitability must be measured in years. Or, if philosophical investigations are not to your taste, then let us simply agree that the wise man celebrates what he can. 
 
 p. 120
 
-> The Count had to acknowledge once again the virtues of withholding judgement. After all, what can a first impression tell us about someone we've just met for a minute in the lobby of a hotel? For that matter, what can a first impression tell us about anyone? Why, no more than a chord can tell us about Beethoven, or a brushstroke about Botticelli. By their very nature, human beings are so capricious, so complex, so delightfully contradictory, that they deserve not only our consideration, but our _reconsideration_—and our unwavering determination to withhold our opinion until we have engaged with them in every possible setting at every possible hour. 
+> The Count had to acknowledge once again the virtues of withholding judgement. After all, what can a first impression tell us about someone we've just met for a minute in the lobby of a hotel? For that matter, what can a first impression tell us about anyone? Why, no more than a chord can tell us about Beethoven, or a brushstroke about Botticelli. By their very nature, human beings are so capricious, so complex, so delightfully contradictory, that they deserve not only our consideration, but our *reconsideration*—and our unwavering determination to withhold our opinion until we have engaged with them in every possible setting at every possible hour. 
 
 p. 196
 
 > When one experiences a profound setback in the course of an enviable life, one has a variety of options. Spurred by shame, one may attempt to hide all evidence of the change in one's circumstances. Thus, the merchant who gambles away his savings will hold on to his finder suits until they fray, and tell anecdotes from the halls of the private clubs where his membership has long since lapsed. In a state of self-pity, one may retreat from the world in which one has been blessed to live. Thus, the long-suffering husband, disgraced by his wife in society, may be the one who leaves his home in exchange for a small, dark apartment on the other side of town. Or, like the Count and Anna, one may simply join the Confederacy of the Humbled. 
->  
+>
 > Like the Freemasons, the Confederacy of the Humbled is a close-knit brotherhood whose members travel with no outward markings, but who know each other at a glance. For having fallen suddenly from grace, those in the Confederacy share a certain perspective. Knowing beauty, influence, fame, and privilege to be borrowed rather than bestowed, they are not easily impressed. They are not quick to envy or take offense. They certainly do not scour the papers in search of their own names. They remain committed to living among their peers, but they greet adulation with caution, ambition with sympathy, and condescension with an inward smile. 
 
 p. 216
@@ -62,32 +58,32 @@ p. 387
 p. 391
 
 > For his part, the Count had opted for the life of the purposefully unrushed. Not only was he disinclined to race toward some appointed hour—disdaining even to wear a watch—he took the greatest satisfaction when assuring a friend that a worldly matter could wait in favor of a leisurely lunch or a stroll along the embankment. After all, did not wine improve with age? Was it not the passage of years that gave a piece of furniture its delightful patina? When all was said and done, the endeavors that most men saw as urgent (such as appointments with bankers and the catching of trains), probably could have waited, while those they deemed frivolous (such as cups of tea and friendly chats) had deserved their immediate attention. 
->  
-> _Cups of tea and friendly chats!_ the modern man objects. _If one is to make time for such idle pursuits, how could one ever attend to the necessities of adulthood?_
->  
-> Luckily, the answer to this conundrum was provided by the philosopher Zeno in the fifth century B.C. Achilles, a man of action and urgency, trained to measure his exertions to the tenth of a second, should be able to quickly dispense with a twenty-yard dash. But in order to advance a yard, the hero must first advance eighteen inches; and in order to advance eighteen inches, he must first advance nine; but to advance nine, he must first advance for and a half and so on. Thus on his way to completing the twenty-yard dash, Achilles must traverse an infinite number of lengths—which, by definition, would take an infinite amount of time. By extension (as the Count had liked to point out), the man who has an appointment at twelve has an infinite number of intervals between now and then in which to pursue the satisfactions of the spirit.
->  
-> _Quod erat demonstrandum_.
+>
+> *Cups of tea and friendly chats!* the modern man objects. *If one is to make time for such idle pursuits, how could one ever attend to the necessities of adulthood?*
+>
+> Luckily, the answer to this conundrum was provided by the philosopher Zeno in the fifth century B.C. Achilles, a man of action and urgency, trained to measure his exertions to the tenth of a second, should be able to quickly dispense with a twenty-yard dash. But in order to advance a yard, the hero must first advance eighteen inches; and in order to advance eighteen inches, he must first advance nine; but to advance nine, he must first advance four and a half and so on. Thus on his way to completing the twenty-yard dash, Achilles must traverse an infinite number of lengths—which, by definition, would take an infinite amount of time. By extension (as the Count had liked to point out), the man who has an appointment at twelve has an infinite number of intervals between now and then in which to pursue the satisfactions of the spirit.
+>
+> *Quod erat demonstrandum*.
 
 ## Other Memorable Scenes
 
 p. 42 - Nina asking the Count about princesses and attending balls. I love the turn of phrase here. If you google "scuff the parquet," almost all the results reference this book, which leads me to believe it is a phrase unique to this author and book. That makes it that much more cool. 
 
 > "Did you dance?" 
-> 
+>
 > "I have been known to scuff the parquet"
 
 p. 91 
 
 > Nina explained that as she would be meeting her father for dinner a little later, she had taken the liberty of ordering herself an hors d'oeuvre.
-> 
+>
 > "Quote sensible," said the Count. 
-> 
+>
 > At that moment, the Bishop appeared, carrying a small tower of ice creams.
-> 
+>
 > "The hors d'oeuvre?"
-> 
-> "_Oui_," Nina replied.
+>
+> "*Oui*," Nina replied.
 
 p. 192 - Footnote
 
@@ -95,14 +91,22 @@ p. 192 - Footnote
 
 p. 202 - The Count and Anna after she reveals she was never a fisherman's daughter and tells a story from her youth to try and make up for her deception
 
-> "Your grandmother told you that?"<br>
-> "She did"<br>
-> . . .<br>
-> "It is a good story..."<br>
-> "Yes, it is."<br>
-> . . .<br>
-> "But it doesn't absolve you."<br>
-> "I should think not."<br>
+> "Your grandmother told you that?"  
+>
+> "She did"  
+>
+> . . .  
+>
+> "It is a good story..."  
+>
+> "Yes, it is."  
+>
+> . . .  
+>
+> "But it doesn't absolve you."  
+>
+> "I should think not."  
+>
 
 p. 287
 
@@ -115,7 +119,7 @@ p. 287
 
 p. 370 - Ties in with the scene from p. 287
 
-> Returning to his chair, the Count sat in silence. After a few minutes, he took up Mishka's legacy, untied the twine, and folded back the paper. Inside there was a small volume bound in leather. Tooled into the cover was a simple geometric design, at the center of which was the work's title: _Bread and Salt_. From the roughly cut pages and loose threads, one could tell that the binding was the work of a dedicated amateur. 
+> Returning to his chair, the Count sat in silence. After a few minutes, he took up Mishka's legacy, untied the twine, and folded back the paper. Inside there was a small volume bound in leather. Tooled into the cover was a simple geometric design, at the center of which was the work's title: *Bread and Salt*. From the roughly cut pages and loose threads, one could tell that the binding was the work of a dedicated amateur. 
 
 ## Other Notes
 
