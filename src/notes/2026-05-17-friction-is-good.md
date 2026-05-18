@@ -1,5 +1,7 @@
 ---
 title: Friction is Good
+description: "Add some feedback to your life and don't let buttery-smooth
+  conveniences cause it to slip away from you. "
 date: 2026-05-17
 draft: false
 ---
