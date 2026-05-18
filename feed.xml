@@ -5,11 +5,19 @@
   <subtitle>Playground of half-baked ideas.</subtitle>
   <link href="https://tedmehl.me/feed.xml" rel="self" />
   <link href="https://tedmehl.me/" />
-  <updated>2026-04-12T05:00:00Z</updated>
+  <updated>2026-05-17T05:00:00Z</updated>
   <id>https://tedmehl.me/</id>
   <author>
     <name>Ted</name>
   </author>
+  <entry>
+    <title>Friction is Good</title>
+    <link href="https://tedmehl.me/notes/friction-is-good/" />
+    <updated>2026-05-17T05:00:00Z</updated>
+    <id>https://tedmehl.me/notes/friction-is-good/</id>
+    <content type="html">&lt;p&gt;Similar to how the slight feedback of a pen on paper gives you just a little more control vs. a buttery smooth pen on buttery smooth paper slipping away from you, things that add a little friction to your life can be good for you. Add some feedback to your life and don&#39;t let buttery-smooth conveniences cause it to slip away from you. Skip the escalator and take the stairs if you are able. Listen to a CD start to finish. Drive somewhere without using your maps app. Write something down in a physical notebook.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Overlooked Moments</title>
     <link href="https://tedmehl.me/notes/overlooked-moments/" />
@@ -99,14 +107,6 @@
 &lt;p&gt;It can be too easy at times to binge-watch YouTube videos. They have the algorithm down, recommending interesting thing after interesting thing. Other times it’s a TV show, and the episodes are short. What&#39;s the harm in watching one more (and another, and another)? When I finally peel myself away from the screen, I&#39;m often left feeling empty.&lt;/p&gt;
 &lt;p&gt;Most people don’t have the luxury or interest in doing what Thoreau did—finding a cabin by a pond to live in for a time. His words, however, make me think about how I live my life. I don’t want to look back years later and wonder what I could have done with all that wasted time.&lt;/p&gt;
 &lt;p&gt;I, too, seek to live deliberately. But, I suspect I will spend my entire life working out how, and that&#39;s ok.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Not all who wander are lost...</title>
-    <link href="https://tedmehl.me/notes/not-all-who-wander-are-lost/" />
-    <updated>2024-09-28T00:00:00Z</updated>
-    <id>https://tedmehl.me/notes/not-all-who-wander-are-lost/</id>
-    <content type="html">&lt;p&gt;But just because you are wandering doesn&#39;t mean you aren&#39;t lost.&lt;/p&gt;
 </content>
   </entry>
 </feed>
