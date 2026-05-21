@@ -5,11 +5,19 @@
   <subtitle>Playground of half-baked ideas.</subtitle>
   <link href="https://tedmehl.me/feed.xml" rel="self" />
   <link href="https://tedmehl.me/" />
-  <updated>2026-05-17T05:00:00Z</updated>
+  <updated>2026-05-20T05:00:00Z</updated>
   <id>https://tedmehl.me/</id>
   <author>
     <name>Ted</name>
   </author>
+  <entry>
+    <title>Ventriloquist Spies</title>
+    <link href="https://tedmehl.me/notes/ventriloquist-spies/" />
+    <updated>2026-05-20T05:00:00Z</updated>
+    <id>https://tedmehl.me/notes/ventriloquist-spies/</id>
+    <content type="html">&lt;p&gt;Ok, hear me out. What if spies were trained in the art of ventriloquism? That way, the bad guys would have no opportunity to lip-read. Maybe I&#39;ve seen too many spy movies or shows, but think about it.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Friction is Good</title>
     <link href="https://tedmehl.me/notes/friction-is-good/" />
@@ -93,20 +101,6 @@
 &lt;p&gt;Companies combine technology and the internet into many things. Because of this, it can often feel like we lose connections to things in the physical world. Things we hold. Things we help create. Things with a craftsmanship that gives us wonder. Things that help us feel more connected by allowing us to disconnect. Things that keep us in the present or bring back precious memories of the past.&lt;/p&gt;
 &lt;p&gt;Many of these technological improvements seem focused on our need for immediacy. Getting us what we want as fast as possible. In doing so, they focus on the outcome, the destination, and not the journey. It&#39;s in the journey where life happens. Where failure happens. Where joy and hurt, love and loss happen. It builds us up and shapes us. The things we take with us are an integral part of that journey, and how we use them matters.&lt;/p&gt;
 &lt;p&gt;We&#39;re not Luddites. We don&#39;t reject technology. Instead, we seek to be more intentional about its role in our lives. We don&#39;t want to lose sight of the things and people in front of us that keep us grounded.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>To Live Deliberately</title>
-    <link href="https://tedmehl.me/blog/to-live-deliberately/" />
-    <updated>2024-11-26T00:00:00Z</updated>
-    <id>https://tedmehl.me/blog/to-live-deliberately/</id>
-    <content type="html">&lt;blockquote&gt;
-&lt;p&gt;I went to the woods because I wished to live deliberately, to front only the essential facts of life and see if I could not learn what it had to teach, and not, when I came to die, discover I had not lived.&lt;/p&gt;
-&lt;p&gt;— Henry David Thoreau&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It can be too easy at times to binge-watch YouTube videos. They have the algorithm down, recommending interesting thing after interesting thing. Other times it’s a TV show, and the episodes are short. What&#39;s the harm in watching one more (and another, and another)? When I finally peel myself away from the screen, I&#39;m often left feeling empty.&lt;/p&gt;
-&lt;p&gt;Most people don’t have the luxury or interest in doing what Thoreau did—finding a cabin by a pond to live in for a time. His words, however, make me think about how I live my life. I don’t want to look back years later and wonder what I could have done with all that wasted time.&lt;/p&gt;
-&lt;p&gt;I, too, seek to live deliberately. But, I suspect I will spend my entire life working out how, and that&#39;s ok.&lt;/p&gt;
 </content>
   </entry>
 </feed>
