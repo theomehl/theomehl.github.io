@@ -68,3 +68,22 @@ details[open] summary {
     top: calc(var(--border-width) / -2);
 
 }
+
+table {
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    border-block-end: 2px solid var(--border-accent);
+}
+
+th, td {
+    padding-inline: 0.75rem;
+    padding-block: 0.5rem;
+}
+
+tr:nth-child(even) {
+    background-color: var(--color-secondary);
+}

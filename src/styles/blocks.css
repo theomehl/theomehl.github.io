@@ -158,8 +158,13 @@
     border-block-start: 2px solid var(--color-accent);
 }
 
+.commonplace-list tr:nth-child(even) {
+    background-color: transparent;
+}
+
 .commonplace-list tbody td {
     padding-block: 1rem;
+    padding-inline-end: 1rem;
 }
 
 /* Featured grid */
