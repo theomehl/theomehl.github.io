@@ -31,13 +31,28 @@ date: 2000-01-01
 
     {# Future section where I link to my most recent post and note #}
 
-    {# <h2>here's a recent thing I wrote</h2>
+    <h2>read the latest</h2>
     {% set posts = collections.posts | reverse %}
     {% set latestPost = posts[0] %}
-    <p><a href="{{latestPost.url}}">{{latestPost.data.title }}</a></p>
-
-    <h2>here's a recent thought I had</h2>
     {% set notes = collections.notes | reverse %}
     {% set latestNote = notes[0] %}
-    <p><a href="{{latestNote.url}}">{{latestNote.data.title}}</a></h3> #}
+    <div class="feature-grid">
+    <div class="feature-grid-feature">
+        <h3 class="feature-title">{{ latestPost.data.title }}</h3>
+        <div class="feature-content flow">
+            <p>{{ latestPost.data.description }}</p>
+        </div>
+        <div class="feature-footer"><span class="feature-type">blog post</span><p><a href="{{latestPost.url}}">read the post &rarr;</a></p></div>
+    </div>
+    <div class="feature-grid-feature">
+        <h3 class="feature-title">{{ latestNote.data.title}}</h3>
+        <div class="feature-content flow">
+            <p>{{ latestNote.data.description }}</p>
+            
+        </div>
+        <div class="feature-footer"><span class="feature-type">note</span><p><a href="{{latestNote.url}}">read the note &rarr;</a></p></div>
+
+    </div>
+    </div>
+    
 </main>

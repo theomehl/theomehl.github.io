@@ -162,6 +162,64 @@
     padding-block: 1rem;
 }
 
+/* Featured grid */
+
+.feature-grid {
+    --feature-padding: 1rem;
+    --border-width: 0px;
+    display: grid;
+    gap: calc(var(--feature-padding) * 2);
+    grid-template-columns: repeat(auto-fill,minmax(min(20rem,100%),1fr));
+}
+
+.feature-grid-feature {
+    background-color: var(--color-background);
+    padding-inline: calc(var(--feature-padding) * 1.5);
+    padding-block: calc(var(--feature-padding) * 1.5) var(--feature-padding);
+    display: grid;
+    grid-template-rows: 1fr;
+    position: relative;
+}
+
+.feature-title {
+    align-self: end;
+}
+
+.feature-content {
+    padding-block: calc(var(--feature-padding) * 1.5);
+}
+
+.feature-footer {
+    display: flex;
+    justify-content: end;
+}
+
+.feature-footer > * {
+    padding-block: calc(var(--feature-padding) / 2);
+}
+
+.feature-type {
+    background-color: light-dark(var(--blue-200), var(--gray-600));
+    padding: calc(var(--feature-padding) / 4) var(--feature-padding);
+    box-shadow: 2px 3px 0px var(--color-tertiary);
+    position: absolute;
+
+
+}
+
+/* I don't know how to effectively grab the first and second of each of these... */
+.feature-grid-feature:nth-of-type(1) .feature-type {
+    transform: rotate(4deg);
+    bottom: -10px;
+    left: -10px;
+}
+
+.feature-grid-feature:nth-of-type(2) .feature-type {
+    transform: rotate(-2deg);
+    bottom: -6px;
+    left: -6px;
+}
+
 /* Footer Wrapper */
 
 .footer-wrapper {
