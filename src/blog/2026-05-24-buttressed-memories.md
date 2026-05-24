@@ -36,7 +36,7 @@ I might take some hints from Marie Kondo. Thanking each of my memories for their
 These memories are important, vital to shaping who I am now. But they are only one part of many that make me *me*, and I should take care to not let them become the measure by which I judge my current life.
 
 <details>
-<summary>Read the full quote</summary>
+<summary>Read the full Sanderson quote</summary>
 <div class="details-wrapper flow">
 
 I love memories. They are our ballads, our personal foundation myths. But I must acknowledge that memory *can* be cruel if left unchallenged.
