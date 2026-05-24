@@ -35,13 +35,17 @@ I might take some hints from Marie Kondo. Thanking each of my memories for their
 
 These memories are important, vital to shaping who I am now. But they are only one part of many that make me *me*, and I should take care to not let them become the measure by which I judge my current life.
 
-## Read the full quote
+<details>
+<summary>Read the full quote</summary>
+<div class="details-wrapper flow">
 
-> I love memories. They are our ballads, our personal foundation myths. But I must acknowledge that memory *can* be cruel if left unchallenged.
->
-> Memory is often our only connection to who we used to be. Memories are fossils, the bones left by dead versions of ourselves. More potently, our minds are a hungry audience, craving only the peaks and valleys of experience. The bland erodes, leaving behind the distinctive bits to be remembered again and again.
->
-> Painful or passionate, surreal or sublime, we cherish those little rocks of peak experience, polishing them with the ever-smoothing touch of recycled proxy living. In so doing—like pagans praying to a sculpted mud figure—we make of our memories the gods which judge our current lives.
->
-> I love this. Memory may not be the heart of what makes us human, but it's at least a vital organ. Nevertheless, we must take care not to let the bliss of the present fade when compared to supposedly better days. We're happy, sure, but were we _more_ happy then? If we let it, memory can make shadows of the now, as nothing can match the buttressed legends of our past.
+I love memories. They are our ballads, our personal foundation myths. But I must acknowledge that memory *can* be cruel if left unchallenged.
 
+Memory is often our only connection to who we used to be. Memories are fossils, the bones left by dead versions of ourselves. More potently, our minds are a hungry audience, craving only the peaks and valleys of experience. The bland erodes, leaving behind the distinctive bits to be remembered again and again.
+
+Painful or passionate, surreal or sublime, we cherish those little rocks of peak experience, polishing them with the ever-smoothing touch of recycled proxy living. In so doing—like pagans praying to a sculpted mud figure—we make of our memories the gods which judge our current lives.
+
+I love this. Memory may not be the heart of what makes us human, but it's at least a vital organ. Nevertheless, we must take care not to let the bliss of the present fade when compared to supposedly better days. We're happy, sure, but were we *more* happy then? If we let it, memory can make shadows of the now, as nothing can match the buttressed legends of our past.
+
+</div>
+</details>
