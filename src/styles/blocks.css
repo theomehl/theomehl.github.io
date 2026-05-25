@@ -209,7 +209,7 @@
 
 /* I don't know how to effectively grab the first and second of each of these... */
 .feature-grid-feature:nth-of-type(1) .feature-type {
-    transform: rotate(4deg);
+    transform: rotate(3deg);
     bottom: -10px;
     left: -10px;
 }
