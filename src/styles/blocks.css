@@ -199,7 +199,7 @@
 }
 
 .feature-type {
-    background-color: light-dark(var(--blue-200), var(--gray-600));
+    background-color: light-dark(var(--blue-200), var(--gray-700));
     padding: calc(var(--feature-padding) / 4) var(--feature-padding);
     box-shadow: 2px 3px 0px var(--color-tertiary);
     position: absolute;
