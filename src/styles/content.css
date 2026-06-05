@@ -1,6 +1,31 @@
-.container {
-    max-width: min(45rem, 100% - 4rem);
-    margin-inline: auto;
+.container { 
+
+    --full: minmax(2rem, 1fr);
+    --breakout: minmax(0, 2rem);
+    --feature: minmax(0, 10rem);
+    --content: min(45rem, 100% - 4rem); 
+
+    display: grid; 
+    grid-template-columns: 
+        [full-start] var(--full)
+        [feature-start] var(--feature)
+        [breakout-start] var(--breakout)
+        [content-start] var(--content) [content-end]
+        var(--breakout) [breakout-end]
+        var(--feature) [feature-end]
+        var(--full) [full-end];
+}
+
+.container > * {
+    grid-column: content;
+}
+
+.breakout {
+    grid-column: breakout;
+}
+
+.feature {
+    grid-column: feature;
 }
 
 .flow > * + * {
@@ -72,6 +97,11 @@ details[open] summary {
 table {
     width: 100%; 
     border-collapse: collapse;
+
+    --success-background: light-dark(oklch(0.843 0.107 145), oklch(0.272 0.076 145));
+    --success-text: light-dark(oklch(0.272 0.076 145), oklch(0.843 0.107 145));
+    --warning-background: light-dark(oklch(0.894 0.11 75), oklch(0.383 0.123 75));
+    --warning-text: light-dark(oklch(0.383 0.123 75), oklch(0.894 0.11 75));
 }
 
 th {
@@ -86,4 +116,16 @@ th, td {
 
 tr:nth-child(even) {
     background-color: var(--color-secondary);
+}
+
+tr[data-status="read"] {
+    background-color: var(--success-background);
+    color: var(--success-text);
+}
+
+tr[data-status="reading"] {
+    /* background-color: oklch(0.425 0.085 81.57);
+    color: oklch(0.862 0.133 81.57); */
+    background-color: var(--warning-background);
+    color: var(--warning-text);
 }

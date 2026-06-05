@@ -52,6 +52,7 @@ footer {
 
 footer> hr {
     border-top: 1px solid var(--color-accent-secondary);
+    width: 100%;
 }
 
 footer a {
