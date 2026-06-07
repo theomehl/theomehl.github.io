@@ -20,7 +20,14 @@
     --blue-300: oklch(64.688% 0.07513 257.174);
     --blue-700: oklch(38.335% 0.09137 257.382);
     --blue-text: oklch(29.249% 0.06559 257.051);
+    /* Amber colors from https://oklch.fyi/color-palettes/amber */
+    --amber-100: oklch(0.894 0.11 75);
+    --amber-600: oklch(0.383 0.123 75);
+    /* Green colors from https://oklch.fyi/color-palettes/green */
+    --green-100: oklch(0.843 0.107 145);
+    --green-800: oklch(0.272 0.076 145);
 
+    /* Define main color theme variables  */
     --base-text: light-dark(var(--blue-text), var(--gray-300));
     --color-accent: light-dark(var(--blue-300), var(--gray-500));
     --color-accent-secondary: light-dark(var(--blue-200), var(--color-accent));
@@ -29,6 +36,11 @@
     --color-tertiary: light-dark(var(--gray-600), var(--gray-300));
     --color-text: light-dark(var(--gray-600), var(--base-text));
 
+    /* Success, warning, error, info states */
+    --success-background: light-dark(var(--green-100), var(--green-800));
+    --success-text: light-dark(var(--green-800), var(--green-100));
+    --warning-background: light-dark(var(--amber-100), var(--amber-600));
+    --warning-text: light-dark(var(--amber-600), var(--amber-100));
 
     /* Define fluid type font sizes */
     --text-base: clamp(1.13rem, calc(1.08rem + 0.22vw), 1.25rem);

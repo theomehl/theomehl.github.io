@@ -36,26 +36,36 @@ date: 2000-01-01
     {% set latestPost = posts[0] %}
     {% set notes = collections.notes | reverse %}
     {% set latestNote = notes[0] %}
+    {% set commonplace = collections.commonplace | reverse %}
+    {% set latestCommonplace = commonplace[0] %}
     <div class="feature-grid">
-    <div class="feature-grid-feature">
+        <div class="feature-grid-feature">
+            <div class="feature-body">
+                <h3 class="feature-title">{{ latestPost.data.title }}</h3>
+                <div class="feature-content">
+                    <p>{{ latestPost.data.description }}</p>
+                </div>
+            </div>
+            <div class="feature-footer"><span class="feature-type">blog post</span><p><a href="{{latestPost.url}}">read the latest post &rarr;</a></p></div>
+        </div>
+        <div class="feature-grid-feature">
+            <div class="feature-body">
+                <h3 class="feature-title">{{ latestNote.data.title}}</h3>
+                <div class="feature-content">
+                    <p>{{ latestNote.data.description }}</p>
+                </div>
+            </div>
+            <div class="feature-footer"><span class="feature-type">note</span><p><a href="{{latestNote.url}}">read the latest note &rarr;</a></p></div>
+        </div>
+    </div>
+    <div class="feature-grid-feature" style="--feature-padding: 1rem; --flow-space: 2rem;">
         <div class="feature-body">
-            <h3 class="feature-title">{{ latestPost.data.title }}</h3>
+            <h3 class="feature-title">{{ latestCommonplace.data.title}}</h3>
             <div class="feature-content">
-                <p>{{ latestPost.data.description }}</p>
+                <p>{{ latestCommonplace.data.description }}</p>
             </div>
         </div>
-        <div class="feature-footer"><span class="feature-type">blog post</span><p><a href="{{latestPost.url}}">read the post &rarr;</a></p></div>
-    </div>
-    <div class="feature-grid-feature">
-        <div class="feature-body">
-            <h3 class="feature-title">{{ latestNote.data.title}}</h3>
-            <div class="feature-content">
-                <p>{{ latestNote.data.description }}</p>
-            </div>
-        </div>
-        <div class="feature-footer"><span class="feature-type">note</span><p><a href="{{latestNote.url}}">read the note &rarr;</a></p></div>
-
-    </div>
+        <div class="feature-footer"><span class="feature-type feature-type-3">commonplace book</span><p><a href="{{latestCommonplace.url}}">most recently updated commonplace entry &rarr;</a></p></div>
     </div>
     
 </main>

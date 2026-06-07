@@ -1,0 +1,56 @@
+---
+title: Great Books Reading List
+description: "I'm reading 100 great books and updating my progress."
+originalDate: 2026-06-07
+draft: true
+---
+
+<p><a href="#readingList">Skip to the list &darr;</a></p>
+
+<p>In the movie The Equalizer, starring Denzel Washington, Denzel's character is frequently seen reading a book from a list of 100 greatest books of literature. If you google for great books reading lists, however, there are so many options and opinions it's hard to know where to start.</p>
+
+<p>Sometime in 2020, I decided I wanted to start adding some great books to my reading. In my search for a good list to start with, I came across a website called Greater Books (they don't seem to be online anymore). They had taken all the great books lists they could find, ordered each of those books chronologically into eras, and marked how many times they appeared on a list. At the time I first accessed this list, there were <a href="https://web.archive.org/web/20200621135703/http://greaterbooks.com/shortlist.html">487 books (Wayback Machine)</a>.</p>
+
+<p>I wanted to read a random assortment from this list and thought that 100 books in my lifetime was plenty. There certainly wasn't any way I would make it through all 487. To choose my books, I:  </p>
+<ol>
+    <li>Copied the list to a spreadsheet</li>
+    <li>Used <a href="https://www.random.org/sequences/">random.org</a> to generate a random sequence of numbers 1-487</li>
+    <li>Copied/pasted that random sequence into the spreadsheet in its own column</li>
+    <li>Sorted the spreadsheet in ascending order by that random sequence column</li>
+</ol>
+
+<p>If you'd like to make your own reading list order (you don't have to use a random sequence), you can download the starter spreadsheet with all the columns set up to get you started.</p>
+
+<p><a href="/files/great_books_starter_list.csv">Great Books Starter List (CSV)</a></p>
+
+<div id="readingList" class="feature" role="region" aria-labelledby="tableCaption" tabindex="0">
+    <table role="table">
+        <caption id="tableCaption">My Great Books Reading List</caption>
+        <thead role="rowgroup">
+            <tr role="row">
+                <th role="columnheader">No.</th>
+                <th role="columnheader">Title</th>
+                <th role="columnheader">Author</th>
+                {# <th role="columnheader">List mentions</th> #}
+                <th role="columnheader">Status</th>
+            </tr>
+        </thead>
+        <tbody role="rowgroup">
+        {% for book in books %}
+            <tr data-status="{{ book.status }}" role="row">
+                <td data-column="No." role="cell">{{ book.number }}</td>
+                <td data-column="Title" role="cell">
+                    {% if book.notesUrl !== '' %}
+                        <a href="{{ book.notesUrl }}">{{ book.title }}</a>
+                    {% else %}
+                        {{ book.title }}
+                    {% endif %}
+                </td>
+                <td data-column="Author" role="cell">{{ book.author }}</td>
+                {# <td data-column="List mentions" role="cell">{{ book.popularity }}</td> #}
+                <td data-column="Status" role="cell">{{ book.status }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>

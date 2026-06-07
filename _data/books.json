@@ -1,0 +1,1002 @@
+[
+    {
+        "number": "1",
+        "title": "Mrs. Dalloway",
+        "author": "Virginia Woolf",
+        "notesUrl": "",
+        "popularity": "11",
+        "startingOrder": "399",
+        "status": "Read",
+        "field8": ""
+    },
+    {
+        "number": "2",
+        "title": "The Collected Poems of W B Yeats",
+        "author": "William Butler Yeats",
+        "notesUrl": "",
+        "popularity": "5",
+        "startingOrder": "487",
+        "status": "Reading",
+        "field8": ""
+    },
+    {
+        "number": "3",
+        "title": "The House of Seven Gables",
+        "author": "Nathaniel Hawthorne",
+        "notesUrl": "",
+        "popularity": "7",
+        "startingOrder": "420",
+        "status": "Read",
+        "field8": ""
+    },
+    {
+        "number": "4",
+        "title": "Catch-22",
+        "author": "Joseph Heller",
+        "notesUrl": "",
+        "popularity": "10",
+        "startingOrder": "401",
+        "status": "Read",
+        "field8": ""
+    },
+    {
+        "number": "5",
+        "title": "Zadig",
+        "author": "Voltaire",
+        "notesUrl": "",
+        "popularity": "6",
+        "startingOrder": "333",
+        "status": "Read",
+        "field8": ""
+    },
+    {
+        "number": "6",
+        "title": "A Midsummer's Night Dream",
+        "author": "William Shakespeare",
+        "notesUrl": "",
+        "popularity": "14",
+        "startingOrder": "95",
+        "status": "Read",
+        "field8": ""
+    },
+    {
+        "number": "7",
+        "title": "Histories",
+        "author": "Tacitus",
+        "notesUrl": "",
+        "popularity": "6",
+        "startingOrder": "59",
+        "status": "Read",
+        "field8": ""
+    },
+    {
+        "number": "8",
+        "title": "Uncle Vanya",
+        "author": "Anton Chekhov",
+        "notesUrl": "",
+        "popularity": "10",
+        "startingOrder": "223",
+        "status": "Read",
+        "field8": ""
+    },
+    {
+        "number": "9",
+        "title": "On Friendship",
+        "author": "Cicero",
+        "notesUrl": "",
+        "popularity": "5",
+        "startingOrder": "72",
+        "status": "Read",
+        "field8": ""
+    },
+    {
+        "number": "10",
+        "title": "The Rime of the Ancyent Marinere'",
+        "author": "Samuel Taylor Coleridge",
+        "notesUrl": "",
+        "popularity": "7",
+        "startingOrder": "270",
+        "status": "Read",
+        "field8": ""
+    },
+    {
+        "number": "11",
+        "title": "Don Quixote",
+        "author": "Miguel de Cervantes",
+        "notesUrl": "",
+        "popularity": "36",
+        "startingOrder": "83",
+        "status": "Reading",
+        "field8": ""
+    },
+    {
+        "number": "12",
+        "title": "Jerusalem: The Emanation of the Giant Albion",
+        "author": "William Blake",
+        "notesUrl": "",
+        "popularity": "5",
+        "startingOrder": "338",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "13",
+        "title": "Summa Theologiae",
+        "author": "Thomas Aquinas",
+        "notesUrl": "",
+        "popularity": "12",
+        "startingOrder": "28",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "14",
+        "title": "Poems",
+        "author": "John Donne",
+        "notesUrl": "",
+        "popularity": "8",
+        "startingOrder": "120",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "15",
+        "title": "Being and Nothingness",
+        "author": "Jean-Paul Sartre",
+        "notesUrl": "",
+        "popularity": "5",
+        "startingOrder": "478",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "16",
+        "title": "The Taming of the Shrew",
+        "author": "William Shakespeare",
+        "notesUrl": "",
+        "popularity": "9",
+        "startingOrder": "117",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "17",
+        "title": "Death of a Salesman",
+        "author": "Arthur Miller",
+        "notesUrl": "",
+        "popularity": "6",
+        "startingOrder": "442",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "18",
+        "title": "History of Rome",
+        "author": "Livy",
+        "notesUrl": "",
+        "popularity": "6",
+        "startingOrder": "55",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "19",
+        "title": "Anna Karenina",
+        "author": "Leo Tolstoy",
+        "notesUrl": "",
+        "popularity": "15",
+        "startingOrder": "197",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "20",
+        "title": "Discourse on Inequality",
+        "author": "Jean-Jacques Rousseau",
+        "notesUrl": "",
+        "popularity": "7",
+        "startingOrder": "287",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "21",
+        "title": "Civilization and Its Discontents",
+        "author": "Sigmund Freud",
+        "notesUrl": "",
+        "popularity": "7",
+        "startingOrder": "419",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "22",
+        "title": "Dream of the Red Chamber",
+        "author": "Cao Xueqin",
+        "notesUrl": "",
+        "popularity": "7",
+        "startingOrder": "267",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "23",
+        "title": "Huckleberry Finn",
+        "author": "Mark Twain",
+        "notesUrl": "",
+        "popularity": "23",
+        "startingOrder": "169",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "24",
+        "title": "Novum Organum",
+        "author": "Francis Bacon",
+        "notesUrl": "",
+        "popularity": "10",
+        "startingOrder": "108",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "25",
+        "title": "Critique of Pure Reason",
+        "author": "Immanuel Kant",
+        "notesUrl": "",
+        "popularity": "12",
+        "startingOrder": "209",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "26",
+        "title": "A Vindication of the Rights of Woman",
+        "author": "Mary Wollstonecraft",
+        "notesUrl": "",
+        "popularity": "8",
+        "startingOrder": "260",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "27",
+        "title": "The Bacchae",
+        "author": "Euripides",
+        "notesUrl": "",
+        "popularity": "14",
+        "startingOrder": "20",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "28",
+        "title": "Ficciones",
+        "author": "Jorge Luis Borges",
+        "notesUrl": "",
+        "popularity": "6",
+        "startingOrder": "430",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "29",
+        "title": "War and Peace",
+        "author": "Leo Tolstoy",
+        "notesUrl": "",
+        "popularity": "24",
+        "startingOrder": "165",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "30",
+        "title": "Enneads",
+        "author": "Plotinus",
+        "notesUrl": "",
+        "popularity": "6",
+        "startingOrder": "58",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "31",
+        "title": "The Master and Margarita",
+        "author": "Mikhail Bulgakov",
+        "notesUrl": "",
+        "popularity": "6",
+        "startingOrder": "432",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "32",
+        "title": "The Doctor in Spite of Himself",
+        "author": "Moliére",
+        "notesUrl": "",
+        "popularity": "6",
+        "startingOrder": "319",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "33",
+        "title": "Sir Gawain and the Green Knight",
+        "author": "Unknown",
+        "notesUrl": "",
+        "popularity": "7",
+        "startingOrder": "133",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "34",
+        "title": "The Hunchback of Notre Dame",
+        "author": "Victor Hugo",
+        "notesUrl": "",
+        "popularity": "7",
+        "startingOrder": "280",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "35",
+        "title": "Autobiography",
+        "author": "Benvenuto Cellini",
+        "notesUrl": "",
+        "popularity": "7",
+        "startingOrder": "125",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "36",
+        "title": "Elements",
+        "author": "Euclid",
+        "notesUrl": "",
+        "popularity": "6",
+        "startingOrder": "50",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "37",
+        "title": "Fables",
+        "author": "Aesop",
+        "notesUrl": "",
+        "popularity": "5",
+        "startingOrder": "60",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "38",
+        "title": "Cymbeline",
+        "author": "William Shakespeare",
+        "notesUrl": "",
+        "popularity": "6",
+        "startingOrder": "140",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "39",
+        "title": "Measure for Measure",
+        "author": "William Shakespeare",
+        "notesUrl": "",
+        "popularity": "10",
+        "startingOrder": "113",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "40",
+        "title": "Catcher in the Rye",
+        "author": "J D Salinger",
+        "notesUrl": "",
+        "popularity": "7",
+        "startingOrder": "426",
+        "status": "Read",
+        "field8": ""
+    },
+    {
+        "number": "41",
+        "title": "The Death of Ivan Ilyich",
+        "author": "Leo Tolstoy",
+        "notesUrl": "",
+        "popularity": "5",
+        "startingOrder": "374",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "42",
+        "title": "The Odyssey",
+        "author": "Homer",
+        "notesUrl": "",
+        "popularity": "36",
+        "startingOrder": "1",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "43",
+        "title": "A Season in Hill",
+        "author": "Arthur Rimbaud",
+        "notesUrl": "",
+        "popularity": "6",
+        "startingOrder": "326",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "44",
+        "title": "The Ambassadors",
+        "author": "Henry James",
+        "notesUrl": "",
+        "popularity": "10",
+        "startingOrder": "226",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "45",
+        "title": "Le Cid",
+        "author": "Pierre Corneille",
+        "notesUrl": "",
+        "popularity": "6",
+        "startingOrder": "135",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "46",
+        "title": "Far From the Madding Crowd",
+        "author": "Thomas Hardy",
+        "notesUrl": "",
+        "popularity": "5",
+        "startingOrder": "353",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "47",
+        "title": "Man's Fate",
+        "author": "André Malraux",
+        "notesUrl": "",
+        "popularity": "5",
+        "startingOrder": "470",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "48",
+        "title": "The Second Part of Henry IV",
+        "author": "William Shakespeare",
+        "notesUrl": "",
+        "popularity": "12",
+        "startingOrder": "104",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "49",
+        "title": "Mathematical Principles of Natural Philosophy",
+        "author": "Isaac Newton",
+        "notesUrl": "",
+        "popularity": "9",
+        "startingOrder": "237",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "50",
+        "title": "Tess of the d'Urbervilles",
+        "author": "Thomas Hardy",
+        "notesUrl": "",
+        "popularity": "13",
+        "startingOrder": "205",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "51",
+        "title": "The Marriage of Heaven and Hell",
+        "author": "William Blake",
+        "notesUrl": "",
+        "popularity": "5",
+        "startingOrder": "337",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "52",
+        "title": "The Trojan Woman",
+        "author": "Euripides",
+        "notesUrl": "",
+        "popularity": "6",
+        "startingOrder": "47",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "53",
+        "title": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "notesUrl": "",
+        "popularity": "5",
+        "startingOrder": "454",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "54",
+        "title": "Michael Robartes and the Dancer",
+        "author": "William Butler Yeats",
+        "notesUrl": "",
+        "popularity": "6",
+        "startingOrder": "448",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "55",
+        "title": "Confessions",
+        "author": "Jean-Jacques Rousseau",
+        "notesUrl": "",
+        "popularity": "14",
+        "startingOrder": "203",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "56",
+        "title": "Madame Bovary",
+        "author": "Gustave Flaubert",
+        "notesUrl": "",
+        "popularity": "29",
+        "startingOrder": "160",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "57",
+        "title": "The Rape of the Lock",
+        "author": "Alexander Pope",
+        "notesUrl": "",
+        "popularity": "7",
+        "startingOrder": "285",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "58",
+        "title": "The Education of Henry Adams",
+        "author": "Henry Adams",
+        "notesUrl": "",
+        "popularity": "11",
+        "startingOrder": "395",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "59",
+        "title": "Poems",
+        "author": "Emily Dickinson",
+        "notesUrl": "",
+        "popularity": "6",
+        "startingOrder": "301",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "60",
+        "title": "Henry VIII",
+        "author": "William Shakespeare",
+        "notesUrl": "",
+        "popularity": "5",
+        "startingOrder": "155",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "61",
+        "title": "Doctor Faustus",
+        "author": "Christopher Marlowe",
+        "notesUrl": "",
+        "popularity": "10",
+        "startingOrder": "110",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "62",
+        "title": "Antigone",
+        "author": "Sophocles",
+        "notesUrl": "",
+        "popularity": "22",
+        "startingOrder": "9",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "63",
+        "title": "Reflections on the Revolution in France",
+        "author": "Edmund Burke",
+        "notesUrl": "",
+        "popularity": "9",
+        "startingOrder": "229",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "64",
+        "title": "Essays",
+        "author": "Michel de Montaigne",
+        "notesUrl": "",
+        "popularity": "26",
+        "startingOrder": "88",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "65",
+        "title": "Stories",
+        "author": "Anton Chekhov",
+        "notesUrl": "",
+        "popularity": "6",
+        "startingOrder": "294",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "66",
+        "title": "Sentimental Education",
+        "author": "Gustave Flaubert",
+        "notesUrl": "",
+        "popularity": "8",
+        "startingOrder": "244",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "67",
+        "title": "Ash Wednesday",
+        "author": "T S Eliot",
+        "notesUrl": "",
+        "popularity": "7",
+        "startingOrder": "416",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "68",
+        "title": "Poems",
+        "author": "Lord Byron",
+        "notesUrl": "",
+        "popularity": "5",
+        "startingOrder": "341",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "69",
+        "title": "Civil Disobedience",
+        "author": "Henry David Thoreau",
+        "notesUrl": "",
+        "popularity": "6",
+        "startingOrder": "331",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "70",
+        "title": "The Miser",
+        "author": "Moliére",
+        "notesUrl": "",
+        "popularity": "8",
+        "startingOrder": "253",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "71",
+        "title": "Long Day's Journey Into Night",
+        "author": "Eugene O'Neill",
+        "notesUrl": "",
+        "popularity": "8",
+        "startingOrder": "413",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "72",
+        "title": "Symposium",
+        "author": "Plato",
+        "notesUrl": "",
+        "popularity": "10",
+        "startingOrder": "37",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "73",
+        "title": "A Portrait of the Artist as a Young Man",
+        "author": "James Joyce",
+        "notesUrl": "",
+        "popularity": "14",
+        "startingOrder": "387",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "74",
+        "title": "Wilhelm Meister's Apprenticeship",
+        "author": "Johann Wolfgang von Goethe",
+        "notesUrl": "",
+        "popularity": "5",
+        "startingOrder": "351",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "75",
+        "title": "A Passage to India",
+        "author": "E M Forster",
+        "notesUrl": "",
+        "popularity": "7",
+        "startingOrder": "418",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "76",
+        "title": "Electra",
+        "author": "Euripides",
+        "notesUrl": "",
+        "popularity": "7",
+        "startingOrder": "46",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "77",
+        "title": "Pygmalion",
+        "author": "George Bernard Shaw",
+        "notesUrl": "",
+        "popularity": "7",
+        "startingOrder": "429",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "78",
+        "title": "The Jew of Malta",
+        "author": "Christopher Marlowe",
+        "notesUrl": "",
+        "popularity": "5",
+        "startingOrder": "150",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "79",
+        "title": "Phedre",
+        "author": "Jean Racine",
+        "notesUrl": "",
+        "popularity": "11",
+        "startingOrder": "220",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "80",
+        "title": "Works and Days",
+        "author": "Hesiod",
+        "notesUrl": "",
+        "popularity": "5",
+        "startingOrder": "69",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "81",
+        "title": "Consolatio Philosophiae",
+        "author": "Boethius",
+        "notesUrl": "",
+        "popularity": "5",
+        "startingOrder": "66",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "82",
+        "title": "Encyclopaedie",
+        "author": "Denis Diderot et al.",
+        "notesUrl": "",
+        "popularity": "7",
+        "startingOrder": "275",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "83",
+        "title": "The Cherry Orchard",
+        "author": "Anton Chekhov",
+        "notesUrl": "",
+        "popularity": "8",
+        "startingOrder": "242",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "84",
+        "title": "Autobiography",
+        "author": "John Stuart Mill",
+        "notesUrl": "",
+        "popularity": "7",
+        "startingOrder": "282",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "85",
+        "title": "The American Scholar",
+        "author": "Ralph Waldo Emerson",
+        "notesUrl": "",
+        "popularity": "5",
+        "startingOrder": "349",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "86",
+        "title": "The Misanthrope",
+        "author": "Moliére",
+        "notesUrl": "",
+        "popularity": "12",
+        "startingOrder": "212",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "87",
+        "title": "Polyeucte",
+        "author": "Pierre Corneille",
+        "notesUrl": "",
+        "popularity": "5",
+        "startingOrder": "146",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "88",
+        "title": "Their Eyes Were Watching God",
+        "author": "Zora Neale Hurston",
+        "notesUrl": "",
+        "popularity": "7",
+        "startingOrder": "423",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "89",
+        "title": "Meditations",
+        "author": "Marcus Aurelius",
+        "notesUrl": "",
+        "popularity": "17",
+        "startingOrder": "16",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "90",
+        "title": "The Seagull",
+        "author": "Anton Chekhov",
+        "notesUrl": "",
+        "popularity": "7",
+        "startingOrder": "269",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "91",
+        "title": "Paradise Lost",
+        "author": "John Milton",
+        "notesUrl": "",
+        "popularity": "25",
+        "startingOrder": "164",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "92",
+        "title": "Invisible Man",
+        "author": "Ralph Ellison",
+        "notesUrl": "",
+        "popularity": "12",
+        "startingOrder": "392",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "93",
+        "title": "The School for Wives",
+        "author": "Moliére",
+        "notesUrl": "",
+        "popularity": "6",
+        "startingOrder": "322",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "94",
+        "title": "Cantos",
+        "author": "Ezra Pound",
+        "notesUrl": "",
+        "popularity": "7",
+        "startingOrder": "424",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "95",
+        "title": "Poetry and Truth",
+        "author": "Johann Wolfgang von Goethe",
+        "notesUrl": "",
+        "popularity": "5",
+        "startingOrder": "350",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "96",
+        "title": "The Faerie Queene",
+        "author": "Edmund Spenser",
+        "notesUrl": "",
+        "popularity": "8",
+        "startingOrder": "258",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "97",
+        "title": "The Waves",
+        "author": "Virginia Woolf",
+        "notesUrl": "",
+        "popularity": "5",
+        "startingOrder": "485",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "98",
+        "title": "Tender Is the Night",
+        "author": "F Scott Fitzgerald",
+        "notesUrl": "",
+        "popularity": "6",
+        "startingOrder": "434",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "99",
+        "title": "The Tin Drum",
+        "author": "Günter Grass",
+        "notesUrl": "",
+        "popularity": "6",
+        "startingOrder": "437",
+        "status": "",
+        "field8": ""
+    },
+    {
+        "number": "100",
+        "title": "Meditations on First Philosophy",
+        "author": "René Descartes",
+        "notesUrl": "",
+        "popularity": "6",
+        "startingOrder": "298",
+        "status": "",
+        "field8": ""
+    }
+]
