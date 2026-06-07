@@ -5,84 +5,87 @@ import { DateTime } from "luxon";
 
 const TIME_ZONE = "America/Chicago";
 
-export default function(eleventyConfig) {
-    // Return your Object options:
+export default async function (eleventyConfig) {
+  // Return your Object options:
 
-    // Set time zone to CT 
-    eleventyConfig.addDateParsing(function(dateValue) {
-		  let localDate;
-		  if(dateValue instanceof Date) { // and YAML
-			  localDate = DateTime.fromJSDate(dateValue, { zone: "utc" }).setZone(TIME_ZONE, { keepLocalTime: true });
-		  } else if(typeof dateValue === "string") {
-			  localDate = DateTime.fromISO(dateValue, { zone: TIME_ZONE });
-		  }
-		  if (localDate?.isValid === false) {
-			  throw new Error(`Invalid \`date\` value (${dateValue}) is invalid for ${this.page.inputPath}: ${localDate.invalidReason}`);
-		  }
-		  return localDate;
-	  });
+  // Set time zone to CT 
+  eleventyConfig.addDateParsing(function (dateValue) {
+    let localDate;
+    if (dateValue instanceof Date) { // and YAML
+      localDate = DateTime.fromJSDate(dateValue, { zone: "utc" }).setZone(TIME_ZONE, { keepLocalTime: true });
+    } else if (typeof dateValue === "string") {
+      localDate = DateTime.fromISO(dateValue, { zone: TIME_ZONE });
+    }
+    if (localDate?.isValid === false) {
+      throw new Error(`Invalid \`date\` value (${dateValue}) is invalid for ${this.page.inputPath}: ${localDate.invalidReason}`);
+    }
+    return localDate;
+  });
 
-    // Create a collection that includes posts from both /blog and /notes
-    eleventyConfig.addCollection(
-      "allWriting",
-      function (collectionsApi) {
-        return collectionsApi.getFilteredByGlob(["./src/blog/*.md", "./src/notes/*.md"]);
-      }
-    );
+  // Create a collection that includes posts from both /blog and /notes
+  eleventyConfig.addCollection(
+    "allWriting",
+    function (collectionsApi) {
+      return collectionsApi.getFilteredByGlob(["./src/blog/*.md", "./src/notes/*.md"]);
+    }
+  );
 
-    eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(pluginRss);
 
-    eleventyConfig.addPlugin(feedPlugin, {
-      type: "atom",
-      outputPath: "/feed.xml",
-      collection: {
-        name: "allWriting",
-        limit: 10,
-      },
-      metadata: {
-        language: "en",
-        title: "tedmehl.me",
-        subtitle: "Playground of half-baked ideas.",
-        base: "https://tedmehl.me",
-        author: {
-          name: "Ted",
-        }
-      }
-    });
-
-    eleventyConfig.addFilter("cssmin", function(code) {
-        return new CleanCSS({}).minify(code).styles;
-    });
-
-    eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
-		  // Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
-		  return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "LLLL dd, yyyy");
-	  });
-
-    eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
-
-    eleventyConfig.addPassthroughCopy("./src/fonts");
-    eleventyConfig.addPassthroughCopy('./favicon.png');
-    eleventyConfig.addPassthroughCopy('./CNAME');
-    eleventyConfig.addPassthroughCopy('./src/sw.js');
-    eleventyConfig.addPassthroughCopy('./src/images');
-    // For demos that have external files
-    eleventyConfig.addPassthroughCopy("./src/demos/files");
-
-    // Only process pages that don't have a draft variable set to true or are after today's date.
-    eleventyConfig.addPreprocessor("drafts", "*", (data) => {
-      // Account for central time adjustment in date comparison. Otherwise, dates act as midnight UTC which is 6 p.m. CT the previous day.
-      let originalDate = Date.parse(data.page.date);
-      if((data.draft && process.env.ELEVENTY_RUN_MODE === "build") || (originalDate > Date.now() && process.env.ELEVENTY_RUN_MODE === "build") && !data.page.fileSlug.includes("eleventy-plugin-feed")) {
-        return false;
-      }
-    });
-
-    return {
-      dir: {
-        input: "src",
-        output: "public",
-        includes: "../_includes"
+  eleventyConfig.addPlugin(feedPlugin, {
+    type: "atom",
+    outputPath: "/feed.xml",
+    collection: {
+      name: "allWriting",
+      limit: 10,
+    },
+    metadata: {
+      language: "en",
+      title: "tedmehl.me",
+      subtitle: "Playground of half-baked ideas.",
+      base: "https://tedmehl.me",
+      author: {
+        name: "Ted",
       }
     }
-  };
+  });
+
+  eleventyConfig.addFilter("cssmin", function (code) {
+    return new CleanCSS({}).minify(code).styles;
+  });
+
+  eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
+    // Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
+    return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "LLLL dd, yyyy");
+  });
+
+  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+
+  eleventyConfig.addPassthroughCopy("./src/fonts");
+  eleventyConfig.addPassthroughCopy('./favicon.png');
+  eleventyConfig.addPassthroughCopy('./CNAME');
+  eleventyConfig.addPassthroughCopy('./src/sw.js');
+  eleventyConfig.addPassthroughCopy('./src/images');
+  // For random files that I ma need for something
+  eleventyConfig.addPassthroughCopy('./src/files');
+  // For demos that have external files
+  eleventyConfig.addPassthroughCopy("./src/demos/files");
+
+  // Only process pages that don't have a draft variable set to true or are after today's date.
+  eleventyConfig.addPreprocessor("drafts", "*", (data) => {
+    // Account for central time adjustment in date comparison. Otherwise, dates act as midnight UTC which is 6 p.m. CT the previous day.
+    let originalDate = Date.parse(data.page.date);
+    if ((data.draft && process.env.ELEVENTY_RUN_MODE === "build") || (originalDate > Date.now() && process.env.ELEVENTY_RUN_MODE === "build") && !data.page.fileSlug.includes("eleventy-plugin-feed")) {
+      return false;
+    }
+  });
+};
+
+export const config = {
+  dir: {
+    input: "src",
+    output: "public",
+    includes: "../_includes",
+    data: "../_data",
+  }
+}
