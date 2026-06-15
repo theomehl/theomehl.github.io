@@ -143,11 +143,7 @@
     text-wrap: unset;
 }
 
-/* Idea List */
-
-.commonplace-list-wrapper {
-    padding-block-start: 2rem;
-}
+/* Commonplace List */
 
 .commonplace-list {
     border-collapse: collapse;
