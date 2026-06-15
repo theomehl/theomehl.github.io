@@ -8,7 +8,7 @@ eleventyExcludeFromCollections: ["commonplace"]
 ---
 
 <main id="main" class="container flow">
-    <h1>{{title}}</h1>
+    <h1 id="table-caption">{{title}}</h1>
     <p>Collection of ideas, things I find interesting, or stuff I am saving for later.</p>
     <details>
         <summary>What is a commonplace book?</summary>
@@ -16,24 +16,24 @@ eleventyExcludeFromCollections: ["commonplace"]
             <p>A <a href="https://en.wikipedia.org/wiki/Commonplace_book">commonplace book</a> is a kind of notebook used to gather anything and everything you find interesting or useful. Once used primarily for quotations and sayings, in modern usage there are no limits to what you can write down in one.</p>
         </div>
     </details>
-    <div class="commonplace-list-wrapper">
-        <table class="commonplace-list flow">
-            <thead>
-                <tr>
-                    <td>Last updated</td>
-                    <td>Title</td>
+    <div class="commonplace-list-wrapper" id="commonplace-list" class="feature" role="region" aria-labelledby="table-caption" tabindex="0">
+        <table class="commonplace-list flow" role="table">
+            <thead role="rowgroup">
+                <tr role="row">
+                    <th role="columnheader">Title</th>
+                    <th role="columnheader">Last updated</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody role="rowgroup">
                 {% for post in collections.commonplace | reverse %}
-                <tr>
-                    <td>
-                        <em><time datetime="{{ post.date | readableDate(" yyyy-LL-dd") }}">{{
-                                post.date | readableDate("LLLL dd, yyyy") }}</time></em>
-                    </td>
-                    <td>
+                <tr role="row">
+                    <td data-column="Title" role="cell">
                         <a href="{{post.url}}">{{post.data.title}}</a>
                         {# <p>{{post.data.description | safe }}</p> #}
+                    </td>
+                    <td data-column="Last updated" role="cell">
+                        <em><time datetime="{{ post.date | readableDate(" yyyy-LL-dd") }}">{{
+                                post.date | readableDate("LLLL dd, yyyy") }}</time></em>
                     </td>
                 </tr>
                 {% endfor %}
