@@ -162,11 +162,6 @@
     background-color: transparent;
 }
 
-.commonplace-list tbody td {
-    padding-block: 1rem;
-    padding-inline-end: 1rem;
-}
-
 /* Featured grid */
 
 .feature-grid {
@@ -234,9 +229,20 @@
 
 .footer-wrapper {
     display: flex; 
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
     gap: 1rem;
+    margin-block-start: 0.5rem;
 }
+
+/* Maybe a media query, but I want to see if I can do without media queries... */
+/* @media screen and (min-width: 45rem) {
+    .footer-wrapper {
+        flex-direction: row;
+    }
+    
+} */
 
 .copyright {
     flex-shrink: 0;

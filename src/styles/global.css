@@ -1,5 +1,13 @@
 /* Defaults */
 
+[data-theme="light"] {
+    color-scheme: light;
+}
+
+[data-theme="dark"] {
+    color-scheme: dark;
+}
+
 html {
     font-family: var(--font-base);
     color: var(--base-text);
@@ -38,6 +46,31 @@ a {
     color: var(--link-text);
     text-decoration-color: var(--color-accent);
     text-decoration-thickness: 0.2rem;
+}
+
+a:hover, a:focus {
+    text-decoration-color: currentColor;
+}
+
+button {
+    border-radius: 4px;
+    border: 1px solid;
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+}
+
+button[aria-pressed="true"] {
+    background-color: var(--color-tertiary);
+    color: var(--color-secondary);
+}
+
+button:not([aria-pressed="true"]):hover {
+    background-color: var(--color-tertiary);
+    color: var(--color-secondary);
+}
+
+button:focus {
+    outline: 3px solid var(--color-accent);
 }
 
 hr {

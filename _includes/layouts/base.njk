@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="system">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,6 +21,12 @@
     </style>
     {% endif %}
     <link rel="icon" href="/favicon.png">
+    <script>
+        let theme = localStorage.getItem('theme');
+        if (theme) {
+            document.documentElement.setAttribute('data-theme', theme);
+        }
+    </script>
 
 </head>
 <body>
@@ -43,6 +49,12 @@
         <hr>
         <div class="footer-wrapper">
             <p class="copyright"><small>&copy; {% year %} </small></p>
+            <div style="display: flex; gap: 0.5rem;">
+                <p><small>Theme: </small></p>
+                <button aria-pressed="true" value="system">System</button>
+                <button aria-pressed="false" value="light">Light</button>
+                <button aria-pressed="false" value="dark">Dark</button>
+            </div>
             <nav class="nav-list secondary-nav">
                 <ul>
                     <li><small><a href="/demos/">demos</a></small></li>
@@ -57,6 +69,27 @@
         if (navigator && navigator.serviceWorker) {
             navigator.serviceWorker.register('/sw.js');
         }
+
+        function switchTheme(button) {
+            document.querySelector('button[aria-pressed="true"]').setAttribute('aria-pressed', false);
+            button.setAttribute('aria-pressed', true);
+            document.documentElement.setAttribute('data-theme', button.value);
+            localStorage.setItem('theme', button.value);
+        }
+
+        function setThemeButtons(theme) {
+            if (document.querySelector('button[aria-pressed="true"]').value === theme) return;
+            document.querySelector(`button[value="${theme}"]`).setAttribute('aria-pressed', true);
+            document.querySelector('button[aria-pressed="true"]').setAttribute('aria-pressed', false);
+        }
+
+        document.addEventListener("click", function(event) {
+            if (event.target.matches('button[aria-pressed]')) {
+                switchTheme(event.target);
+            }
+        });
+
+        setThemeButtons(theme);
     </script>
 </body>
 </html>
