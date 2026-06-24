@@ -1,0 +1,34 @@
+{
+    "header": [
+        {
+            "text": "blog",
+            "url": "/blog/"
+        },
+        {
+            "text": "notes",
+            "url": "/notes/"
+        },
+        {
+            "text": "commonplace book",
+            "url": "/commonplace/"
+        },
+        {
+            "text": "photos",
+            "url": "https://photos.tedmehl.me"
+        }
+    ],
+    "footer": [
+        {
+            "text": "demos",
+            "url": "/demos/"
+        },
+        {
+            "text": "rss feed",
+            "url": "/feed.xml"
+        },
+        {
+            "text": "colophon",
+            "url": "/colophon/"
+        }
+    ]
+}
