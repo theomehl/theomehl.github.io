@@ -48,6 +48,10 @@ a {
     text-decoration-thickness: 0.2rem;
 }
 
+a[aria-current="page"], a[data-state="active"] {
+    text-decoration-color: currentColor;
+}
+
 a:hover, a:focus {
     text-decoration-color: currentColor;
 }
