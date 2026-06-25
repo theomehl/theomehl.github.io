@@ -166,7 +166,7 @@ tr[data-status="reading" i] {
         padding-block-start: var(--table-row-spacing);
     }
 
-    td:last-child, td:has( + td:empty)  {
+    td:is(:last-child, :has( + td:empty))  {
         padding-block-end: var(--table-row-spacing);
     }
 
