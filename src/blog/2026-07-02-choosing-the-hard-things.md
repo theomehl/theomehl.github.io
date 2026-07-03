@@ -2,7 +2,7 @@
 title: Choosing the hard things
 description: "Finding inspiration in people opting for what's meaningful over
   what's mindless. "
-date: 2026-07-03
+date: 2026-07-02
 draft: false
 ---
 Recently, I've been reading from and listening to people who have chosen to do things the hard way. The way that adds more friction rather than attempting to make things frictionless. 
