@@ -42,7 +42,7 @@ draft: false
                 <td data-column="No." role="cell">{{ book.number }}</td>
                 <td data-column="Title" role="cell">
                     {% if book.notesUrl !== '' %}
-                        <a href="{{ book.notesUrl }}">{{ book.title }}</a>
+                        <a href="{{ book.notesUrl | inputPathToUrl }}">{{ book.title }}</a>
                     {% else %}
                         {{ book.title }}
                     {% endif %}
