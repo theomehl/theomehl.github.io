@@ -132,13 +132,13 @@
     margin-block: 0 1.5em;
 }
 
-.note-list:is(li, .note) {
+.note-list :is(li, .note) {
     background-color: var(--color-background);
     padding: 2rem; 
     margin-inline: -2rem;
 }
 
-.note-list:is(h1, h2) {
+.note-list :is(h1, h2) {
     font-size: var(--text-md);
     text-wrap: unset;
 }
