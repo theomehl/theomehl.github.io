@@ -20,7 +20,8 @@ I will readily admit I'm not very handy around cars, but that doesn't stop me fr
   - Nissan Cima
   - JZS 171 Toyota Crown Athlete
 - R32 GTR
-- Some kind of lightweight sports like an MG
 - Toyota Crown S50 Utility Pickup
 - Audi RS2 Avant
+- Toyota MR2 AW11
+- Fiat X1/9
 
