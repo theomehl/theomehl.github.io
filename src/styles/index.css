@@ -1,5 +1,6 @@
 {% include "src/styles/fonts.css" %}
 {% include "src/styles/variables.css" %}
+{% include "src/styles/vendor.css" %}
 {% include "src/styles/global.css" %}
 {% include "src/styles/blocks.css" %}
 {% include "src/styles/content.css" %}

@@ -1,0 +1,15 @@
+iframe.letterbird-embed[height] {
+    max-width: calc(100% + 5rem);
+    width: calc(100% + 5rem);
+    box-shadow: none;
+    margin-inline: -2.5rem;
+    --flow-space: 0;
+    padding-inline: 1.5rem;
+}
+
+@media screen and (min-width: 600px) {
+
+    iframe.letterbird-embed[height] {
+        padding-inline: 0;
+    }
+}
