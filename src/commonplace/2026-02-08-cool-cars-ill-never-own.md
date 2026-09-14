@@ -22,5 +22,5 @@ I will readily admit I'm not very handy around cars, but that doesn't stop me fr
 - R32 GTR
 - Toyota Crown S50 Utility Pickup
 - Audi RS2 Avant
-- Toyota MR2 AW11 {% contentTag "new", date %}
-- Fiat X1/9 {% contentTag "new", date %} 
+- Toyota MR2 AW11 {% contentTag "new", "2026-09-13" %}
+- Fiat X1/9 {% contentTag "new", "2026-09-13" %} 
