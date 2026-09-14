@@ -59,7 +59,26 @@ export default async function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "LLLL dd, yyyy");
   });
 
+  // Shortcodes
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+  eleventyConfig.addShortcode("contentTag", (type, date) => {
+    let tagContent;
+    switch(type){
+      case "recent":
+       tagContent = "Recently added";
+       break;
+      case "new": 
+        tagContent = "New";
+        break;
+    }
+    if (date) {
+      if (Date.now() - Date.parse(date) <= 518400000) {
+      return`<span class="tag">${tagContent}</span>`;
+      }
+      return '';
+    } 
+    return`<span class="tag">${tagContent}</span>`;
+  });
 
   eleventyConfig.addPassthroughCopy("./src/fonts");
   eleventyConfig.addPassthroughCopy('./favicon.png');

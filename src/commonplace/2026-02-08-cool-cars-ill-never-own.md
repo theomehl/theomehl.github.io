@@ -3,7 +3,7 @@ title: Cool Cars I'll Never Own
 description: "I am not handy with cars, but that doesn't mean I can't appreciate
   cool ones. "
 originalDate: 2026-02-08
-date: 2026-09-01
+date: 2026-09-13
 draft: false
 ---
 I will readily admit I'm not very handy around cars, but that doesn't stop me from appreciating a cool one when I see one. This is a running list of cars I think are cool but practically speaking I would never own. In no particular order:
@@ -22,6 +22,5 @@ I will readily admit I'm not very handy around cars, but that doesn't stop me fr
 - R32 GTR
 - Toyota Crown S50 Utility Pickup
 - Audi RS2 Avant
-- Toyota MR2 AW11
-- Fiat X1/9
-
+- Toyota MR2 AW11 {% contentTag "new", date %}
+- Fiat X1/9 {% contentTag "new", date %} 

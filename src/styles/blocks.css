@@ -243,3 +243,18 @@
 .copyright {
     flex-shrink: 0;
 }
+
+/* Tags */
+
+.tag {
+    display: inline-block;
+    padding-inline: 0.25rem;
+    padding-block: 0.15rem;
+    margin-inline-start: 0.25rem;
+    font-size: x-small;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5;
+    background-color: var(--info-background);
+    color: var(--info-text);
+}
