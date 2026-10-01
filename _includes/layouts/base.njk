@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{title}} | tedmehl.me</title>
-    <meta name="description" content="{{description}}">
+    <title>{{ title }} | tedmehl.me</title>
+    <meta name="description" content="{{ description }}">
     <meta name="generator" content="{{ eleventy.generator }}">
     
     <link rel="preload" as="font" href="/fonts/Figtree.woff2" crossorigin>
     <link rel="preload" as="font" href="/fonts/Figtree-Italic.woff2" crossorigin>
     <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Blog Posts and Notes Feed">
     
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:image" content="{{ site.url }}/files/tm-og-image.jpg">
+    <meta property="og:image:secure_url" content="{{ site.url }}/files/tm-og-image.jpg">
+
     {% set css %}
         {% include "src/styles/index.css" %}
     {% endset %}
@@ -44,7 +49,7 @@
         </nav>
     </header>
 
-    {{content | safe}}
+    {{ content | safe }}
 
     <footer class="container">
         <hr>
