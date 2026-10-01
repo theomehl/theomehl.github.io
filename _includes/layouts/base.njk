@@ -6,15 +6,6 @@
     <title>{{ title }} | tedmehl.me</title>
     <meta name="description" content="{{ description }}">
     <meta name="generator" content="{{ eleventy.generator }}">
-    
-    <link rel="preload" as="font" href="/fonts/Figtree.woff2" crossorigin>
-    <link rel="preload" as="font" href="/fonts/Figtree-Italic.woff2" crossorigin>
-    <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Blog Posts and Notes Feed">
-    
-    <meta property="og:title" content="{{ title }}">
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-    <meta property="og:image" content="{{ site.url }}/files/tm-og-image.jpg">
-    <meta property="og:image:secure_url" content="{{ site.url }}/files/tm-og-image.jpg">
 
     {% set css %}
         {% include "src/styles/index.css" %}
@@ -27,13 +18,22 @@
         {{ extraStyles | cssmin | safe }}
     </style>
     {% endif %}
-    <link rel="icon" href="/favicon.png">
     <script>
         let theme = localStorage.getItem('theme');
         if (theme) {
             document.documentElement.setAttribute('data-theme', theme);
         }
     </script>
+
+    <link rel="preload" as="font" href="/fonts/Figtree.woff2" crossorigin>
+    <link rel="preload" as="font" href="/fonts/Figtree-Italic.woff2" crossorigin>
+    <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Blog Posts and Notes Feed">
+
+    <link rel="icon" href="/favicon.png">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:image" content="{{ site.url }}/files/tm-og-image.jpg">
+    <meta property="og:image:secure_url" content="{{ site.url }}/files/tm-og-image.jpg">
 
 </head>
 <body>
