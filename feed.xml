@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   
   <title>tedmehl.me</title>
-  <subtitle>Playground of half-baked ideas.</subtitle>
+  <subtitle>Collection of half-baked ideas.</subtitle>
   <link href="https://tedmehl.me/feed.xml" rel="self" />
   <link href="https://tedmehl.me/" />
   <updated>2026-07-02T05:00:00Z</updated>
