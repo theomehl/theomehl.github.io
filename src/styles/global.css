@@ -63,18 +63,22 @@ button {
     color: var(--color-text);
 }
 
-button[aria-pressed="true"] {
+/* button[aria-pressed="true"] {
     background-color: var(--color-tertiary);
     color: var(--color-secondary);
-}
+} */
 
-button:not([aria-pressed="true"]):hover {
+button:is([aria-pressed="false"]:hover, [aria-pressed="true"]):enabled {
     background-color: var(--color-tertiary);
     color: var(--color-secondary);
 }
 
 button:focus {
     outline: 3px solid var(--color-accent);
+}
+
+button:disabled {
+    cursor:not-allowed;
 }
 
 hr {

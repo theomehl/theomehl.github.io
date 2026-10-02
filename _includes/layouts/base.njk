@@ -57,8 +57,8 @@
             <p class="copyright"><small>&copy; {% year %} </small></p>
             <div style="display: flex; gap: 0.5rem;">
                 <p><small>Theme: </small></p>
-                <button aria-pressed="false" value="light">Light</button>
-                <button aria-pressed="false" value="dark">Dark</button>
+                <button aria-pressed="false" value="light" disabled>Light</button>
+                <button aria-pressed="false" value="dark" disabled>Dark</button>
             </div>
             <nav class="nav-list secondary-nav">
                 <ul>
@@ -75,6 +75,9 @@
         }
 
         let colorSchemeMql = window.matchMedia("(prefers-color-scheme: dark)");
+        for (let button of document.querySelectorAll("button[disabled]")) {
+            button.removeAttribute('disabled');
+        }
         
         function prefersColorScheme() {
             return colorSchemeMql.matches ? "dark": "light";
