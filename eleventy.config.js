@@ -79,6 +79,18 @@ export default async function (eleventyConfig) {
     } 
     return`<span class="tag">${tagContent}</span>`;
   });
+  eleventyConfig.addPairedShortcode("details", (content, summary, open = false) => {
+// Can't indent the HTML, otherwise it breaks the markdown within the paired tags. 
+return `
+<details ${open ? 'open' : ''}>
+<summary>${summary}</summary>
+<div class="details-wrapper flow">
+${content}
+</div>
+</details>
+`;
+
+  });
 
   eleventyConfig.addPassthroughCopy("./src/fonts");
   eleventyConfig.addPassthroughCopy('./favicon.png');
