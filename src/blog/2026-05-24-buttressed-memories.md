@@ -35,9 +35,7 @@ I might take some hints from Marie Kondo. Thanking each of my memories for their
 
 These memories are important, vital to shaping who I am now. But they are only one part of many that make me *me*, and I should take care to not let them become the measure by which I judge my current life.
 
-<details>
-<summary>Read the full Sanderson quote</summary>
-<div class="details-wrapper flow">
+{% details "Read the full Sanderson quote" %}
 
 I love memories. They are our ballads, our personal foundation myths. But I must acknowledge that memory *can* be cruel if left unchallenged.
 
@@ -47,5 +45,4 @@ Painful or passionate, surreal or sublime, we cherish those little rocks of peak
 
 I love this. Memory may not be the heart of what makes us human, but it's at least a vital organ. Nevertheless, we must take care not to let the bliss of the present fade when compared to supposedly better days. We're happy, sure, but were we *more* happy then? If we let it, memory can make shadows of the now, as nothing can match the buttressed legends of our past.
 
-</div>
-</details>
+{% enddetails %}
