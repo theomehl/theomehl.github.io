@@ -113,6 +113,4 @@ content:
         type: boolean
       - name: body
         label: Body
-        type: rich-text
-        options: 
-          format: html
+        type: text
