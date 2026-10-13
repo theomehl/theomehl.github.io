@@ -47,6 +47,7 @@
 
 .header-logo-wrapper {
     text-decoration: none;
+    box-shadow: none;
     font-size: 1.5rem;
     font-weight: 900;
     display: flex;
