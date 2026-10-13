@@ -60,7 +60,7 @@ nav a {
 
 a[aria-current="page"], a[data-state="active"] {
     text-decoration-color: currentColor;
-    --link-shadow: var(--warning-background);
+    --link-shadow: light-dark(var(--warning-background), var(--blue-700));
 }
 
 button {
