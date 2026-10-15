@@ -31,48 +31,56 @@ Don't know what to get me? Here are some ideas in no particular order:
 
 Arcade Fire
 
-- [Neon Bible](https://www.discogs.com/master/5410-Arcade-Fire-Neon-Bible)
+- [Neon Bible](https://www.discogs.com/master/5410-Arcade-Fire-Neon-Bible?format=CD)
 
 Bon Iver
 
-- [Bon Iver](https://www.discogs.com/master/345153-Bon-Iver-Bon-Iver-Bon-Iver)
+- [Bon Iver](https://www.discogs.com/master/345153-Bon-Iver-Bon-Iver-Bon-Iver?format=CD)
 
 Death Cab for Cutie
 
-- [Kintsugi](https://www.discogs.com/master/815401-Death-Cab-For-Cutie-Kintsugi)
-- [Codes and Keys](https://www.discogs.com/master/339684-Death-Cab-For-Cutie-Codes-And-Keys)
-- [Narrow Stairs](https://www.discogs.com/master/3562-Death-Cab-For-Cutie-Narrow-Stairs)
-- [Transatlanticism](https://www.discogs.com/master/3528-Death-Cab-For-Cutie-Transatlanticism)
-- [Plans](https://www.discogs.com/master/3546-Death-Cab-For-Cutie-Plans)
+- [Kintsugi](https://www.discogs.com/master/815401-Death-Cab-For-Cutie-Kintsugi?format=CD)
+- [Codes and Keys](https://www.discogs.com/master/339684-Death-Cab-For-Cutie-Codes-And-Keys?format=CD)
+- [Narrow Stairs](https://www.discogs.com/master/3562-Death-Cab-For-Cutie-Narrow-Stairs?format=CD)
+- [Transatlanticism](https://www.discogs.com/master/3528-Death-Cab-For-Cutie-Transatlanticism?format=CD)
+- [Plans](https://www.discogs.com/master/3546-Death-Cab-For-Cutie-Plans?format=CD)
 
 Jamiroquai
 
-- [Travelling Without Moving](https://www.discogs.com/master/69956-Jamiroquai-Travelling-Without-Moving)
+- [Travelling Without Moving](https://www.discogs.com/master/69956-Jamiroquai-Travelling-Without-Moving?format=CD)
+
+Kishi Bashi 
+
+- [Sonderlust](https://www.discogs.com/master/1058330-Kishi-Bashi-Sonderlust?format=CD)
 
 Lief Vollebekk
 
-- [North Americana](https://www.discogs.com/master/660227-Leif-Vollebekk-North-Americana)
+- [North Americana](https://www.discogs.com/master/660227-Leif-Vollebekk-North-Americana?format=CD)
 
 Nick Drake
 
-- [Pink Moon](https://www.discogs.com/master/13933-Nick-Drake-Pink-Moon)
+- [Pink Moon](https://www.discogs.com/master/13933-Nick-Drake-Pink-Moon?format=CD)
 
 Oasis
 
-- [(What's the Story) Morning Glory](https://www.discogs.com/master/52220-Oasis-Whats-The-Story-Morning-Glory)
+- [(What's the Story) Morning Glory](https://www.discogs.com/master/52220-Oasis-Whats-The-Story-Morning-Glory?format=CD)
+
+Ólafur Arnalds
+
+- [Re:member](https://www.discogs.com/master/1412623-%C3%93lafur-Arnalds-Remember?format=CD)
 
 Third Eye Blind
 
-- [Third Eye Blind](https://www.discogs.com/master/127907-Third-Eye-Blind-Third-Eye-Blind)
-- [Blue](https://www.discogs.com/master/269170-Third-Eye-Blind-Blue)
+- [Third Eye Blind](https://www.discogs.com/master/127907-Third-Eye-Blind-Third-Eye-Blind?format=CD)
+- [Blue](https://www.discogs.com/master/269170-Third-Eye-Blind-Blue?format=CD)
 
 Tom Misch
 
-- [Geography](https://www.discogs.com/master/1335101-Tom-Misch-Geography)
+- [Geography](https://www.discogs.com/master/1335101-Tom-Misch-Geography?format=CD)
 
 TV On the Radio
 
-- [Dear Science](https://www.discogs.com/master/43214-TV-On-The-Radio-Dear-Science)
+- [Dear Science](https://www.discogs.com/master/43214-TV-On-The-Radio-Dear-Science?format=CD)
 
 {% enddetails %}
 
