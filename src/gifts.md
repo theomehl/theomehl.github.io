@@ -112,6 +112,7 @@ TV On the Radio
 - [Eno Parkway Adjustable Hammock Stand](https://eaglesnestoutfittersinc.com/collections/hammock-chair-stands/products/parkway-adjustable-hammock-stand)
 - [Eno JungleNest Hammock in Pacific](https://eaglesnestoutfittersinc.com/collections/hammocks/products/junglenest-hammock?variant=32490388029577)
 - [Small print of Coastal Scene by Théo van Rysselberghe](https://shop.nationalgallery.org.uk/coastal-scene-print-ng6582.html) 
+- [Davek Duet umbrella](https://davekny.com/collections/compact-umbrellas-1/products/the-davek-duet) 
 - Workout/exercise mat
 
 {% enddetails %}
