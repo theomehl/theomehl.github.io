@@ -102,7 +102,8 @@ TV On the Radio
 {% details "Other" %}
 
 - [Unit blocks](https://www.communityplaythings.com/products/play/block-play/unit-blocks/introductory-set-unit-blocks?v=F151) if you're feeling fancy
-- 
+- [Beurer TL95 Light Therapy Lamp](https://www.amazon.com/dp/B0BTPXJJB7?th=1)
+- [Cuisinart Power Advantage PLUS 9-Speed Hand Mixer](https://www.amazon.com/dp/B0034A8C4O?th=1)
 - Workout/exercise mat
 
 {% enddetails %}
