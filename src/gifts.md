@@ -104,6 +104,8 @@ TV On the Radio
 - [Unit blocks](https://www.communityplaythings.com/products/play/block-play/unit-blocks/introductory-set-unit-blocks?v=F151) if you're feeling fancy
 - [Beurer TL95 Light Therapy Lamp](https://www.amazon.com/dp/B0BTPXJJB7?th=1)
 - [Cuisinart Power Advantage PLUS 9-Speed Hand Mixer](https://www.amazon.com/dp/B0034A8C4O?th=1)
+- [Eno Parkway Adjustable Hammock Stand](https://eaglesnestoutfittersinc.com/collections/hammock-chair-stands/products/parkway-adjustable-hammock-stand)
+- [Eno JungleNest Hammock in Pacific](https://eaglesnestoutfittersinc.com/collections/hammocks/products/junglenest-hammock?variant=32490388029577)
 - Workout/exercise mat
 
 {% enddetails %}
