@@ -86,7 +86,8 @@ TV On the Radio
 
 {% details "Bookbinding tools and supplies" %}
 
-I own a lot of what I need right now shrug emoji
+- [Kokuyo KB Business Paper in A3](https://www.amazon.com/dp/B0006L011Q)
+- [Klein Threadclip](https://www.amazon.com/dp/B073GCZ5CZ/) (or [Earnest Wright Threadsnips](https://www.ernestwright.co.uk/product/threadsnips-snipping-scissors/) if you're feeling fancy)
 
 {% enddetails %}
 
