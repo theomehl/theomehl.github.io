@@ -20,8 +20,10 @@ Don't know what to get me? Here are some ideas in no particular order:
 
 {% details "Vinyl Records" %}
 
-- North Americana - Leif Vollebekk
+- [North Americana - Leif Vollebekk](https://www.discogs.com/master/660227-Leif-Vollebekk-North-Americana?format=LP)
+- [Back At The Chicken Shack - The Incredible Jimmy Smith](https://www.discogs.com/release/19270828-The-Incredible-Jimmy-Smith-Back-At-The-Chicken-Shack)
 - Something else you think I need
+- [Vevor ultrasonic record cleaner](https://www.vevor.com/ultrasonic-cleaner-c_11064/6l-ultrasonic-vinyl-record-cleaner-cleaning-machine-complete-w-drying-rack-p_010265133877)
 
 {% enddetails %}
 
@@ -84,7 +86,6 @@ I own a lot of what I need right now shrug emoji
 
 - [Unit blocks](https://www.communityplaythings.com/products/play/block-play/unit-blocks/introductory-set-unit-blocks?v=F151) if you're feeling fancy
 - Workout/exercise mat
-- [Vevor ultrasonic record cleaner](https://www.vevor.com/ultrasonic-cleaner-c_11064/6l-ultrasonic-vinyl-record-cleaner-cleaning-machine-complete-w-drying-rack-p_010265133877)
 - Reading things
   - [Bookwarden Standard](https://goodmadebetter.com/collections/bookwarden/products/bookwarden-model-2?variant=47962557776127) - black strap
   - [Bookwarden Large](https://goodmadebetter.com/collections/bookwarden/products/large-bookwarden-model-2?variant=48138803478783) - large in addition to the standard size, because standard wouldn't fit the size books Brandon Sanderson likes to write. Also black strap.
