@@ -11,8 +11,8 @@ Don't know what to get me? Here are some ideas in no particular order:
 
 - [Light wash jeans 28W 29L](https://ashanderie.com/collections/pants-and-jeans/products/light-wash-essential-jeans?variant=46938344358186)
 - [Khaki chinos 28W 29L](https://ashanderie.com/products/khaki-washed-stretch-chino?variant=46937196724522)
-- [Mountain Classic Anorak in Olive/Teal in size S](https://www.llbean.com/llb/shop/120880?attrValue_0=58468)
-- [Ragg Wool crewneck in Olive/Navy or Toasted Coconut in size S](https://www.llbean.com/llb/shop/127375) (Navy is great but I have too many blue sweaters)
+- [Mountain Classic Anorak in Olive/Teal and size S](https://www.llbean.com/llb/shop/120880?attrValue_0=58468)
+- [Ragg Wool crewneck in Olive/Navy or Toasted Coconut and size S](https://www.llbean.com/llb/shop/127375) (Navy is great but I have too many blue sweaters)
 - [Cresta Midweight 250 base layer in black and size S](https://www.llbean.com/llb/shop/125983?attrValue_0=50116)
 - [Down gloves in size M](https://www.llbean.com/llb/shop/130305?attrValue_0=1)
 
@@ -91,12 +91,18 @@ TV On the Radio
 
 {% enddetails %}
 
+{% details "Reading" %}
+
+- [Bookwarden Standard](https://goodmadebetter.com/collections/bookwarden/products/bookwarden-model-2?variant=47962557776127) - black strap
+- [Bookwarden Large](https://goodmadebetter.com/collections/bookwarden/products/large-bookwarden-model-2?variant=48138803478783) - large in addition to the standard size, because standard wouldn't fit the size books Brandon Sanderson likes to write. Also black strap.
+- [The Hobbit and Lord of the Rings box set](https://www.amazon.com/Hobbit-Lord-Rings-J-R-R-Tolkien/dp/0547928181/) plus matching [Silmarillion](https://www.amazon.com/Silmarillion-Bestseller-Foundational-Fantasy-Middle-Earths/dp/0544338014/)
+
+{% enddetails %}
+
 {% details "Other" %}
 
 - [Unit blocks](https://www.communityplaythings.com/products/play/block-play/unit-blocks/introductory-set-unit-blocks?v=F151) if you're feeling fancy
+- 
 - Workout/exercise mat
-- Reading things
-  - [Bookwarden Standard](https://goodmadebetter.com/collections/bookwarden/products/bookwarden-model-2?variant=47962557776127) - black strap
-  - [Bookwarden Large](https://goodmadebetter.com/collections/bookwarden/products/large-bookwarden-model-2?variant=48138803478783) - large in addition to the standard size, because standard wouldn't fit the size books Brandon Sanderson likes to write. Also black strap.
 
 {% enddetails %}
