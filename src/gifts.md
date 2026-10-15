@@ -106,7 +106,7 @@ TV On the Radio
 - [Cuisinart Power Advantage PLUS 9-Speed Hand Mixer](https://www.amazon.com/dp/B0034A8C4O?th=1)
 - [Eno Parkway Adjustable Hammock Stand](https://eaglesnestoutfittersinc.com/collections/hammock-chair-stands/products/parkway-adjustable-hammock-stand)
 - [Eno JungleNest Hammock in Pacific](https://eaglesnestoutfittersinc.com/collections/hammocks/products/junglenest-hammock?variant=32490388029577)
-- [Coastal Scene by Théo van Rysselberghe print size small](https://shop.nationalgallery.org.uk/coastal-scene-print-ng6582.html) 
+- [Small print of Coastal Scene by Théo van Rysselberghe](https://shop.nationalgallery.org.uk/coastal-scene-print-ng6582.html) 
 - Workout/exercise mat
 
 {% enddetails %}
