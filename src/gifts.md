@@ -104,6 +104,11 @@ TV On the Radio
 - [Unit blocks](https://www.communityplaythings.com/products/play/block-play/unit-blocks/introductory-set-unit-blocks?v=F151) if you're feeling fancy
 - [Beurer TL95 Light Therapy Lamp](https://www.amazon.com/dp/B0BTPXJJB7?th=1)
 - [Cuisinart Power Advantage PLUS 9-Speed Hand Mixer](https://www.amazon.com/dp/B0034A8C4O?th=1)
+- Simpson & Vail Teas
+  - [Morgan Blend](https://svtea.com/products/copy-of-morgan-blend-tea?variant=42989699367138)
+  - [Peppermint](https://svtea.com/products/peppermint-organic)
+  - [Henry David Thoreau's Herbal Tisane](https://svtea.com/products/copy-of-henry-david-thoreaus-herbal-tisane-blend?variant=42988788252898) 
+  - [Apple Pie Chai](https://svtea.com/products/apple-pie-chai?variant=42795267064034)
 - [Eno Parkway Adjustable Hammock Stand](https://eaglesnestoutfittersinc.com/collections/hammock-chair-stands/products/parkway-adjustable-hammock-stand)
 - [Eno JungleNest Hammock in Pacific](https://eaglesnestoutfittersinc.com/collections/hammocks/products/junglenest-hammock?variant=32490388029577)
 - [Small print of Coastal Scene by Théo van Rysselberghe](https://shop.nationalgallery.org.uk/coastal-scene-print-ng6582.html) 
