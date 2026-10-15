@@ -52,15 +52,12 @@ a:hover, a:focus {
     text-decoration-color: currentColor;
 }
 
-nav a {
-    --link-shadow: light-dark(var(--color-accent-secondary), var(--gray-600));
+nav li a {
     text-decoration: none;
-    box-shadow: inset 0 -0.5em var(--link-shadow);
 }
 
-a[aria-current="page"], a[data-state="active"] {
-    text-decoration-color: currentColor;
-    --link-shadow: light-dark(var(--warning-background), var(--blue-700));
+nav li a:is([aria-current], [data-state="active"], :hover, :focus) {
+    box-shadow: inset 0 -0.5em light-dark(var(--color-accent-secondary), var(--gray-600));
 }
 
 button {
