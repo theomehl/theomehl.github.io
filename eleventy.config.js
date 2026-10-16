@@ -2,6 +2,13 @@ import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import CleanCSS from "clean-css";
 import { DateTime } from "luxon";
+// Import shortcodes
+import {
+  currentYear,
+  contentTag,
+  details,
+} from "./_shortcodes/index.js";
+
 
 const TIME_ZONE = "America/Chicago";
 
@@ -60,44 +67,17 @@ export default async function (eleventyConfig) {
   });
 
   // Shortcodes
-  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
-  eleventyConfig.addShortcode("contentTag", (type, date) => {
-    let tagContent;
-    switch(type){
-      case "recent":
-       tagContent = "Recently added";
-       break;
-      case "new": 
-        tagContent = "New";
-        break;
-    }
-    if (date) {
-      if (Date.now() - Date.parse(date) <= 518400000) {
-      return`<span class="tag">${tagContent}</span>`;
-      }
-      return '';
-    } 
-    return`<span class="tag">${tagContent}</span>`;
-  });
-  eleventyConfig.addPairedShortcode("details", (content, summary, open = false) => {
-// Can't indent the HTML, otherwise it breaks the markdown within the paired tags. 
-return `
-<details ${open ? 'open' : ''}>
-<summary>${summary}</summary>
-<div class="details-wrapper flow">
-${content}
-</div>
-</details>
-`;
+  eleventyConfig.addShortcode("year", currentYear);
+  eleventyConfig.addShortcode("contentTag", contentTag);
+  eleventyConfig.addPairedShortcode("details", details);
 
-  });
-
+  // Passthrough copies
   eleventyConfig.addPassthroughCopy("./src/fonts");
   eleventyConfig.addPassthroughCopy('./favicon.png');
   eleventyConfig.addPassthroughCopy('./CNAME');
   eleventyConfig.addPassthroughCopy('./src/sw.js');
   eleventyConfig.addPassthroughCopy('./src/images');
-  // For random files that I ma need for something
+  // For random files that I may need for something
   eleventyConfig.addPassthroughCopy('./src/files');
   // For demos that have external files
   eleventyConfig.addPassthroughCopy("./src/demos/files");
