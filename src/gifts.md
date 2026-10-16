@@ -88,6 +88,7 @@ TV On the Radio
 
 - [Kokuyo KB Business Paper in A3](https://www.amazon.com/dp/B0006L011Q)
 - [Klein Threadclip](https://www.amazon.com/dp/B073GCZ5CZ/) (or [Earnest Wright Threadsnips](https://www.ernestwright.co.uk/product/threadsnips-snipping-scissors/) if you're feeling fancy)
+  - Alternatively, [Japanese scissors - curved or straight](https://www.talasonline.com/Japanese-Scissors-Itokiri?quantity=1&type=277)
 
 {% enddetails %}
 
