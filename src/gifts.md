@@ -21,7 +21,7 @@ Don't know what to get me? Here are some ideas in no particular order:
 {% details "Vinyl Records" %}
 
 - [North Americana - Leif Vollebekk](https://www.discogs.com/master/660227-Leif-Vollebekk-North-Americana?format=LP)
-- [Back At The Chicken Shack - The Incredible Jimmy Smith](https://www.discogs.com/release/19270828-The-Incredible-Jimmy-Smith-Back-At-The-Chicken-Shack)
+- [Back At The Chicken Shack - The Incredible Jimmy Smith](https://www.discogs.com/release/19270828-The-Incredible-Jimmy-Smith-Back-At-The-Chicken-Shack) (this specific pressing)
 - Something else you think I need
 - [Vevor ultrasonic record cleaner](https://www.vevor.com/ultrasonic-cleaner-c_11064/6l-ultrasonic-vinyl-record-cleaner-cleaning-machine-complete-w-drying-rack-p_010265133877)
 
@@ -29,9 +29,14 @@ Don't know what to get me? Here are some ideas in no particular order:
 
 {% details "CDs" %}
 
+Alaskan Tapes 
+
+- Who Tends a Garden
+
 Arcade Fire
 
 - [Neon Bible](https://www.discogs.com/master/5410-Arcade-Fire-Neon-Bible?format=CD)
+- [Suburbs](https://www.discogs.com/master/264742-Arcade-Fire-The-Suburbs?format=CD)
 
 Bon Iver
 
@@ -45,17 +50,35 @@ Death Cab for Cutie
 - [Transatlanticism](https://www.discogs.com/master/3528-Death-Cab-For-Cutie-Transatlanticism?format=CD)
 - [Plans](https://www.discogs.com/master/3546-Death-Cab-For-Cutie-Plans?format=CD)
 
+Explosions in the Sky
+
+- [The Earth Is Not a Cold Dead Place](https://www.discogs.com/master/4202-Explosions-In-The-Sky-The-Earth-Is-Not-A-Cold-Dead-Place?format=CD)
+
 Jamiroquai
 
 - [Travelling Without Moving](https://www.discogs.com/master/69956-Jamiroquai-Travelling-Without-Moving?format=CD)
+
+Khruangbin
+
+- [Texas Sun](https://www.discogs.com/master/1679242-Khruangbin-Leon-Bridges-Texas-Sun?format=CD)
+- [Texas Moon](https://www.discogs.com/master/2512126-Khruangbin-Leon-Bridges-Texas-Moon?format=CD)
 
 Kishi Bashi 
 
 - [Sonderlust](https://www.discogs.com/master/1058330-Kishi-Bashi-Sonderlust?format=CD)
 
+LCD Soundsystem
+
+- [American Dream](https://www.discogs.com/master/1230243-LCD-Soundsystem-American-Dream?format=CD)
+
 Lief Vollebekk
 
 - [North Americana](https://www.discogs.com/master/660227-Leif-Vollebekk-North-Americana?format=CD)
+
+The National
+
+- [High Violet](https://www.discogs.com/master/246228-The-National-High-Violet?format=CD)
+- [Trouble Will Find Me](https://www.discogs.com/master/556601-The-National-Trouble-Will-Find-Me?format=CD)
 
 Nick Drake
 
@@ -69,6 +92,10 @@ Oasis
 
 - [Re:member](https://www.discogs.com/master/1412623-%C3%93lafur-Arnalds-Remember?format=CD)
 
+Sergio Mendes & Brasil 66
+
+- [Stillness](https://www.discogs.com/master/132928-Sergio-Mendes-Brasil-66-Stillness?format=CD)
+
 Third Eye Blind
 
 - [Third Eye Blind](https://www.discogs.com/master/127907-Third-Eye-Blind-Third-Eye-Blind?format=CD)
@@ -81,6 +108,11 @@ Tom Misch
 TV On the Radio
 
 - [Dear Science](https://www.discogs.com/master/43214-TV-On-The-Radio-Dear-Science?format=CD)
+
+The War on Drugs
+
+- [Lost In The Dream](https://www.discogs.com/master/664824-The-War-On-Drugs-Lost-In-The-Dream?format=CD)
+- [I Don't Live Here Anymore](https://www.discogs.com/master/2356930-The-War-On-Drugs-I-Dont-Live-Here-Anymore?format=CD)
 
 {% enddetails %}
 
