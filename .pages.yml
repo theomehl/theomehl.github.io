@@ -48,7 +48,7 @@ content:
         type: date
         options: 
           time: true
-          format: yyyy-MM-dd'T'HH:mm
+          format: yyyy-MM-dd'T'HH:mm:ss'Z'
       - name: tags
         label: Tags
         type: string
