@@ -34,6 +34,8 @@ content:
     label: Notes
     type: collection
     path: 'src/notes'
+    filename: 
+      template: "{year}-{month}-{day}-{hour}-{minute}.md"
     view: 
       fields: [ title, date, draft]
     fields: 
