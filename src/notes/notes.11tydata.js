@@ -7,7 +7,7 @@ export default {
             if (data.title) {
                 return data.title;
             }
-            return DateTime.fromJSDate(data.page.date).toFormat("DD 'at' t");
+            return DateTime.fromJSDate(data.page.date).setZone('America/Chicago').toFormat("DD 'at' t");
         },
         description: function(data) {
             // Keep descriptions of original notes. 
@@ -18,6 +18,10 @@ export default {
             return (data.page.rawInput.slice(0, 80).replace(/\[([^\]]+)\]\([^)]*\)/g, '$1') + (data.page.rawInput.length >= 80 ? '...' : ''));
         },
         metaTitle: function(data) {
+            // Ignore the Notes index page 
+            if (data.permalink === "/notes/") {
+                return;
+            }
             return "Note - " + DateTime.fromJSDate(data.page.date).toFormat("DD 'at' t");
         }
     },
