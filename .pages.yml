@@ -42,15 +42,17 @@ content:
       - name: title
         label: Title
         type: string
+        hidden: true
       - name: description
         label: Description
         type: string
+        hidden: true
       - name: date
         label: Date
         type: date
         options: 
           time: true
-          format: yyyy-MM-dd'T'HH:mm:ss'Z'
+          format: yyyy-MM-dd'T'HH:mm
       - name: tags
         label: Tags
         type: string
