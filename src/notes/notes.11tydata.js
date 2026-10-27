@@ -7,7 +7,7 @@ export default {
             if (data.title) {
                 return data.title;
             }
-            return DateTime.fromJSDate(data.page.date).setZone('America/Chicago').toFormat("DD 'at' t");
+            return DateTime.fromJSDate(data.page.date, {zone: 'America/Chicago'}).toFormat("DD 'at' t");
         },
         description: function(data) {
             // Keep descriptions of original notes. 
@@ -22,7 +22,7 @@ export default {
             if (data.permalink === "/notes/") {
                 return;
             }
-            return "Note - " + DateTime.fromJSDate(data.page.date).setZone('America/Chicago').toFormat("DD 'at' t");
+            return "Note - " + DateTime.fromJSDate(data.page.date, {zone: 'America/Chicago'}).toFormat("DD 'at' t");
         }
     },
     tags: "notes",
@@ -32,6 +32,6 @@ export default {
         if (page.fileSlug.match(/[a-z]/g)) {
             return `/notes/${page.fileSlug}/`;
         }
-        return `/notes/${DateTime.fromJSDate(page.date).toFormat("yyyyLLddHHmm")}/`;
+        return `/notes/${DateTime.fromJSDate(page.date, {zone: 'utc'}).toFormat("yyyyLLddHHmm")}/`;
     }, 
 }
