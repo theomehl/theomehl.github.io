@@ -22,7 +22,7 @@ export default {
             if (data.permalink === "/notes/") {
                 return;
             }
-            return "Note - " + DateTime.fromJSDate(data.page.date).toFormat("DD 'at' t");
+            return "Note - " + DateTime.fromJSDate(data.page.date).setZone('America/Chicago').toFormat("DD 'at' t");
         }
     },
     tags: "notes",
