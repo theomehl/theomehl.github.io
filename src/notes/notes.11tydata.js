@@ -32,6 +32,6 @@ export default {
         if (page.fileSlug.match(/[a-z]/g)) {
             return `/notes/${page.fileSlug}/`;
         }
-        return `/notes/${DateTime.fromJSDate(page.date).setZone('America/Chicago').toFormat("yyyyLLddHHmm")}/`;
+        return `/notes/${DateTime.fromJSDate(page.date).toFormat("yyyyLLddHHmm")}/`;
     }, 
 }
