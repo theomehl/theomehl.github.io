@@ -112,7 +112,13 @@ content:
         type: string
       - name: status
         label: Status
-        type: string
+        type: select
+        options: 
+          values: 
+            - name: Reading
+              label: Reading
+            - name: Read
+              label: Read
       - name: completionDate
         label: completionDate
         type: date
