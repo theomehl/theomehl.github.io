@@ -100,6 +100,9 @@ content:
     path: '_data/books.json'
     format: json
     list: true
+      collapsible: 
+        collapsed: true
+        summary: "{fields.title}"
     fields: 
       - name: title
         label: Title
