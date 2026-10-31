@@ -115,7 +115,7 @@ content:
         type: string
       - name: completionDate
         label: completionDate
-        type: date
+        type: string
   - name: gifts
     label: Gifts
     type: file
