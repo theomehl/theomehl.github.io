@@ -115,7 +115,10 @@ content:
         type: string
       - name: completionDate
         label: completionDate
-        type: string
+        type: date
+        default: ""
+        options: 
+          format: yyyy-MM-dd
   - name: gifts
     label: Gifts
     type: file
