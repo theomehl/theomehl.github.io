@@ -1,0 +1,39 @@
+---
+title: For Fun Reading List
+description: "Books I like to read when I'm not reading a 'Great Book'"
+originalDate: 2026-10-31
+draft: false
+---
+
+<p>When I'm not working on something from my <a href="{{ "commonplace/2026-06-07-great-books-reading-list.njk" | inputPathToUrl }}">great books reading list</a>, this is what I'm reading. Yes, I've read more books than this. I just haven't been keeping a list until now.</p>
+
+
+<div id="readingList" class="feature" role="region" aria-labelledby="tableCaption" tabindex="0">
+    <table role="table">
+        <caption id="tableCaption">For Fun Reading List</caption>
+        <thead role="rowgroup">
+            <tr role="row">
+                <th role="columnheader">Title</th>
+                <th role="columnheader">Author</th>
+                <th role="columnheader">Date Read</th>
+                <th role="columnheader">Status</th>
+            </tr>
+        </thead>
+        <tbody role="rowgroup">
+        {% for book in books | reverse %}
+            <tr data-status="{{ book.status }}" role="row">
+                <td data-column="Title" role="cell">
+                    {% if book.notesUrl %}
+                        <a href="{{ book.notesUrl | inputPathToUrl }}">{{ book.title }}</a>
+                    {% else %}
+                        {{ book.title }}
+                    {% endif %}
+                </td>
+                <td data-column="Author" role="cell">{{ book.author }}</td>
+                <td data-column="Date Read" role="cell">{{ book.completionDate }}</td>
+                <td data-column="Status" role="cell">{{ book.status }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
