@@ -128,7 +128,6 @@ The War on Drugs
 
 - [Bookwarden Standard](https://goodmadebetter.com/collections/bookwarden/products/bookwarden-model-2?variant=47962557776127) - black strap
 - [Bookwarden Large](https://goodmadebetter.com/collections/bookwarden/products/large-bookwarden-model-2?variant=48138803478783) - large in addition to the standard size, because standard wouldn't fit the size books Brandon Sanderson likes to write. Also black strap.
-- [The Hobbit and Lord of the Rings box set](https://www.amazon.com/Hobbit-Lord-Rings-J-R-R-Tolkien/dp/0547928181/) plus matching [Silmarillion](https://www.amazon.com/Silmarillion-Bestseller-Foundational-Fantasy-Middle-Earths/dp/0544338014/)
 
 {% enddetails %}
 
