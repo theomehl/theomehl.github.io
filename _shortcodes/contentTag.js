@@ -7,6 +7,9 @@ export default function (type, date) {
         case "new":
             tagContent = "New";
             break;
+        case "favorite": 
+            tagContent = "Favorite";
+            break;
     }
     if (date) {
         if (Date.now() - Date.parse(date) <= 518400000) {
