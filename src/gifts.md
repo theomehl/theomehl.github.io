@@ -133,7 +133,7 @@ The War on Drugs {% contentTag "favorite" %}
 {% details "Other" %}
 
 - [Unit blocks](https://www.communityplaythings.com/products/play/block-play/unit-blocks/introductory-set-unit-blocks?v=F151) if you're feeling fancy
-- [Beurer TL95 Light Therapy Lamp](https://www.amazon.com/dp/B0BTPXJJB7?th=1)
+- [Circadian Optics Langham](https://circadianoptics.com/products/circadian-optics-langham-clinical-light-therapy-lamp) or [Langham Max](https://circadianoptics.com/products/circadian-optics-langham-clinical-light-therapy-lamp?variant=52006789316900) light therapy lamp
 - [Cuisinart Power Advantage PLUS 9-Speed Hand Mixer](https://www.amazon.com/dp/B0034A8C4O?th=1)
 - Simpson & Vail Teas {% contentTag "favorite" %}
   - [Morgan Blend](https://svtea.com/products/copy-of-morgan-blend-tea?variant=42989699367138)
@@ -143,6 +143,6 @@ The War on Drugs {% contentTag "favorite" %}
 - [Eno Parkway Adjustable Hammock Stand](https://eaglesnestoutfittersinc.com/collections/hammock-chair-stands/products/parkway-adjustable-hammock-stand) {% contentTag "favorite" %}
 - [Eno JungleNest Hammock in Pacific](https://eaglesnestoutfittersinc.com/collections/hammocks/products/junglenest-hammock?variant=32490388029577)
 - [Small print of Coastal Scene by Théo van Rysselberghe](https://shop.nationalgallery.org.uk/coastal-scene-print-ng6582.html) {% contentTag "favorite" %}
-- [Davek Duet umbrella](https://davekny.com/collections/compact-umbrellas-1/products/the-davek-duet) 
+- [Davek Duet umbrella](https://davekny.com/collections/compact-umbrellas-1/products/the-davek-duet)
 
 {% enddetails %}
