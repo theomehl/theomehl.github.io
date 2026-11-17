@@ -4,6 +4,8 @@ description: Quotes and other notes from reading A Gentleman in Moscow
 originalDate: 2026-02-27
 date: 2026-03-01
 draft: false
+tags: reading notes
+eleventyExcludeFromCollections: ['commonplace']
 ---
 Quotes and other interesting bits from the book *A Gentleman in Moscow* by Amor Towels. Page numbers are from the hardcover. 
 

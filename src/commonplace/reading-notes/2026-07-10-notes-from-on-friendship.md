@@ -4,6 +4,8 @@ description: Notes and favorite quotes from my reading of On Friendship by Cicer
 originalDate: 2026-07-10
 date: 2026-07-10
 draft: false
+tags: reading notes
+eleventyExcludeFromCollections: ['commonplace']
 ---
 I read this as an ebook, so the reference numbers for each quote are the numbered part from which they come. 
 

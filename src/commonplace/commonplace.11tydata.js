@@ -1,5 +1,5 @@
 export default {
-    tags: "commonplace",
+    tags: ["commonplace", "commonplace all"],
     layout: "layouts/commonplace-post.njk",
     permalink: function({page}) {
         return `/commonplace/${page.fileSlug}/`;

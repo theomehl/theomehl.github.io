@@ -121,10 +121,8 @@ content:
               label: Read
       - name: completionDate
         label: completionDate
-        type: date
+        type: string
         default: ""
-        options: 
-          format: yyyy-MM-dd
   - name: gifts
     label: Gifts
     type: file
