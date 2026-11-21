@@ -11,7 +11,8 @@ Don't know what to get me? Here are some ideas in no particular order:
 
 - [Light wash jeans 28W 29L](https://ashanderie.com/collections/pants-and-jeans/products/light-wash-essential-jeans?variant=46938344358186)
 - [Mountain Classic Anorak in Olive/Teal and size S](https://www.llbean.com/llb/shop/120880?attrValue_0=58468)
-- [Long Sleeve Serious Sweats Crew Sweatshirt in gray heather and size S](https://www.landsend.com/products/mens-long-sleeve-serious-sweats-crew-sweatshirt/id_386776) {% contentTag "favorite" %}
+- [Long Sleeve Serious Sweats Crew Sweatshirt ](https://www.landsend.com/products/mens-long-sleeve-serious-sweats-crew-sweatshirt/id_386776)  
+[in gray heather and size S](https://www.landsend.com/products/mens-long-sleeve-serious-sweats-crew-sweatshirt/id_386776) {% contentTag "favorite" %}
 - [Ragg Wool crewneck in Olive/Navy or Toasted Coconut and size S](https://www.llbean.com/llb/shop/127375) (Navy is great but I have too many blue sweaters) {% contentTag "favorite" %}
 - [Cresta Midweight 250 base layer in black and size S](https://www.llbean.com/llb/shop/125983?attrValue_0=50116) {% contentTag "favorite" %}
 - [Down gloves in size M](https://www.llbean.com/llb/shop/130305?attrValue_0=1)
