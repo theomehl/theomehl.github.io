@@ -5,11 +5,19 @@
   <subtitle>Collection of half-baked ideas.</subtitle>
   <link href="https://tedmehl.me/feed.xml" rel="self" />
   <link href="https://tedmehl.me/" />
-  <updated>2026-10-27T01:14:00Z</updated>
+  <updated>2026-11-25T14:31:00Z</updated>
   <id>https://tedmehl.me/</id>
   <author>
     <name>Ted</name>
   </author>
+  <entry>
+    <title>Nov 25, 2026 at 8:31 AM</title>
+    <link href="https://tedmehl.me/notes/202611251431/" />
+    <updated>2026-11-25T14:31:00Z</updated>
+    <id>https://tedmehl.me/notes/202611251431/</id>
+    <content type="html">&lt;p&gt;I&#39;ve been buying CDs and full albums more and more recently, which has come with some interesting positive side effects. Because in a world full of Spotifys and playlists algorithmically curated to your exact tastes, theres something satisfying about having listened to a single album enough times you start to anticipate the next song.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Oct 26, 2026 at 8:14 PM</title>
     <link href="https://tedmehl.me/notes/202610270114/" />
@@ -111,14 +119,6 @@
     <id>https://tedmehl.me/notes/the-internet-used-to-be-a-place/</id>
     <content type="html">&lt;p&gt;The internet used to be a place. A place you would visit. We had rooms or corners dedicated to them. When you left those spaces, you left the internet.&lt;/p&gt;
 &lt;p&gt;I like to wonder what it would be like if we treated the internet like that again.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Are you still checking this? </title>
-    <link href="https://tedmehl.me/notes/are-you-still-checking-this/" />
-    <updated>2025-09-19T05:00:00Z</updated>
-    <id>https://tedmehl.me/notes/are-you-still-checking-this/</id>
-    <content type="html">&lt;p&gt;Just making sure the one person that checks this website is paying attention. I have a CMS set up now.&lt;/p&gt;
 </content>
   </entry>
 </feed>
